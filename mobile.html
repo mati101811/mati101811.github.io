@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Bingo Samochodowe (Mobilna)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .item input[type="checkbox"] {
+            margin-right: 12px;
+            transform: scale(1.3);
+        }
+
+        .car-name {
+            flex-grow: 1;
+        }
+
+        .car-image {
+            width: 60px;
+            height: 40px;
+            background-color: #ddd;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .checked {
+            background-color: #b3ecb3;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bingo Samochodowe 📱</h1>
+    <div id="list" class="list"></div>
+
+    <script>
+        // --- lista modeli samochodów --- (ta sama co na stronie desktop, skrócona tutaj dla czytelności)
+        const cars = [
+            "Alfa romeo 159", "Audi A4", "BMW M3", "Fiat Panda", "Ford Mustang",
+            "Hyundai Tucson", "Kia Ceed", "Mazda 6", "Mercedes C", "Nissan Qashqai",
+            "Opel Astra", "Peugeot 308", "Renault Clio", "Seat Leon", "Skoda Octavia",
+            "Suzuki Vitara", "Tesla Model 3", "Toyota Corolla", "Volkswagen Golf", "Volvo XC60",
+            "Jaguar XF", "Jeep Renegade", "Chevrolet Camaro", "Citroen C4", "Mitsubishi Outlander"
+        ];
+
+        const listEl = document.getElementById("list");
+        const todayKey = new Date().toISOString().split("T")[0];
+        const boardKey = `bingo_board_${todayKey}`;
+        const stateKey = `bingo_state_${todayKey}`;
+
+        function generateBoard() {
+            const indices = Array.from({ length: cars.length }, (_, i) => i);
+            for (let i = indices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [indices[i], indices[j]] = [indices[j], indices[i]];
+            }
+            return indices.slice(0, 25);
+        }
+
+        function setCookie(name, value) {
+            document.cookie = `${name}=${value}; path=/; expires=${new Date(Date.now() + 86400000).toUTCString()}`;
+        }
+
+        function getCookie(name) {
+            const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+            return match ? match[2] : null;
+        }
+
+        function renderList(board, state) {
+            listEl.innerHTML = "";
+            for (let i = 0; i < 25; i++) {
+                const carName = cars[board[i]];
+                const item = document.createElement("div");
+                item.className = "item";
+
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.checked = state[i] === '1';
+
+                if (checkbox.checked) {
+                    item.classList.add("checked");
+                }
+
+                checkbox.addEventListener("change", () => {
+                    item.classList.toggle("checked", checkbox.checked);
+                    const updated = Array.from(listEl.children).map(el =>
+                        el.querySelector("input").checked ? "1" : "0"
+                    ).join("");
+                    setCookie(stateKey, updated);
+                });
+
+                const label = document.createElement("span");
+                label.className = "car-name";
+                label.textContent = carName;
+
+                const photo = document.createElement("div");
+                photo.className = "car-image"; // miejsce na zdjęcie
+
+                item.appendChild(checkbox);
+                item.appendChild(label);
+                item.appendChild(photo);
+
+                listEl.appendChild(item);
+            }
+        }
+
+        let board = getCookie(boardKey);
+        if (!board) {
+            const newBoard = generateBoard();
+            board = newBoard.join(",");
+            setCookie(boardKey, board);
+        }
+        const boardArr = board.split(",").map(x => parseInt(x));
+
+        let state = getCookie(stateKey);
+        if (!state || state.length !== 25) {
+            state = "0".repeat(25);
+            setCookie(stateKey, state);
+        }
+
+        renderList(boardArr, state);
+    </script>
+</body>
+</html>
