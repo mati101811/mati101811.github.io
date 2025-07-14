@@ -1,11 +1,6 @@
-const SIZE = 25;
-let bingoState = new Array(SIZE).fill(0);
-let selectedCarIndexes = [];
-let carImagesMap = {};
-
 const cars = [
     "Alfa romeo 159",
-    "Alfa romeo Guilia",
+    "Alfa romeo Giulia",
     "Alfa romeo Giulietta",
     "Alfa romeo Mito",
     "Alfa romeo Stelvio",
@@ -23,35 +18,36 @@ const cars = [
     "Audi Q7",
     "Audi Q8",
     "Audi RS3",
+    "Audi RS4",
     "Audi RS6",
     "Audi S3",
+    "Audi S4",
     "Audi S5",
     "Audi S6",
     "Audi SQ5",
     "Audi SQ7",
     "Audi TT",
-    "BWM 3GT",
-    "BWM i3",
-    "BWM M3",
-    "BWM M4",
-    "BWM M5",
-    "BWM Seria 1",
-    "BWM Seria 2",
-    "BWM Seria 3",
-    "BWM Seria 4",
-    "BWM Seria 5",
-    "BWM Seria 6",
-    "BWM Seria 7",
-    "BWM Seria 8",
-    "BWM X1",
-    "BWM X2",
-    "BWM X3",
-    "BWM X4",
-    "BWM X5",
-    "BWM X5 M",
-    "BWM X6",
-    "BWM X7",
-    "BWM Z4",
+    "BMW 3GT",
+    "BMW i3",
+    "BMW M3",
+    "BMW M4",
+    "BMW M5",
+    "BMW Seria 1",
+    "BMW Seria 2",
+    "BMW Seria 3",
+    "BMW Seria 4",
+    "BMW Seria 5",
+    "BMW Seria 6",
+    "BMW Seria 7",
+    "BMW Seria 8",
+    "BMW X1",
+    "BMW X2",
+    "BMW X3",
+    "BMW X4",
+    "BMW X5",
+    "BMW X6",
+    "BMW X7",
+    "BMW Z4",
     "BYD Seal U",
     "Chevrolet Aveo",
     "Chevrolet Camaro",
@@ -90,6 +86,7 @@ const cars = [
     "Dacia Lodgy",
     "Dacia Logan",
     "Dacia Sandero",
+    "Dacia Sandero Stepway",
     "Dacia Spring",
     "Dodge Avenger",
     "Dodge Challenger",
@@ -237,7 +234,6 @@ const cars = [
     "MG HS",
     "Mini Clubman",
     "Mini Cooper",
-    "Mini Cooper S",
     "Mini Countryman",
     "Mini ONE",
     "Mitsubishi ASX",
@@ -261,10 +257,9 @@ const cars = [
     "Opel Astra",
     "Opel Combo",
     "Opel Corsa",
-    "Opel Crossland X",
+    "Opel Crossland",
     "Opel Frontera",
     "Opel Grandland",
-    "Opel Grandland X",
     "Opel Insignia",
     "Opel Meriva",
     "Opel Mokka",
@@ -311,7 +306,6 @@ const cars = [
     "Saab 9-3",
     "Seat Alhamra",
     "Seat Altea",
-    "Seat Altea XL",
     "Seat Arona",
     "Seat Ateca",
     "Seat Exeo",
@@ -350,7 +344,6 @@ const cars = [
     "Toyota C-HR",
     "Toyota Camry",
     "Toyota Corolla",
-    "Toyota Corolla Cross",
     "Toyota Corolla Verso",
     "Toyota Highlander",
     "Toyota Hilux",
@@ -367,8 +360,6 @@ const cars = [
     "Volkswagen Arteon",
     "Volkswagen Beetle",
     "Volkswagen Caddy",
-    "Volkswagen California",
-    "Volkswagen Caravelle",
     "Volkswagen CC",
     "Volkswagen Golf",
     "Volkswagen Golf Plus",
@@ -383,7 +374,6 @@ const cars = [
     "Volkswagen T-Cross",
     "Volkswagen T-Roc",
     "Volkswagen Taigo",
-    "Volkswagen Tayron",
     "Volkswagen Tiguan",
     "Volkswagen Tiguan Allspace",
     "Volkswagen Touareg",
@@ -409,178 +399,245 @@ const cars = [
     "Volvo XC 90"
 ];
 
-function getTodayKey(suffix) {
-    const today = new Date();
-    return `bingo_${today.getFullYear()}_${today.getMonth()}_${today.getDate()}_${suffix}`;
+var randomCars = [];
+let galleryData = {};
+
+function createBingo() {
+    const board = document.getElementById("board");
+
+    // Tworzy 25 divów i podpina obsługę kliknięcia
+    for (let i = 0; i < 25; i++) {
+        const cell = document.createElement("div");
+        cell.classList.add("cell");
+        cell.textContent = i + 1;
+
+        // Obsługa kliknięcia — pokazuje index
+        cell.addEventListener("click", () => {
+            cellCliked(i, true);
+        });
+
+        board.appendChild(cell);
+    }
+    createList();
 }
 
-function saveCookie(key, value) {
-    document.cookie = `${key}=${encodeURIComponent(value)}; path=/; max-age=86400`;
+function cellCliked(i, goOn) {
+    const board = document.getElementById("board");
+    const cell = board.children[i];
+    cell.classList.toggle("clicked");
+    console.log("Kliknięto pole o indeksie:", i);
+    if (goOn)
+        itemClicked(i, false);
+    saveClickedState(); // 🔥
 }
 
-function readCookie(key) {
-    const cookies = document.cookie.split("; ");
+function itemClicked(i, goOn) {
+    const carList = document.getElementById("carList");
+    const item = carList.children[i];
+    item.classList.toggle("clicked");
+    console.log("Kliknięto element o indeksie:", i);
+    if (goOn)
+        cellCliked(i, false);
+    saveClickedState(); // 🔥
+}
+
+
+// Czyta ciasteczko o podanej nazwie
+function getCookie(name) {
+    const decoded = decodeURIComponent(document.cookie);
+    const cookies = decoded.split(';');
     for (let cookie of cookies) {
-        const [k, v] = cookie.split("=");
-        if (k === key) return decodeURIComponent(v);
-    }
-    return null;
-}
-
-function saveState() {
-    saveCookie(getTodayKey("state"), bingoState.join(""));
-}
-
-function loadState() {
-    const saved = readCookie(getTodayKey("state"));
-    if (saved && saved.length === SIZE) {
-        return saved.split("").map(Number);
-    }
-    return null;
-}
-
-// 🔁 Zapisuje wybrane indeksy samochodów
-function saveCarIndexes() {
-    saveCookie(getTodayKey("cars"), selectedCarIndexes.join(","));
-}
-
-// 📤 Wczytuje indeksy i zwraca tablicę liczb
-function loadCarIndexes() {
-    const saved = readCookie(getTodayKey("cars"));
-    if (saved) {
-        const arr = saved.split(",").map(Number);
-        if (arr.length === SIZE && arr.every(i => !isNaN(i) && cars[i])) {
-            return arr;
+        const [key, value] = cookie.trim().split('=');
+        if (key === name) {
+            return value;
         }
     }
     return null;
 }
 
-// 🔄 Losuje unikalne indeksy
-function pickRandomCarIndexes() {
-    const indexes = [...Array(cars.length).keys()];
-    const shuffled = indexes.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, SIZE);
+// Zapisuje ciasteczko o nazwie name z wartością value (na x dni)
+function setCookie(name, value, days) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie = `${name}=${encodeURIComponent(value)};expires=${expires.toUTCString()};path=/`;
 }
 
-// 🔧 Tworzy planszę i listę
-function createBoard() {
-    // Wczytanie listy samochodów
-    const savedIndexes = loadCarIndexes();
-    selectedCarIndexes = savedIndexes != null ? savedIndexes : pickRandomCarIndexes();
-    if (!savedIndexes) saveCarIndexes();
+function drawUniqueIndexes(count, max) {
+    const indexes = new Set();
+    while (indexes.size < count) {
+        indexes.add(Math.floor(Math.random() * max));
+    }
+    return [...indexes];
+}
 
-    // Wczytanie stanu bingo
-    const savedState = loadState();
-    if (savedState) bingoState = savedState;
+function getTodayKey() {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const dd = String(today.getDate()).padStart(2, '0');
+    return `bingo-${yyyy}-${mm}-${dd}`; // np. "bingo-2025-07-13"
+}
 
-    const board = document.getElementById("board");
-    const list = document.getElementById("carList");
-    board.innerHTML = "";
-    list.innerHTML = "";
+function getTodayClickKey() {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const dd = String(today.getDate()).padStart(2, '0');
+    return `clicked-${yyyy}-${mm}-${dd}`;
+}
 
-    for (let i = 0; i < SIZE; i++) {
-        const carName = cars[selectedCarIndexes[i]];
+function saveClickedState() {
+    const carList = document.getElementById("carList");
+    let state = "";
 
-        // Plansza
-        const cell = document.createElement("div");
-        cell.textContent = i + 1;
-        cell.classList.add("cell");
-        if (bingoState[i] === 1) cell.classList.add("active");
-        cell.addEventListener("click", () => toggleCell(i));
-        board.appendChild(cell);
+    for (let i = 0; i < carList.children.length; i++) {
+        const item = carList.children[i];
+        state += item.classList.contains("clicked") ? "1" : "0";
+    }
 
-        // 👉 Lista
-        const li = document.createElement("li");
-        li.classList.add("car-item");
-        if (bingoState[i] === 1) li.classList.add("active");
+    const key = getTodayClickKey();
+    setCookie(key, state, 7);
+    console.log("Zapisano kliknięcia:", state);
+}
 
-        // 🏷️ Tekst/nazwa samochodu
+function loadClickedState() {
+    const key = getTodayClickKey();
+    const state = getCookie(key);
+
+    if (!state) return;
+
+    for (let i = 0; i < state.length; i++) {
+        if (state[i] === "1") {
+            // Wywołanie kliknięcia po stronie listy — synchronizuje też planszę
+            itemClicked(i, true);
+        }
+    }
+
+    console.log("Wczytano kliknięcia:", state);
+}
+
+
+function createList() {
+    const carList = document.getElementById("carList");
+    const cookieKey = getTodayKey();
+    let indexes;
+
+    const saved = getCookie(cookieKey);
+    if (saved) {
+        indexes = JSON.parse(saved);
+        console.log("Wczytano listę z cookies:", indexes);
+    } else {
+        // delete cookies
+        document.cookie.split(";").forEach(c => {
+            document.cookie = c.split("=")[0].trim() + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+        });
+
+
+        indexes = drawUniqueIndexes(25, cars.length);
+        setCookie(cookieKey, JSON.stringify(indexes), 7); // 7 dni ważności
+
+        console.log("Wylosowano nową listę:", indexes);
+    }
+
+    for (let i = 0; i < 25; i++) {
+        const carIndex = indexes[i];
+        const carName = cars[carIndex];
+
+        const listItem = document.createElement("li");
+        listItem.classList.add("item");
+
+        // Główna część: nazwa + przycisk
+        const header = document.createElement("div");
+        header.classList.add("header");
+
         const nameSpan = document.createElement("span");
-        nameSpan.textContent = `${i + 1}. ${carName}`;
+        nameSpan.textContent = i + 1 + ". " + carName;
 
-        const wrapper = document.createElement("div");
-        wrapper.classList.add("img-wrapper");
+        const button = document.createElement("button");
+        button.textContent = "Znaleziono";
+        button.addEventListener("click", (e) => {
+            e.stopPropagation(); // nie klikaj listItem przy kliknięciu przycisku
+            itemClicked(i, true);
+        });
 
-        // obrazek
+        header.appendChild(nameSpan);
+        header.appendChild(button);
+        listItem.appendChild(header);
+
+        // Detale (ukryte na starcie)
+        const details = document.createElement("div");
+        details.classList.add("details");
+        details.style.display = "none";
+        details.innerHTML = `
+            placeholder
+        `;
+
+        listItem.appendChild(details);
+
+        // Klik w nagłówek pokazuje detale
+        listItem.addEventListener("click", () => {
+            const visible = details.style.display === "block";
+            details.style.display = visible ? "none" : "block";
+
+            if (!visible) {
+                showGallery(carName, details);
+            }
+        });
+
+        carList.appendChild(listItem);
+    }
+
+    loadClickedState();
+
+}
+
+function showGallery(carName, container) {
+    container.innerHTML = ""; // wyczyść stare dane
+
+    const items = galleryData[carName];
+    if (!items) {
+        container.innerHTML = "<p>Brak zdjęć dla tego samochodu.</p>";
+        return;
+    }
+
+    const gallery = document.createElement("div");
+    gallery.classList.add("gallery");
+
+    items.forEach(({ link, opis }) => {
+        const cell = document.createElement("div");
+        cell.classList.add("gallery-item");
+
         const img = document.createElement("img");
-        img.src = getCarImageUrl(carName, 1);
-        img.alt = carName;
-        img.classList.add("car-img");
-        img.dataset.index = "1";
+        img.src = link;
+        img.alt = opis;
 
-        // strzałki
-        const leftArrow = document.createElement("button");
-        leftArrow.textContent = "⬅";
-        leftArrow.classList.add("img-btn");
-        leftArrow.addEventListener("click", (e) => {
-            e.stopPropagation();
-            changeImageUrl(img, carName, -1);
-        });
+        const caption = document.createElement("p");
+        caption.textContent = opis;
 
-        const rightArrow = document.createElement("button");
-        rightArrow.textContent = "➡";
-        rightArrow.classList.add("img-btn");
-        rightArrow.addEventListener("click", (e) => {
-            e.stopPropagation();
-            changeImageUrl(img, carName, 1);
-        });
+        cell.appendChild(img);
+        cell.appendChild(caption);
+        gallery.appendChild(cell);
+    });
 
-        wrapper.append(leftArrow, img, rightArrow);
-        li.append(nameSpan, wrapper);
-        li.addEventListener("click", () => toggleCell(i));
-        list.appendChild(li);
-
-    }
+    container.appendChild(gallery);
 }
 
-function changeImageUrl(imgElement, carName, direction) {
-    let current = parseInt(imgElement.dataset.index, 10);
-    const urls = carImagesMap[carName];
-
-    if (!urls) return;
-
-    let next = current + direction;
-    if (next < 1) next = urls.length;
-    if (next > urls.length) next = 1;
-
-    imgElement.src = urls[next - 1];
-    imgElement.dataset.index = next;
-}
-
-
-// ✅ Zmiana zaznaczenia
-function toggleCell(index) {
-    bingoState[index] = bingoState[index] === 1 ? 0 : 1;
-    saveState();
-
-    const boardChildren = document.getElementById("board").children;
-    const listChildren = document.getElementById("carList").children;
-
-    boardChildren[index].classList.toggle("active");
-    listChildren[index].classList.toggle("active");
-}
-
-function getCarImageUrl(carName, index) {
-    const urls = carImagesMap[carName];
-    if (urls && urls[index - 1]) {
-        return urls[index - 1]; // indeksy zaczynają się od 1
-    }
-    return ""; // placeholder gdy brak zdjęcia
+function openItem(item, i) {
+    item.classList.toggle("clicked");
+    console.log("Kliknięto element o indeksie:", i);
 }
 
 
 document.addEventListener("DOMContentLoaded", () => {
 
-
-    fetch('car_images.json')
-        .then(response => response.json())
+    fetch("gallery.json")
+        .then(res => res.json())
         .then(data => {
-            carImagesMap = data;
-            createBoard(); // dopiero po załadowaniu zdjęć
+            galleryData = data;
+            console.log("Załadowano dane galerii", galleryData);
         })
         .catch(err => {
-            console.error("Błąd ładowania zdjęć:", err);
-            createBoard(); // fallback
+            console.error("Błąd ładowania galerii:", err);
         });
+    createBingo();
 });
