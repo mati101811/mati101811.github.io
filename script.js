@@ -10,36 +10,32 @@ const cars = [
     "Audi A4",
     "Audi A5",
     "Audi A6",
-    "Audi A7",
+    "Audi A7 Sportback",
     "Audi A8",
     "Audi Q2",
     "Audi Q3",
     "Audi Q5",
     "Audi Q7",
     "Audi Q8",
-    "Audi RS3",
     "Audi RS4",
     "Audi RS6",
-    "Audi S3",
     "Audi S4",
-    "Audi S5",
     "Audi S6",
     "Audi SQ5",
-    "Audi SQ7",
     "Audi TT",
     "BMW 3GT",
     "BMW i3",
     "BMW M3",
     "BMW M4",
     "BMW M5",
-    "BMW Seria 1",
-    "BMW Seria 2",
-    "BMW Seria 3",
-    "BMW Seria 4",
-    "BMW Seria 5",
-    "BMW Seria 6",
-    "BMW Seria 7",
-    "BMW Seria 8",
+    "BMW Serii 1",
+    "BMW Serii 2",
+    "BMW Serii 3",
+    "BMW Serii 4",
+    "BMW Serii 5",
+    "BMW Serii 6",
+    "BMW Serii 7",
+    "BMW Serii 8",
     "BMW X1",
     "BMW X2",
     "BMW X3",
@@ -594,33 +590,48 @@ function createList() {
 function showGallery(carName, container) {
     container.innerHTML = ""; // wyczyść stare dane
 
-    const items = galleryData[carName];
-    if (!items) {
+    const carEntry = galleryData[carName];
+    if (!carEntry || typeof carEntry !== "object") {
         container.innerHTML = "<p>Brak zdjęć dla tego samochodu.</p>";
         return;
     }
 
-    const gallery = document.createElement("div");
-    gallery.classList.add("gallery");
+    // Iterujemy po wszystkich kluczach, np. "zdjęcia", "GTAm", "radiowóz" itd.
+    Object.entries(carEntry).forEach(([categoryName, images]) => {
+        if (!Array.isArray(images)) return; // pomiń jeśli to nie tablica zdjęć
 
-    items.forEach(({ link, opis }) => {
-        const cell = document.createElement("div");
-        cell.classList.add("gallery-item");
+        const section = document.createElement("div");
+        section.classList.add("gallery-section");
 
-        const img = document.createElement("img");
-        img.src = link;
-        img.alt = opis;
+        // Nagłówek kategorii
+        const heading = document.createElement("h4");
+        heading.textContent = categoryName;
+        section.appendChild(heading);
 
-        const caption = document.createElement("p");
-        caption.textContent = opis;
+        const gallery = document.createElement("div");
+        gallery.classList.add("gallery");
 
-        cell.appendChild(img);
-        cell.appendChild(caption);
-        gallery.appendChild(cell);
+        images.forEach(({ link, opis }) => {
+            const cell = document.createElement("div");
+            cell.classList.add("gallery-item");
+
+            const img = document.createElement("img");
+            img.src = link;
+            img.alt = opis || "Brak opisu";
+
+            const caption = document.createElement("p");
+            caption.textContent = opis || "Brak opisu";
+
+            cell.appendChild(img);
+            cell.appendChild(caption);
+            gallery.appendChild(cell);
+        });
+
+        section.appendChild(gallery);
+        container.appendChild(section);
     });
-
-    container.appendChild(gallery);
 }
+
 
 function openItem(item, i) {
     item.classList.toggle("clicked");
@@ -630,7 +641,7 @@ function openItem(item, i) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    fetch("gallery.json")
+    fetch("gallery_nested.json")
         .then(res => res.json())
         .then(data => {
             galleryData = data;
