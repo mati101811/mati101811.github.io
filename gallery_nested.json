@@ -2689,8 +2689,8 @@
         ]
     },
     "Citroen Berlingo": {
-        "zdjęcia": [{
-                "opis": "Citroën Berlingo I przed face liftingiem",
+        "Citroen Berlingo I (1996 - 2010)": [{
+                "opis": "Citroën Berlingo I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Citro%C3%ABn_Berlingo_I_Vorfacelift_front.jpg/250px-Citro%C3%ABn_Berlingo_I_Vorfacelift_front.jpg"
             },
             {
@@ -2704,8 +2704,9 @@
             {
                 "opis": "Citroën Berlingo I w wersji dostawczej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1999_Citro%C3%ABn_Berlingo_%28M59%29_van_%282008-08-21%29.jpg/250px-1999_Citro%C3%ABn_Berlingo_%28M59%29_van_%282008-08-21%29.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen Berlingo II (2008 - 2018)": [{
                 "opis": "Citroën Berlingo II Multispace przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Citro%C3%ABn_Berlingo_II_Multispace_front.JPG/250px-Citro%C3%ABn_Berlingo_II_Multispace_front.JPG"
             },
@@ -2720,8 +2721,9 @@
             {
                 "opis": "Citroen Berlingo II w wersji dostawczej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Citro%C3%ABn_Berlingo_II_Kastenwagen_rear.jpg/250px-Citro%C3%ABn_Berlingo_II_Kastenwagen_rear.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen Berlingo III (2018 - ...)": [{
                 "opis": "Citroën Berlingo III Multispace przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/2019_Citroen_Berlingo_Feel_Puretech_1.2_Front.jpg/250px-2019_Citroen_Berlingo_Feel_Puretech_1.2_Front.jpg"
             },
@@ -2744,7 +2746,7 @@
         ]
     },
     "Citroen C1": {
-        "zdjęcia": [{
+        "Citroen C1 I (2005 - 2014)": [{
                 "opis": "Citroën C1 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2008_Citroen_C1_Rhythm_1.0_Front.jpg/250px-2008_Citroen_C1_Rhythm_1.0_Front.jpg"
             },
@@ -2759,8 +2761,9 @@
             {
                 "opis": "Citroen C1 I po drugim liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/2013_Citroen_C1_VTR_facelift_1.0.jpg/250px-2013_Citroen_C1_VTR_facelift_1.0.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen C1 II (2014 - 2022)": [{
                 "opis": "Citroën C1 II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/2017_Citroen_C1_Flair_Puretech_1.2_Front.jpg/250px-2017_Citroen_C1_Flair_Puretech_1.2_Front.jpg"
             },
@@ -2771,7 +2774,7 @@
         ]
     },
     "Citroen C3": {
-        "zdjęcia": [{
+        "Citroen C3 I (2002 - 2009)": [{
                 "opis": "Citroën C3 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Citro%C3%ABn_C3_front.jpg/250px-Citro%C3%ABn_C3_front.jpg"
             },
@@ -2794,8 +2797,9 @@
             {
                 "opis": "Citroen C3 Pluriel – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Citro%C3%ABn_C3_Pluriel_rear.jpg/250px-Citro%C3%ABn_C3_Pluriel_rear.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen C3 II (2009 - 2016)": [{
                 "opis": "Citroën C3 II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Citro%C3%ABn_C3_e-HDi_110_Airdream_Red_Block_%28II%29_%E2%80%93_Frontansicht%2C_21._April_2017%2C_D%C3%BCsseldorf.jpg/250px-Citro%C3%ABn_C3_e-HDi_110_Airdream_Red_Block_%28II%29_%E2%80%93_Frontansicht%2C_21._April_2017%2C_D%C3%BCsseldorf.jpg"
             },
@@ -2810,8 +2814,9 @@
             {
                 "opis": "Citroën C3 II - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Citro%C3%ABn_C3_VTi_82_Selection_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_1._M%C3%A4rz_2014%2C_Wuppertal.jpg/250px-Citro%C3%ABn_C3_VTi_82_Selection_%28II%2C_Facelift%29_%E2%80%93_Heckansicht%2C_1._M%C3%A4rz_2014%2C_Wuppertal.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen C3 III (2016 - 2024)": [{
                 "opis": "Citroën C3 III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Citro%C3%ABn_C3_BlueHDi_100_Shine_%28III%29_%E2%80%93_Frontansicht%2C_24._Juni_2017%2C_D%C3%BCsseldorf.jpg/250px-Citro%C3%ABn_C3_BlueHDi_100_Shine_%28III%29_%E2%80%93_Frontansicht%2C_24._Juni_2017%2C_D%C3%BCsseldorf.jpg"
             },
@@ -2822,8 +2827,9 @@
             {
                 "opis": "Citroën C3 III po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Citro%C3%ABn_C3_PureTech_110_C-Series_%28III%2C_Facelift%29_%E2%80%93_f_16012021.jpg/250px-Citro%C3%ABn_C3_PureTech_110_C-Series_%28III%2C_Facelift%29_%E2%80%93_f_16012021.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen C3 IV (2024 - ...)": [{
                 "opis": "Citroën C3 IV",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Citro%C3%ABn_C3_%284th_generation%29_DSC_7103_%28retouched%29.jpg/250px-Citro%C3%ABn_C3_%284th_generation%29_DSC_7103_%28retouched%29.jpg"
             },
@@ -2834,7 +2840,7 @@
         ]
     },
     "Citroen C3 Aircross": {
-        "zdjęcia": [{
+        "Citroen C3 Aircross (2017 - 2024)": [{
                 "opis": "Citroën C3 Aircross przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2018_Citroen_C3_Aircross_Flair_Puretec_1.2_Front.jpg/250px-2018_Citroen_C3_Aircross_Flair_Puretec_1.2_Front.jpg"
             },
@@ -2849,7 +2855,7 @@
         ]
     },
     "Citroen C3 Picasso": {
-        "zdjęcia": [{
+        "Citroen C3 Picasso (2008 - 2017)": [{
                 "opis": "Citroën C3 Picasso przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2010_Citroen_C3_Picasso_VTR_Plus_HDi_1.6_Front.jpg/250px-2010_Citroen_C3_Picasso_VTR_Plus_HDi_1.6_Front.jpg"
             },
@@ -2864,7 +2870,7 @@
         ]
     },
     "Citroen C4": {
-        "zdjęcia": [{
+        "Citroen C4 I (2004 - 2010)": [{
                 "opis": "Citroen C4 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2006_Citroen_C4_SX_1.6_Front.jpg/250px-2006_Citroen_C4_SX_1.6_Front.jpg"
             },
@@ -2903,8 +2909,9 @@
             {
                 "opis": "Citroën C-Quatre po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Citro%C3%ABn_C-Quatre_sedan_facelift_01_China_2012-06-02.JPG/250px-Citro%C3%ABn_C-Quatre_sedan_facelift_01_China_2012-06-02.JPG"
-            },
-            {
+            }
+        ],
+        "Citroen C4 II (2010 - 2018)": [{
                 "opis": "Citroen C4 II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Citro%C3%ABn_C4_HDi_110_Tendance_%28II%29_%E2%80%93_Frontansicht_%281%29%2C_11._April_2011%2C_D%C3%BCsseldorf.jpg/250px-Citro%C3%ABn_C4_HDi_110_Tendance_%28II%29_%E2%80%93_Frontansicht_%281%29%2C_11._April_2011%2C_D%C3%BCsseldorf.jpg"
             },
@@ -2939,8 +2946,9 @@
             {
                 "opis": "Citroën C4 II Sedan - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Citro%C3%ABn_C4_CN_05_China_2016-03-28.jpg/250px-Citro%C3%ABn_C4_CN_05_China_2016-03-28.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen C4 III (2020 - ...)": [{
                 "opis": "Citroën C4 III",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Citro%C3%ABn_C4_BlueHDi_130_EAT8_Shine_%28III%29_%E2%80%93_f_02012021.jpg/250px-Citro%C3%ABn_C4_BlueHDi_130_EAT8_Shine_%28III%29_%E2%80%93_f_02012021.jpg"
             },
@@ -2951,7 +2959,7 @@
         ]
     },
     "Citroen C4 Cactus": {
-        "zdjęcia": [{
+        "Citroen C4 Cactus (2014 - 2020)": [{
                 "opis": "Citroen C4 Cactus przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Citro%C3%ABn_C4_Cactus_BlueHDi_100_Shine_Edition_%E2%80%93_Frontansicht_%281%29%2C_2._November_2014%2C_M%C3%BCnster.jpg/250px-Citro%C3%ABn_C4_Cactus_BlueHDi_100_Shine_Edition_%E2%80%93_Frontansicht_%281%29%2C_2._November_2014%2C_M%C3%BCnster.jpg"
             },
@@ -2970,41 +2978,42 @@
         ]
     },
     "Citroen C4 Grand Picasso": {
-        "zdjęcia": [{
-                "opis": "Citroën Grand C4 Picasso I po liftingu",
+        "Citroen C4 Grand Picasso (2006 - 2022)": [{
+                "opis": "Citroën Grand C4 Picasso I po liftingu (7 miejsc)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Citro%C3%ABn_Grand_C4_Picasso_HDi_110_Tendance_%28Facelift%29_%E2%80%93_Frontansicht%2C_16._April_2011%2C_D%C3%BCsseldorf.jpg/250px-Citro%C3%ABn_Grand_C4_Picasso_HDi_110_Tendance_%28Facelift%29_%E2%80%93_Frontansicht%2C_16._April_2011%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Citroën Grand C4 Picasso I - tył po liftingu",
+                "opis": "Citroën Grand C4 Picasso I - tył po liftingu (7 miejsc)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Citro%C3%ABn_Grand_C4_Picasso_HDi_150_Business_Class_%28Facelift%29_%E2%80%93_Heckansicht%2C_2._September_2012%2C_Ratingen.jpg/250px-Citro%C3%ABn_Grand_C4_Picasso_HDi_150_Business_Class_%28Facelift%29_%E2%80%93_Heckansicht%2C_2._September_2012%2C_Ratingen.jpg"
             },
             {
-                "opis": "Citroën Grand C4 Picasso II",
+                "opis": "Citroën Grand C4 Picasso II (7 miejsc)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Citro%C3%ABn_Grand_C4_Picasso_BlueHDi_150_Intensive_%28II%29_%E2%80%93_Frontansicht%2C_4._Mai_2014%2C_D%C3%BCsseldorf.jpg/250px-Citro%C3%ABn_Grand_C4_Picasso_BlueHDi_150_Intensive_%28II%29_%E2%80%93_Frontansicht%2C_4._Mai_2014%2C_D%C3%BCsseldorf.jpg"
             }
         ]
     },
     "Citroen C4 Picasso": {
-        "zdjęcia": [{
+        "Citroen C4 Picasso I (2006 - 2013)": [{
                 "opis": "Citroën C4 Picasso I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Citro%C3%ABn_C4_Picasso_20090620_front.JPG/250px-Citro%C3%ABn_C4_Picasso_20090620_front.JPG"
             },
             {
                 "opis": "Citroën C4 Picasso I - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Citro%C3%ABn_C4_Picasso_20090620_rear.JPG/250px-Citro%C3%ABn_C4_Picasso_20090620_rear.JPG"
-            },
-            {
+            }
+        ],
+        "Citroen C4 Picasso II (2013 - 2019)": [{
                 "opis": "Citroën C4 Picasso II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/2015_Citro%C3%ABn_C4_Picasso_%28B7_MY15%29_Exclusive_e-THP_wagon_%282015-06-15%29_01.jpg/250px-2015_Citro%C3%ABn_C4_Picasso_%28B7_MY15%29_Exclusive_e-THP_wagon_%282015-06-15%29_01.jpg"
             },
             {
-                "opis": "Citroen C4 Picasso II przed liftingiem - tył",
+                "opis": "Citroen C4 Picasso II - tył przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/2015_Citro%C3%ABn_C4_Picasso_%28B7_MY15%29_Exclusive_e-THP_wagon_%282015-06-15%29_02.jpg/250px-2015_Citro%C3%ABn_C4_Picasso_%28B7_MY15%29_Exclusive_e-THP_wagon_%282015-06-15%29_02.jpg"
             }
         ]
     },
     "Citroen C4 SpaceTourer": {
-        "zdjęcia": [{
+        "Citroen C4 SpaceTourer (2018 - 2022)": [{
                 "opis": "Citroën C4 SpaceTourer po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/2018_Citroen_C4_Spacetourer_Flair_BlueHDi_1.6_Front.jpg/250px-2018_Citroen_C4_Spacetourer_Flair_BlueHDi_1.6_Front.jpg"
             },
@@ -3013,13 +3022,13 @@
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2018_Citroen_C4_Spacetourer_Flair_BlueHDi_1.6_Rear.jpg/250px-2018_Citroen_C4_Spacetourer_Flair_BlueHDi_1.6_Rear.jpg"
             },
             {
-                "opis": "Citroën Grand C4 SpaceTourer",
+                "opis": "Citroën Grand C4 SpaceTourer (7 miejsc)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/2019_Citroen_C4_Grand_Spacetourer_Flair_BlueHDi_2.0_Front.jpg/250px-2019_Citroen_C4_Grand_Spacetourer_Flair_BlueHDi_2.0_Front.jpg"
             }
         ]
     },
     "Citroen C5": {
-        "zdjęcia": [{
+        "Citroen C5 I (2001 - 2008)": [{
                 "opis": "Citroën C5 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Citroen_C5_front_20081128.jpg/250px-Citroen_C5_front_20081128.jpg"
             },
@@ -3038,8 +3047,9 @@
             {
                 "opis": "Citroën C5 I- tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Citroen_C5_%28first_generation%2C_first_facelift%29_%28rear%29%2C_Serdang.jpg/250px-Citroen_C5_%28first_generation%2C_first_facelift%29_%28rear%29%2C_Serdang.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen C5 II (2008 - 2017)": [{
                 "opis": "Citroën C5 II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Citro%C3%ABn_C5_2008_Front_%28cropped%29.jpg/250px-Citro%C3%ABn_C5_2008_Front_%28cropped%29.jpg"
             },
@@ -3054,8 +3064,9 @@
             {
                 "opis": "Citroën C5 CrossTourer",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Citro%C3%ABn_C5_CrossTourer_HDi_200_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_30._Juni_2014%2C_D%C3%BCsseldorf.jpg/250px-Citro%C3%ABn_C5_CrossTourer_HDi_200_%28II%2C_Facelift%29_%E2%80%93_Frontansicht%2C_30._Juni_2014%2C_D%C3%BCsseldorf.jpg"
-            },
-            {
+            }
+        ],
+        "Citroen C5X (2022 - ...)": [{
                 "opis": "Citroën C5X",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Citroen_C5X_IMG001.jpg/250px-Citroen_C5X_IMG001.jpg"
             },
@@ -3066,7 +3077,7 @@
         ]
     },
     "Citroen C5 Aircross": {
-        "zdjęcia": [{
+        "Citroen C5 Aircross (2017 - ...)": [{
                 "opis": "Citroën C5 Aircross przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2018_Dongfeng-Citro%C3%ABn_C5_Aircross%2C_front_8.9.18.jpg/250px-2018_Dongfeng-Citro%C3%ABn_C5_Aircross%2C_front_8.9.18.jpg"
             },
@@ -3081,7 +3092,7 @@
         ]
     },
     "Citroen DS3": {
-        "zdjęcia": [{
+        "Citroen DS 3 (2010 - 2016)": [{
                 "opis": "Citroën DS3 przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Citro%C3%ABn_DS3_THP_150_SportChic_front_20100529.jpg/250px-Citro%C3%ABn_DS3_THP_150_SportChic_front_20100529.jpg"
             },
@@ -3094,13 +3105,13 @@
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/008_Citroen_DS3_1.6_THP_Faubourg_Addict.JPG/250px-008_Citroen_DS3_1.6_THP_Faubourg_Addict.JPG"
             },
             {
-                "opis": "Citroën DS3 po liftingu - tył",
+                "opis": "Citroën DS3 - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/009_Citroen_DS3_1.6_THP_Faubourg_Addict.JPG/250px-009_Citroen_DS3_1.6_THP_Faubourg_Addict.JPG"
             }
         ]
     },
     "Citroen DS4": {
-        "zdjęcia": [{
+        "Citroen DS 4 (2011 - 2015)": [{
                 "opis": "Citroën DS4",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2014_Citroen_DS4_DStyle_Airdream_E-HDI_1.6_Front.jpg/250px-2014_Citroen_DS4_DStyle_Airdream_E-HDI_1.6_Front.jpg"
             },
@@ -3111,18 +3122,18 @@
         ]
     },
     "Citroen DS5": {
-        "zdjęcia": [{
+        "Citroen DS 5 (2011 - 2015)": [{
                 "opis": "Citroën DS5",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2013_Citroen_DS5_DSport_HYbrid4_2.0_Front.jpg/250px-2013_Citroen_DS5_DSport_HYbrid4_2.0_Front.jpg"
             },
             {
-                "opis": "Citroën DS5 – tył pojazdu",
+                "opis": "Citroën DS5 – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2013_Citroen_DS5_DSport_HYbrid4_2.0_Rear.jpg/250px-2013_Citroen_DS5_DSport_HYbrid4_2.0_Rear.jpg"
             }
         ]
     },
     "Cupra Ateca": {
-        "zdjęcia": [{
+        "Cupra Ateca (2018 - 2024)": [{
                 "opis": "Cupra Ateca przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/2019_SEAT_Ateca_Cupra_300_C%26S_4Drive_2.0_Front.jpg/250px-2019_SEAT_Ateca_Cupra_300_C%26S_4Drive_2.0_Front.jpg"
             },
@@ -3141,7 +3152,7 @@
         ]
     },
     "Cupra Formentor": {
-        "zdjęcia": [{
+        "Cupra Formentor (2020 - ...)": [{
                 "opis": "Cupra Formentor przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Cupra_Formentor_IMG_3800.jpg/250px-Cupra_Formentor_IMG_3800.jpg"
             },
@@ -3160,7 +3171,7 @@
         ]
     },
     "Cupra Leon": {
-        "zdjęcia": [{
+        "Cupra Leon (2020 - ...)": [{
                 "opis": "Cupra Leon przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Cupra_Leon_Mk4_1X7A7197.jpg/250px-Cupra_Leon_Mk4_1X7A7197.jpg"
             },
@@ -3175,13 +3186,13 @@
         ]
     },
     "Cupra Leon Sportstourer": {
-        "zdjęcia": [{
-            "opis": "Cupra Leon ST – tył",
+        "Cupra Leon ST (2020 - ...)": [{
+            "opis": "Cupra Leon ST – tył (kombi)",
             "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cupra_Leon_Mk4_ST_1X7A6814.jpg/250px-Cupra_Leon_Mk4_ST_1X7A6814.jpg"
         }]
     },
     "Cupra Terramar": {
-        "zdjęcia": [{
+        "Cupra Terramar (2024 - ...)": [{
                 "opis": "Cupra Terramar",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Cupra_Terramar_VZ_IMG_2330.jpg/250px-Cupra_Terramar_VZ_IMG_2330.jpg"
             },
@@ -3192,22 +3203,18 @@
         ]
     },
     "Dacia Bigster": {
-        "zdjęcia": [{
+        "Dacia Bigster (2021 - ...)": [{
                 "opis": "Dacia Bigster",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dacia_Bigster_DSC_8553.jpg/250px-Dacia_Bigster_DSC_8553.jpg"
             },
             {
                 "opis": "Dacia Bigster - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Dacia_Bigster_DSC_8456.jpg/250px-Dacia_Bigster_DSC_8456.jpg"
-            },
-            {
-                "opis": "Dacia Bigster wnętrze",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Dacia_Bigster_hybrid_155_DSC_8353.jpg/250px-Dacia_Bigster_hybrid_155_DSC_8353.jpg"
             }
         ]
     },
     "Dacia Dokker": {
-        "zdjęcia": [{
+        "Dacia Dokker (2010 - 2021)": [{
                 "opis": "Dacia Dokker przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/2012_Dacia_Dokker.JPG/250px-2012_Dacia_Dokker.JPG"
             },
@@ -3226,7 +3233,7 @@
         ]
     },
     "Dacia Duster": {
-        "zdjęcia": [{
+        "Dacia Duster I (2010 - 2017)": [{
                 "opis": "Dacia Duster I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Dacia_Duster_105_4x4_Prestige_%E2%80%93_Frontansicht%2C_31._Juli_2012%2C_Heiligenhaus.jpg/250px-Dacia_Duster_105_4x4_Prestige_%E2%80%93_Frontansicht%2C_31._Juli_2012%2C_Heiligenhaus.jpg"
             },
@@ -3241,8 +3248,9 @@
             {
                 "opis": "Dacia Duster I – tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2017_Dacia_Duster_Ambiance_DCi_4X2_1.5_Rear.jpg/250px-2017_Dacia_Duster_Ambiance_DCi_4X2_1.5_Rear.jpg"
-            },
-            {
+            }
+        ],
+        "Dacia Duster II (2017 - 2024)": [{
                 "opis": "Dacia Duster II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dacia_Duster_II_IMG_4397.jpg/250px-Dacia_Duster_II_IMG_4397.jpg"
             },
@@ -3257,8 +3265,9 @@
             {
                 "opis": "Dacia Duster II po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Dacia_Duster_II_Facelift_IAA_2021_1X7A0133.jpg/250px-Dacia_Duster_II_Facelift_IAA_2021_1X7A0133.jpg"
-            },
-            {
+            }
+        ],
+        "Dacia Duster III (2024 - ...)": [{
                 "opis": "Dacia Duster III",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Dacia_Duster_III_IMG_8973.jpg/250px-Dacia_Duster_III_IMG_8973.jpg"
             },
@@ -3269,7 +3278,7 @@
         ]
     },
     "Dacia Jogger": {
-        "zdjęcia": [{
+        "Dacia Jogger (2021 - ...)": [{
                 "opis": "Dacia Jogger przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Dacia_Jogger_IMG_6583.jpg/250px-Dacia_Jogger_IMG_6583.jpg"
             },
@@ -3288,7 +3297,7 @@
         ]
     },
     "Dacia Lodgy": {
-        "zdjęcia": [{
+        "Dacia Lodgy (2012 - 2022)": [{
                 "opis": "Dacia Lodgy przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Dacia_Lodgy_dCi_110_eco%C2%B2_Prestige_%E2%80%93_Frontansicht%2C_19._Juni_2012%2C_Heiligenhaus.jpg/250px-Dacia_Lodgy_dCi_110_eco%C2%B2_Prestige_%E2%80%93_Frontansicht%2C_19._Juni_2012%2C_Heiligenhaus.jpg"
             },
@@ -3307,7 +3316,7 @@
         ]
     },
     "Dacia Logan": {
-        "zdjęcia": [{
+        "Dacia Logan I (2005 - 2014)": [{
                 "opis": "Dacia Logan I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dacia_Logan_front_20070611.jpg/250px-Dacia_Logan_front_20070611.jpg"
             },
@@ -3342,8 +3351,9 @@
             {
                 "opis": "Dacia Logan Pick-up",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dacia_Logan_Pick-Up_20090712_rear.JPG/250px-Dacia_Logan_Pick-Up_20090712_rear.JPG"
-            },
-            {
+            }
+        ],
+        "Dacia Logan II (2012 - 2020)": [{
                 "opis": "Dacia Logan II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Dacia_Logan_II_Front.jpg/250px-Dacia_Logan_II_Front.jpg"
             },
@@ -3370,8 +3380,9 @@
             {
                 "opis": "Dacia Logan MCV II po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2017_Dacia_Logan_MCV_Laureate_DCi_1.5_Front.jpg/250px-2017_Dacia_Logan_MCV_Laureate_DCi_1.5_Front.jpg"
-            },
-            {
+            }
+        ],
+        "Dacia Logan III (2020 - ...)": [{
                 "opis": "Dacia Logan III",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Dacia_Logan_III_%28cropped%29.jpg/250px-Dacia_Logan_III_%28cropped%29.jpg"
             },
@@ -3390,15 +3401,16 @@
         ]
     },
     "Dacia Sandero": {
-        "zdjęcia": [{
+        "Dacia Sandero I (2008 - 2012)": [{
                 "opis": "Dacia Sandero I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Dacia_Sandero_front_20090722.jpg/250px-Dacia_Sandero_front_20090722.jpg"
             },
             {
                 "opis": "Dacia Sandero I - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Dacia_Sandero_rear_20090722.jpg/250px-Dacia_Sandero_rear_20090722.jpg"
-            },
-            {
+            }
+        ],
+        "Dacia Sandero II (2012 - 2020)": [{
                 "opis": "Dacia Sandero II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Dacia_Sandero_TCe_90_eco%C2%B2_Laur%C3%A9ate_%28II%29_%E2%80%93_Frontansicht%2C_21._April_2013%2C_M%C3%BCnster.jpg/250px-Dacia_Sandero_TCe_90_eco%C2%B2_Laur%C3%A9ate_%28II%29_%E2%80%93_Frontansicht%2C_21._April_2013%2C_M%C3%BCnster.jpg"
             },
@@ -3413,8 +3425,9 @@
             {
                 "opis": "Dacia Sandero II - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2017_Dacia_Sandero_Ambiance_SCE_facelift_1.0_Rear.jpg/250px-2017_Dacia_Sandero_Ambiance_SCE_facelift_1.0_Rear.jpg"
-            },
-            {
+            }
+        ],
+        "Dacia Sandero III (2020 - ...)": [{
                 "opis": "Dacia Sandero III po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dacia_Sandero_prz%C3%B3d_2022.png/250px-Dacia_Sandero_prz%C3%B3d_2022.png"
             },
@@ -3425,11 +3438,11 @@
         ]
     },
     "Dacia Sandero Stepway": {
-        "zdjęcia": [{
-                "opis": "Renault Sandero II Stepway",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Renault-Sandero_Stepway_Brazil-2017.jpg/250px-Renault-Sandero_Stepway_Brazil-2017.jpg"
-            },
-            {
+        "Dacia Sandero II Stepway (2012 - 2020)": [{
+            "opis": "Renault Sandero II Stepway",
+            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Renault-Sandero_Stepway_Brazil-2017.jpg/250px-Renault-Sandero_Stepway_Brazil-2017.jpg"
+        }],
+        "Dacia Sandero III Stepway (2020 - ...)": [{
                 "opis": "Dacia Sandero III Stepway",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dacia_Sandero_Stepway_III_IMG_3687.jpg/250px-Dacia_Sandero_Stepway_III_IMG_3687.jpg"
             },
@@ -3440,7 +3453,7 @@
         ]
     },
     "Dacia Spring": {
-        "zdjęcia": [{
+        "Dacia Spring (2021 - ...)": [{
                 "opis": "Dacia Spring przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2021_Dacia_Spring_Electric_%28France%29_front_view_02.png/250px-2021_Dacia_Spring_Electric_%28France%29_front_view_02.png"
             },
@@ -11254,18 +11267,18 @@
         ]
     },
     "Opel Adam": {
-        "zdjęcia": [{
+        "Opel Adam (2013 - 2019)": [{
                 "opis": "Opel Adam - przód",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2016_Opel_Adam_in_green%2C_front_left.jpg/250px-2016_Opel_Adam_in_green%2C_front_left.jpg"
             },
             {
-                "opis": "Opel Adam - tył",
+                "opis": "Opel Adam- tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/2016_Opel_Adam_in_green%2C_rear_right.jpg/250px-2016_Opel_Adam_in_green%2C_rear_right.jpg"
             }
         ]
     },
     "Opel Antara": {
-        "zdjęcia": [{
+        "Opel Antara (2006 - 2015)": [{
                 "opis": "Opel Antara przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Opel_Antara_2.0_CDTI_front_20100516.jpg/250px-Opel_Antara_2.0_CDTI_front_20100516.jpg"
             },
@@ -11284,199 +11297,203 @@
         ]
     },
     "Opel Astra": {
-        "zdjęcia": [{
-                "opis": "Opel Astra F przed liftingiem",
+        "Opel Astra I (1991 - 2002)": [{
+                "opis": "Opel Astra I (F) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Opel_Astra_F_front_20071019.jpg/250px-Opel_Astra_F_front_20071019.jpg"
             },
             {
-                "opis": "Opel Astra F – tył",
+                "opis": "Opel Astra I (F) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Opel_Astra_F_rear_20071019.jpg/250px-Opel_Astra_F_rear_20071019.jpg"
             },
             {
-                "opis": "Opel Astra F 5D",
+                "opis": "Opel Astra I (F) 5D",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Opel_Astra_F_20090424_rear.jpg/250px-Opel_Astra_F_20090424_rear.jpg"
             },
             {
-                "opis": "Opel Astra F Sedan",
+                "opis": "Opel Astra I (F) Sedan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Opel_Astra_rear_20080111.jpg/250px-Opel_Astra_rear_20080111.jpg"
             },
             {
-                "opis": "Opel Astra F Caravan",
+                "opis": "Opel Astra I (F) Caravan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Opel_Astra_F_Caravan_1.7_TDS_Club_rear.JPG/250px-Opel_Astra_F_Caravan_1.7_TDS_Club_rear.JPG"
             },
             {
-                "opis": "Opel Astra F Cabrio",
+                "opis": "Opel Astra I (F) Cabrio",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Cabrioopelbertoneastra.jpg/250px-Cabrioopelbertoneastra.jpg"
             },
             {
-                "opis": "Opel Astra F po liftingu",
+                "opis": "Opel Astra I (F) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Opel_Astra_F_front_20081229.jpg/250px-Opel_Astra_F_front_20081229.jpg"
             },
             {
-                "opis": "Opel Astra F po liftingu - tył",
+                "opis": "Opel Astra I (F) po liftingu - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Opel_Astra_F_rear_20081229.jpg/250px-Opel_Astra_F_rear_20081229.jpg"
-            },
-            {
-                "opis": "Opel Astra GSi",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Astra_F_GSi_16V_%28C20XE%29_1993.JPG/250px-Astra_F_GSi_16V_%28C20XE%29_1993.JPG"
-            },
-            {
-                "opis": "Opel Astra G hatchback",
+            }
+        ],
+        "Opel Astra II (1998 - 2009)": [{
+                "opis": "Opel Astra II (G) hatchback",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Opel_Astra_G_front_20081128.jpg/250px-Opel_Astra_G_front_20081128.jpg"
             },
             {
-                "opis": "Opel Astra G – tył",
+                "opis": "Opel Astra II (G) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Opel_Astra_G_rear_20081128.jpg/250px-Opel_Astra_G_rear_20081128.jpg"
             },
             {
-                "opis": "Opel Astra G Caravan",
+                "opis": "Opel Astra II (G) Caravan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Opel_Astra_Caravan_1.6_16V_Selection_%28G%29_%E2%80%93_Heckansicht%2C_28._Mai_2011%2C_D%C3%BCsseldorf.jpg/250px-Opel_Astra_Caravan_1.6_16V_Selection_%28G%29_%E2%80%93_Heckansicht%2C_28._Mai_2011%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Astra G Cabrio",
+                "opis": "Opel Astra II (G) Cabrio",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Opel_Astra_G_Cabrio_rear_20080417.jpg/250px-Opel_Astra_G_Cabrio_rear_20080417.jpg"
             },
             {
-                "opis": "Opel Astra G Coupé",
+                "opis": "Opel Astra II (G) Coupé",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opel_Astra_G_Coupe_rear_20071011.jpg/250px-Opel_Astra_G_Coupe_rear_20071011.jpg"
-            },
-            {
-                "opis": "Opel Astra H przed liftingiem",
+            }
+        ],
+        "Opel Astra III (2004 - 2014)": [{
+                "opis": "Opel Astra III (H) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Opel_Astra_H_2.0Turbo_front.JPG/250px-Opel_Astra_H_2.0Turbo_front.JPG"
             },
             {
-                "opis": "Opel Astra H – tył",
+                "opis": "Opel Astra III (H) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Opel_Astra_H_2.0Turbo_rear.JPG/250px-Opel_Astra_H_2.0Turbo_rear.JPG"
             },
             {
-                "opis": "Opel Astra H Sedan",
+                "opis": "Opel Astra III (H) Sedan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Opel_Astra_H_Stufenheck_1.6_Ecotec_Edition_Starsilber_Heck.JPG/250px-Opel_Astra_H_Stufenheck_1.6_Ecotec_Edition_Starsilber_Heck.JPG"
             },
             {
-                "opis": "Opel Astra H Caravan",
+                "opis": "Opel Astra III (H) Caravan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Opel_Astra_Caravan_1.7_CDTI_Elegance_%28H%29_%E2%80%93_Heckansicht%2C_13._November_2011%2C_Heiligenhaus.jpg/250px-Opel_Astra_Caravan_1.7_CDTI_Elegance_%28H%29_%E2%80%93_Heckansicht%2C_13._November_2011%2C_Heiligenhaus.jpg"
             },
             {
-                "opis": "Opel Astra H GTC",
+                "opis": "Opel Astra III (H) GTC",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Opel_Astra_GTC_1.6_Edition_%28H%2C_Facelift%29_%E2%80%93_Heckansicht%2C_29._M%C3%A4rz_2011%2C_Velbert.jpg/250px-Opel_Astra_GTC_1.6_Edition_%28H%2C_Facelift%29_%E2%80%93_Heckansicht%2C_29._M%C3%A4rz_2011%2C_Velbert.jpg"
             },
             {
-                "opis": "Opel Astra H TwinTop",
+                "opis": "Opel Astra III (H) TwinTop",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Opel_Astra_TwinTop_%28H%2C_Facelift%29_%E2%80%93_Heckansicht%2C_15._Mai_2011%2C_Wuppertal.jpg/250px-Opel_Astra_TwinTop_%28H%2C_Facelift%29_%E2%80%93_Heckansicht%2C_15._Mai_2011%2C_Wuppertal.jpg"
             },
             {
-                "opis": "Opel Astra H po liftingu",
+                "opis": "Opel Astra III (H) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Opel_Astra_H_1.8_Innovation_Facelift_front_20100822.jpg/250px-Opel_Astra_H_1.8_Innovation_Facelift_front_20100822.jpg"
-            },
-            {
-                "opis": "Opel Astra J przed liftingiem",
+            }
+        ],
+        "Opel Astra IV (2009 - 2020)": [{
+                "opis": "Opel Astra IV (J) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Opel_Astra_J_front_20100725.jpg/250px-Opel_Astra_J_front_20100725.jpg"
             },
             {
-                "opis": "Opel Astra J – tył",
+                "opis": "Opel Astra IV (J) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Opel_Astra_J_rear_20100808.jpg/250px-Opel_Astra_J_rear_20100808.jpg"
             },
             {
-                "opis": "Opel Astra J Sedan",
+                "opis": "Opel Astra IV (J) Sedan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Opel_Astra_Stufenheck_1.6_Edition_%28J%2C_Facelift%29_%E2%80%93_Heckansicht%2C_10._M%C3%A4rz_2013%2C_Velbert.jpg/250px-Opel_Astra_Stufenheck_1.6_Edition_%28J%2C_Facelift%29_%E2%80%93_Heckansicht%2C_10._M%C3%A4rz_2013%2C_Velbert.jpg"
             },
             {
-                "opis": "Opel Astra J Sports Tourer",
+                "opis": "Opel Astra IV (J) Sports Tourer",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Opel_Astra_Sports_Tourer_1.4_Turbo_ECOTEC_%28J%29_%E2%80%93_Heckansicht%2C_26._M%C3%A4rz_2011%2C_Mettmann.jpg/250px-Opel_Astra_Sports_Tourer_1.4_Turbo_ECOTEC_%28J%29_%E2%80%93_Heckansicht%2C_26._M%C3%A4rz_2011%2C_Mettmann.jpg"
             },
             {
-                "opis": "Opel Astra J GTC",
+                "opis": "Opel Astra IV (J) GTC",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Opel_Astra_GTC_1.6_Turbo_Innovation_%28J%29_%E2%80%93_Heckansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg/250px-Opel_Astra_GTC_1.6_Turbo_Innovation_%28J%29_%E2%80%93_Heckansicht%2C_17._September_2012%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Astra J po liftingu",
+                "opis": "Opel Astra IV (J) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/2012_Opel_Astra_%28AS%29_1.4_Turbo_5-door_hatchback_%282015-07-10%29_01.jpg/250px-2012_Opel_Astra_%28AS%29_1.4_Turbo_5-door_hatchback_%282015-07-10%29_01.jpg"
-            },
-            {
-                "opis": "Opel Astra K przed liftingiem",
+            }
+        ],
+        "Opel Astra V (2015 - 2022)": [{
+                "opis": "Opel Astra V (K) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Opel_Astra_1.6_CDTI_ecoFLEX_Dynamic_%28K%29_%E2%80%93_Frontansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg/250px-Opel_Astra_1.6_CDTI_ecoFLEX_Dynamic_%28K%29_%E2%80%93_Frontansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Astra K – tył",
+                "opis": "Opel Astra V (K) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Opel_Astra_1.6_CDTI_ecoFLEX_Dynamic_%28K%29_%E2%80%93_Heckansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg/250px-Opel_Astra_1.6_CDTI_ecoFLEX_Dynamic_%28K%29_%E2%80%93_Heckansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Astra K Sports Tourer",
+                "opis": "Opel Astra V (K) Sports Tourer",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Opel_Astra_Sports_Tourer_1.6_BiTurbo_CDTI_ecoFLEX_Innovation_%28K%29_%E2%80%93_Heckansicht%2C_28._September_2016%2C_D%C3%BCsseldorf.jpg/250px-Opel_Astra_Sports_Tourer_1.6_BiTurbo_CDTI_ecoFLEX_Innovation_%28K%29_%E2%80%93_Heckansicht%2C_28._September_2016%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Astra K po liftingu",
+                "opis": "Opel Astra V (K) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Opel_Astra_K_IMG_2474.jpg/250px-Opel_Astra_K_IMG_2474.jpg"
-            },
-            {
-                "opis": "Opel Astra L",
+            }
+        ],
+        "Opel Astra VI (2022 - ...)": [{
+                "opis": "Opel Astra VI (L)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Opel_Astra_L_1X7A7170.jpg/250px-Opel_Astra_L_1X7A7170.jpg"
             },
             {
-                "opis": "Opel Astra L - tył",
+                "opis": "Opel Astra VI (L) - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Opel_Astra_L_1X7A7169.jpg/250px-Opel_Astra_L_1X7A7169.jpg"
             },
             {
-                "opis": "Opel Astra L Sports Tourer",
+                "opis": "Opel Astra VI (L) Sports Tourer",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Opel_Astra_L_Sports_Tourer_Leonberg_2022_1X7A0417.jpg/250px-Opel_Astra_L_Sports_Tourer_Leonberg_2022_1X7A0417.jpg"
             },
             {
-                "opis": "Opel Astra L GSe",
+                "opis": "Opel Astra VI (L) GSe",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Opel_Astra_L_GSe_1X7A7243.jpg/250px-Opel_Astra_L_GSe_1X7A7243.jpg"
             }
         ]
     },
     "Opel Combo": {
-        "zdjęcia": [{
-                "opis": "Opel Combo B",
+        "Opel Combo I (1993 - 2001)": [{
+                "opis": "Opel Combo I (B)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Opel_Combo_front_20080625.jpg/250px-Opel_Combo_front_20080625.jpg"
             },
             {
-                "opis": "Opel Combo B – tył",
+                "opis": "Opel Combo I (B) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Opel_Combo_rear_20080625.jpg/250px-Opel_Combo_rear_20080625.jpg"
-            },
-            {
-                "opis": "Opel Combo C przed liftingiem wersji osobowej",
+            }
+        ],
+        "Opel Combo II (2001 - 2011)": [{
+                "opis": "Opel Combo II (C) przed liftingiem wersji osobowej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Opel_Combo_front_20080123.jpg/250px-Opel_Combo_front_20080123.jpg"
             },
             {
-                "opis": "Opel Combo C – tył",
+                "opis": "Opel Combo II (C) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Opel_Combo_rear_20080123.jpg/250px-Opel_Combo_rear_20080123.jpg"
             },
             {
-                "opis": "Opel Combo C po liftingu",
+                "opis": "Opel Combo II (C) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Opel_Combo_C_Tour_1.7_DTI_front_20100808.jpg/250px-Opel_Combo_C_Tour_1.7_DTI_front_20100808.jpg"
             },
             {
-                "opis": "Opel Combo C w wersji dostawczej",
+                "opis": "Opel Combo II (C) w wersji dostawczej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Opel_Combo_rear_20080701.jpg/250px-Opel_Combo_rear_20080701.jpg"
-            },
-            {
-                "opis": "Opel Combo D",
+            }
+        ],
+        "Opel Combo III (2011 - 2018)": [{
+                "opis": "Opel Combo III (D)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Opel_Combo_1.6_CDTI_Edition_%28D%29_%E2%80%93_Frontansicht%2C_18._M%C3%A4rz_2012%2C_Wuppertal.jpg/250px-Opel_Combo_1.6_CDTI_Edition_%28D%29_%E2%80%93_Frontansicht%2C_18._M%C3%A4rz_2012%2C_Wuppertal.jpg"
             },
             {
-                "opis": "Opel Combo D – tył",
+                "opis": "Opel Combo III (D) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Opel_Combo_1.6_CDTI_Edition_%28D%29_%E2%80%93_Heckansicht%2C_18._M%C3%A4rz_2012%2C_Wuppertal.jpg/250px-Opel_Combo_1.6_CDTI_Edition_%28D%29_%E2%80%93_Heckansicht%2C_18._M%C3%A4rz_2012%2C_Wuppertal.jpg"
             },
             {
-                "opis": "Opel Combo D w wersji dostawczej",
+                "opis": "Opel Combo III (D) w wersji dostawczej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Opel_Combo_Kastenwagen_1.6_CDTI_%28D%29_%E2%80%93_Heckansicht%2C_5._September_2012%2C_Wuppertal.jpg/250px-Opel_Combo_Kastenwagen_1.6_CDTI_%28D%29_%E2%80%93_Heckansicht%2C_5._September_2012%2C_Wuppertal.jpg"
-            },
-            {
-                "opis": "Opel Combo E przed liftingiem",
+            }
+        ],
+        "Opel Combo IV (2018 - ...)": [{
+                "opis": "Opel Combo IV (E) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Opel_Combo_Monrepos_2019_IMG_1929.jpg/250px-Opel_Combo_Monrepos_2019_IMG_1929.jpg"
             },
             {
-                "opis": "Opel Combo E Life – tył",
+                "opis": "Opel Combo IV (E) Life – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opel_Combo_Monrepos_2019_IMG_1930.jpg/250px-Opel_Combo_Monrepos_2019_IMG_1930.jpg"
             },
             {
-                "opis": "Opel Combo E po liftingu",
+                "opis": "Opel Combo IV (E) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2023_Opel_Combo_E_IMG_9753.jpg/250px-2023_Opel_Combo_E_IMG_9753.jpg"
             },
             {
-                "opis": "Opel Combo E w wersji dostawczej",
+                "opis": "Opel Combo IV (E) w wersji dostawczej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/2019_Vauxhall_Combo_2000_LE_NAV_1.5_Rear.jpg/250px-2019_Vauxhall_Combo_2000_LE_NAV_1.5_Rear.jpg"
             },
             {
@@ -11486,100 +11503,105 @@
         ]
     },
     "Opel Corsa": {
-        "zdjęcia": [{
-                "opis": "Opel Corsa A przed liftingiem",
+        "Opel Corsa I (1982 - 1993)": [{
+                "opis": "Opel Corsa I (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Opel_Corsa_front_20071212.jpg/250px-Opel_Corsa_front_20071212.jpg"
             },
             {
-                "opis": "Opel Corsa A – tył",
+                "opis": "Opel Corsa I (A) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Opel_Corsa_rear_20071212.jpg/250px-Opel_Corsa_rear_20071212.jpg"
             },
             {
-                "opis": "Opel Corsa A po liftingu",
+                "opis": "Opel Corsa I (A) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Opel_Corsa_front_20070914.jpg/250px-Opel_Corsa_front_20070914.jpg"
             },
             {
-                "opis": "Opel Corsa A Sedan",
+                "opis": "Opel Corsa I (A) Sedan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Opel_Corsa_A_2-door_rear.JPG/250px-Opel_Corsa_A_2-door_rear.JPG"
-            },
-            {
-                "opis": "Opel Corsa B przed liftingiem",
+            }
+        ],
+        "Opel Corsa II (1993 - 2000)": [{
+                "opis": "Opel Corsa II (B) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Opel_Corsa_B_Vorfacelift_1.4_GSI_Atlanta.JPG/250px-Opel_Corsa_B_Vorfacelift_1.4_GSI_Atlanta.JPG"
             },
             {
-                "opis": "Opel Corsa B – tył",
+                "opis": "Opel Corsa II (B) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Opel_Corsa_B_Vorfacelift_1.4_GSI_Atlanta_Heck.JPG/250px-Opel_Corsa_B_Vorfacelift_1.4_GSI_Atlanta_Heck.JPG"
             },
             {
-                "opis": "Opel Corsa B w wersji pięciodrzwiowej",
+                "opis": "Opel Corsa II (B) w wersji pięciodrzwiowej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Opel_Corsa_B_1.2_16V_Edition_2000_5-T%C3%BCrer_Facelift_rear.JPG/250px-Opel_Corsa_B_1.2_16V_Edition_2000_5-T%C3%BCrer_Facelift_rear.JPG"
             },
             {
-                "opis": "Opel Corsa B Caravan",
+                "opis": "Opel Corsa II (B) Caravan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Corsa_caravan.jpg/250px-Corsa_caravan.jpg"
             },
             {
-                "opis": "Opel Corsa B po liftingu",
+                "opis": "Opel Corsa II (B) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Opel_Corsa_front_20080417.jpg/250px-Opel_Corsa_front_20080417.jpg"
             },
             {
-                "opis": "Opel Corsa B Pickup",
+                "opis": "Opel Corsa II (B) Pickup",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opel_Corsa_Pickup_rear_20071228.jpg/250px-Opel_Corsa_Pickup_rear_20071228.jpg"
             },
             {
-                "opis": "Opel Corsa B Sedan",
+                "opis": "Opel Corsa II (B) Sedan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Opel_Corsa_1.6_GL_Extra_Sedan_1997_%2831637888277%29.jpg/250px-Opel_Corsa_1.6_GL_Extra_Sedan_1997_%2831637888277%29.jpg"
-            },
-            {
-                "opis": "Opel Corsa C przed liftingiem",
+            }
+        ],
+        "Opel Corsa III (2000 - 2006)": [{
+                "opis": "Opel Corsa III (C) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Opel_Corsa_front_20080714.jpg/250px-Opel_Corsa_front_20080714.jpg"
             },
             {
-                "opis": "Opel Corsa C – tył",
+                "opis": "Opel Corsa III (C) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Opel_Corsa_rear_20080714.jpg/250px-Opel_Corsa_rear_20080714.jpg"
             },
             {
-                "opis": "Opel Corsa C – wersja trzydrzwiowa",
+                "opis": "Opel Corsa III (C) – wersja trzydrzwiowa",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Opel_Corsa_rear_20070609.jpg/250px-Opel_Corsa_rear_20070609.jpg"
             },
             {
-                "opis": "Opel Corsa C po liftingu",
+                "opis": "Opel Corsa III (C) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Opel_Corsa_front_20070609.jpg/250px-Opel_Corsa_front_20070609.jpg"
-            },
-            {
-                "opis": "Opel Corsa D przed liftingiem",
+            }
+        ],
+        "Opel Corsa IV (2006 - 2014)": [{
+                "opis": "Opel Corsa IV (D) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Opel_Corsa_D_1.2_front.JPG/250px-Opel_Corsa_D_1.2_front.JPG"
             },
             {
-                "opis": "Opel Corsa D – tył",
+                "opis": "Opel Corsa IV (D) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Opel_Corsa_D_1.2_rear-1.JPG/250px-Opel_Corsa_D_1.2_rear-1.JPG"
             },
             {
-                "opis": "Opel Corsa D w wersji trzydrzwiowej",
+                "opis": "Opel Corsa IV (D) w wersji trzydrzwiowej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Opel_Corsa_1.4_ECOTEC_Satellite_%28D%2C_Facelift%29_%E2%80%93_Heckansicht_%281%29%2C_8._April_2011%2C_Mettmann.jpg/250px-Opel_Corsa_1.4_ECOTEC_Satellite_%28D%2C_Facelift%29_%E2%80%93_Heckansicht_%281%29%2C_8._April_2011%2C_Mettmann.jpg"
             },
             {
-                "opis": "Opel Corsa D po liftingu",
+                "opis": "Opel Corsa IV (D) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Opel_Corsa_1.2_ecoFLEX_Satellite_%28D%2C_Facelift%29_%E2%80%93_Frontansicht%2C_29._Mai_2011%2C_Heiligenhaus.jpg/250px-Opel_Corsa_1.2_ecoFLEX_Satellite_%28D%2C_Facelift%29_%E2%80%93_Frontansicht%2C_29._Mai_2011%2C_Heiligenhaus.jpg"
-            },
-            {
-                "opis": "Opel Corsa E",
+            }
+        ],
+        "Opel Corsa V (2014 - 2019)": [{
+                "opis": "Opel Corsa V (E)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Opel_Corsa_1.3_CDTI_ecoFLEX_Innovation_%28E%29_%E2%80%93_Frontansicht%2C_24._Dezember_2015%2C_Ratingen.jpg/250px-Opel_Corsa_1.3_CDTI_ecoFLEX_Innovation_%28E%29_%E2%80%93_Frontansicht%2C_24._Dezember_2015%2C_Ratingen.jpg"
             },
             {
-                "opis": "Opel Corsa E – tył",
+                "opis": "Opel Corsa V (E) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Opel_Corsa_1.3_CDTI_ecoFLEX_Innovation_%28E%29_%E2%80%93_Heckansicht%2C_24._Dezember_2015%2C_Ratingen.jpg/250px-Opel_Corsa_1.3_CDTI_ecoFLEX_Innovation_%28E%29_%E2%80%93_Heckansicht%2C_24._Dezember_2015%2C_Ratingen.jpg"
             },
             {
-                "opis": "Opel Corsa E – wersja trzydrzwiowa",
+                "opis": "Opel Corsa V (E) – wersja trzydrzwiowa",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/2018_Vauxhall_Corsa_Energy_AC_1.4_Rear.jpg/250px-2018_Vauxhall_Corsa_Energy_AC_1.4_Rear.jpg"
-            },
-            {
-                "opis": "Opel Corsa F przed liftingiem",
+            }
+        ],
+        "Opel Corsa VI (2019 - ...)": [{
+                "opis": "Opel Corsa VI (F) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Opel_Corsa_F_IMG_2476.jpg/250px-Opel_Corsa_F_IMG_2476.jpg"
             },
             {
-                "opis": "Opel Corsa F – tył",
+                "opis": "Opel Corsa VI (F) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Opel_Corsa_F_IMG_2475.jpg/250px-Opel_Corsa_F_IMG_2475.jpg"
             },
             {
@@ -11587,13 +11609,13 @@
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg/250px-Opel_Corsa-e_at_IAA_2019_IMG_0738.jpg"
             },
             {
-                "opis": "Opel Corsa F po liftingu",
+                "opis": "Opel Corsa VI (F) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2023_Opel_Corsa_F_IMG_8800.jpg/250px-2023_Opel_Corsa_F_IMG_8800.jpg"
             }
         ]
     },
     "Opel Crossland": {
-        "zdjęcia": [{
+        "Opel Crossland (2017 - 2024)": [{
                 "opis": "Opel Crossland X przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/2019_Opel_Crossland_X_Front.jpg/250px-2019_Opel_Crossland_X_Front.jpg"
             },
@@ -11612,180 +11634,174 @@
         ]
     },
     "Opel Frontera": {
-        "zdjęcia": [{
-                "opis": "Opel Frontera A przed liftingiem",
+        "Opel Frontera I (1991 - 1998)": [{
+                "opis": "Opel Frontera I (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Opel_Frontera_front_20071119.jpg/250px-Opel_Frontera_front_20071119.jpg"
             },
             {
-                "opis": "Opel Frontera A – tył",
+                "opis": "Opel Frontera I (A) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Opel_Frontera_rear_20071119.jpg/250px-Opel_Frontera_rear_20071119.jpg"
             },
             {
-                "opis": "Opel Frontera A Sport",
+                "opis": "Opel Frontera I (A) Sport",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/1994_Opel_Frontera_Sport_%2816276885273%29.jpg/250px-1994_Opel_Frontera_Sport_%2816276885273%29.jpg"
-            },
-            {
-                "opis": "Opel Frontera B przed liftingiem",
+            }
+        ],
+        "Opel Frontera II (1998 - 2004)": [{
+                "opis": "Opel Frontera II (B) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Opel_Frontera_front_20080730.jpg/250px-Opel_Frontera_front_20080730.jpg"
             },
             {
-                "opis": "Opel Frontera B – tył",
+                "opis": "Opel Frontera II (B) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Opel_Frontera_rear_20080730.jpg/250px-Opel_Frontera_rear_20080730.jpg"
             },
             {
-                "opis": "Opel Frontera B Sport",
+                "opis": "Opel Frontera II (B) Sport",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Opel_Frontera_Sportback_3door.JPG/250px-Opel_Frontera_Sportback_3door.JPG"
             },
             {
-                "opis": "Opel Frontera B po liftingu",
+                "opis": "Opel Frontera II (B) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Opel_Frontera_%2810834771824%29.jpg/250px-Opel_Frontera_%2810834771824%29.jpg"
-            },
-            {
-                "opis": "Opel Frontera",
+            }
+        ],
+        "Opel Frontera III (2024 - ...)": [{
+                "opis": "Opel Frontera III (I)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Opel_Frontera_C_Electric_DSC_9335_%282%29.jpg/250px-Opel_Frontera_C_Electric_DSC_9335_%282%29.jpg"
             },
             {
-                "opis": "Opel Frontera - tył",
+                "opis": "Opel Frontera III (I)- tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Opel_Frontera_C_Electric_Rutesheimer_Autoschau_2025_DSC_9238.jpg/250px-Opel_Frontera_C_Electric_Rutesheimer_Autoschau_2025_DSC_9238.jpg"
             }
         ]
     },
     "Opel Grandland": {
-        "zdjęcia": [{
-                "opis": "Opel Grandland X przed liftingiem",
+        "Opel Grandland X (2017 - 2024)": [{
+                "opis": "Opel Grandland X (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Opel_Grandland_X_IMG_0382.jpg/250px-Opel_Grandland_X_IMG_0382.jpg"
             },
             {
-                "opis": "Opel Grandland X – tył",
+                "opis": "Opel Grandland X (A) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Opel_Grandland_X_IMG_0383.jpg/250px-Opel_Grandland_X_IMG_0383.jpg"
             },
             {
-                "opis": "Opel Grandland po liftingu",
+                "opis": "Opel Grandland (A) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Opel_Grandland_Hybrid4_Auto_Zuerich_2021_IMG_0341.jpg/250px-Opel_Grandland_Hybrid4_Auto_Zuerich_2021_IMG_0341.jpg"
             },
             {
-                "opis": "Opel Grandland – tył po liftingu",
+                "opis": "Opel Grandland (A) – tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Opel_Grandland_Hybrid4_Auto_Zuerich_2021_IMG_0329.jpg/250px-Opel_Grandland_Hybrid4_Auto_Zuerich_2021_IMG_0329.jpg"
-            },
-            {
-                "opis": "Opel Grandland II - przód",
+            }
+        ],
+        "Opel Grandland II (2024 - ...)": [{
+                "opis": "Opel Grandland II (B) - przód",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Opel_Grandland_B_Electric_DSC_6030.jpg/250px-Opel_Grandland_B_Electric_DSC_6030.jpg"
             },
             {
-                "opis": "Opel Grandland II – tył",
+                "opis": "Opel Grandland II (B) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Opel_Grandland_B_Electric_DSC_6032.jpg/250px-Opel_Grandland_B_Electric_DSC_6032.jpg"
             }
         ]
     },
     "Opel Insignia": {
-        "zdjęcia": [{
-                "opis": "Opel Insignia A przed liftingiem",
+        "Opel Insignia I (2008 - 2017)": [{
+                "opis": "Opel Insignia I (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Opel_Insignia_1.6_Edition_front_20100912.jpg/250px-Opel_Insignia_1.6_Edition_front_20100912.jpg"
             },
             {
-                "opis": "Opel Insignia A – tył",
+                "opis": "Opel Insignia I (A) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Opel_Insignia_1.6_Edition_rear_20100912.jpg/250px-Opel_Insignia_1.6_Edition_rear_20100912.jpg"
             },
             {
-                "opis": "Opel Insignia A Sports Tourer",
+                "opis": "Opel Insignia I (A) Sports Tourer",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opel_Insignia_Sports_Tourer_rear_20100328.jpg/250px-Opel_Insignia_Sports_Tourer_rear_20100328.jpg"
             },
             {
-                "opis": "Opel Insignia A po liftingu",
+                "opis": "Opel Insignia I (A) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Opel_Insignia_2.0T_Cosmo_2017_%2843153786675%29.jpg/250px-Opel_Insignia_2.0T_Cosmo_2017_%2843153786675%29.jpg"
             },
             {
-                "opis": "Opel Insignia A – tył po liftingu",
+                "opis": "Opel Insignia I (A) – tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Opel_Insignia_facelift.jpg/250px-Opel_Insignia_facelift.jpg"
-            },
-            {
-                "opis": "Opel Insignia OPC",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Opel_Insignia_OPC_touring.jpg/250px-Opel_Insignia_OPC_touring.jpg"
-            },
-            {
-                "opis": "Opel Insignia B Grand Sport przed liftingiem",
+            }
+        ],
+        "Opel Insignia II (2017 - 2022)": [{
+                "opis": "Opel Insignia II (B) Grand Sport przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Opel_Insignia_Grand_Sport_1.6_Diesel_Business_Innovation_%28B%29_%E2%80%93_Frontansicht%2C_5._Mai_2017%2C_D%C3%BCsseldorf.jpg/250px-Opel_Insignia_Grand_Sport_1.6_Diesel_Business_Innovation_%28B%29_%E2%80%93_Frontansicht%2C_5._Mai_2017%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Insignia B Grand Sport – tył",
+                "opis": "Opel Insignia II (B) Grand Sport – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Opel_Insignia_Grand_Sport_1.6_Diesel_Business_Innovation_%28B%29_%E2%80%93_Heckansicht%2C_5._Mai_2017%2C_D%C3%BCsseldorf.jpg/250px-Opel_Insignia_Grand_Sport_1.6_Diesel_Business_Innovation_%28B%29_%E2%80%93_Heckansicht%2C_5._Mai_2017%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Insignia B Sports Tourer",
+                "opis": "Opel Insignia II (B) Sports Tourer",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Opel_Insignia_Sports_Tourer_1.5_DIT_Innovation_%28B%29_%E2%80%93_Heckansicht%2C_12._Mai_2017%2C_D%C3%BCsseldorf.jpg/250px-Opel_Insignia_Sports_Tourer_1.5_DIT_Innovation_%28B%29_%E2%80%93_Heckansicht%2C_12._Mai_2017%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Insignia B Grand Sport po liftingu",
+                "opis": "Opel Insignia II (B) Grand Sport po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Opel_Insignia_B_FL_IMG_4456.jpg/250px-Opel_Insignia_B_FL_IMG_4456.jpg"
-            },
-            {
-                "opis": "Opel Insignia GSi",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Opel_Insignia_GSi_IMG_0917.jpg/250px-Opel_Insignia_GSi_IMG_0917.jpg"
             }
         ]
     },
     "Opel Meriva": {
-        "zdjęcia": [{
-                "opis": "Opel Meriva A po liftingu",
+        "Opel Meriva I (2003 - 2010)": [{
+                "opis": "Opel Meriva I (A) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Opel_Meriva_A_1.8_Cosmo_Facelift_front-2_20100716.jpg/250px-Opel_Meriva_A_1.8_Cosmo_Facelift_front-2_20100716.jpg"
             },
             {
-                "opis": "Opel Meriva A przed liftingiem",
+                "opis": "Opel Meriva I (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Opel_Meriva_20090215_front.jpg/250px-Opel_Meriva_20090215_front.jpg"
             },
             {
-                "opis": "Opel Meriva A – tył przed liftingiem",
+                "opis": "Opel Meriva I (A) – tył przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Opel_Meriva_20090215_rear.jpg/250px-Opel_Meriva_20090215_rear.jpg"
             },
             {
-                "opis": "Opel Meriva A – tył po liftingu",
+                "opis": "Opel Meriva I (A) – tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Opel_Meriva_A_1.8_Cosmo_Facelift_rear_20100716.jpg/250px-Opel_Meriva_A_1.8_Cosmo_Facelift_rear_20100716.jpg"
-            },
-            {
-                "opis": "Opel Meriva OPC",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Opel_Meriva_OPC_front_Facelift.jpg/250px-Opel_Meriva_OPC_front_Facelift.jpg"
-            },
-            {
-                "opis": "Opel Meriva B przed face liftingiem",
+            }
+        ],
+        "Opel Meriva II (2010  2017)": [{
+                "opis": "Opel Meriva II (B) przed face liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Opel_Meriva_1.4_Design_Edition_%28B%29_%E2%80%93_Frontansicht%2C_11._M%C3%A4rz_2012%2C_Heiligenhaus.jpg/250px-Opel_Meriva_1.4_Design_Edition_%28B%29_%E2%80%93_Frontansicht%2C_11._M%C3%A4rz_2012%2C_Heiligenhaus.jpg"
             },
             {
-                "opis": "Opel Meriva B – tył",
+                "opis": "Opel Meriva II (B) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Opel_Meriva_1.4_Design_Edition_%28B%29_%E2%80%93_Heckansicht%2C_11._M%C3%A4rz_2012%2C_Heiligenhaus.jpg/250px-Opel_Meriva_1.4_Design_Edition_%28B%29_%E2%80%93_Heckansicht%2C_11._M%C3%A4rz_2012%2C_Heiligenhaus.jpg"
             },
             {
-                "opis": "Opel Meriva B po liftingu",
+                "opis": "Opel Meriva II (B) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Opel_Meriva_1.4_Style_%28B%2C_Facelift%29_%E2%80%93_Frontansicht%2C_24._Oktober_2015%2C_M%C3%BCnster.jpg/250px-Opel_Meriva_1.4_Style_%28B%2C_Facelift%29_%E2%80%93_Frontansicht%2C_24._Oktober_2015%2C_M%C3%BCnster.jpg"
             }
         ]
     },
     "Opel Mokka": {
-        "zdjęcia": [{
-                "opis": "Opel Mokka A przed liftingiem",
+        "Opel Mokka I (2012 - 2019)": [{
+                "opis": "Opel Mokka (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Opel_Mokka_1.4_Turbo_ecoFLEX_Innovation_%E2%80%93_Frontansicht%2C_13._Oktober_2015%2C_D%C3%BCsseldorf.jpg/250px-Opel_Mokka_1.4_Turbo_ecoFLEX_Innovation_%E2%80%93_Frontansicht%2C_13._Oktober_2015%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Mokka I – tył",
+                "opis": "Opel Mokka (A) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Opel_Mokka_1.4_Turbo_ecoFLEX_Innovation_%E2%80%93_Heckansicht%2C_13._Oktober_2015%2C_D%C3%BCsseldorf.jpg/250px-Opel_Mokka_1.4_Turbo_ecoFLEX_Innovation_%E2%80%93_Heckansicht%2C_13._Oktober_2015%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Mokka X po liftingu",
+                "opis": "Opel Mokka X (A) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Opel_Mokka_X_1.6_CDTI_ecoFLEX_4x4_Edition_%28Facelift%29_%E2%80%93_Frontansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg/250px-Opel_Mokka_X_1.6_CDTI_ecoFLEX_4x4_Edition_%28Facelift%29_%E2%80%93_Frontansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Mokka X – tył po liftingu",
+                "opis": "Opel Mokka X (A) – tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Opel_Mokka_X_1.6_CDTI_ecoFLEX_4x4_Edition_%28Facelift%29_%E2%80%93_Heckansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg/250px-Opel_Mokka_X_1.6_CDTI_ecoFLEX_4x4_Edition_%28Facelift%29_%E2%80%93_Heckansicht%2C_23._Dezember_2016%2C_D%C3%BCsseldorf.jpg"
-            },
-            {
-                "opis": "Opel Mokka B przed liftingiem",
+            }
+        ],
+        "Opel Mokka II (2020 - ...)": [{
+                "opis": "Opel Mokka II (B) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Opel_Mokka_B_IMG_3996.jpg/250px-Opel_Mokka_B_IMG_3996.jpg"
             },
             {
-                "opis": "Opel Mokka B - tył",
+                "opis": "Opel Mokka II (B) - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Opel_Mokka_B_IMG_3995.jpg/250px-Opel_Mokka_B_IMG_3995.jpg"
             },
             {
-                "opis": "Opel Mokka B po liftingu",
+                "opis": "Opel Mokka II (B) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2025_Opel_Mokka_B_DSC_9161.jpg/250px-2025_Opel_Mokka_B_DSC_9161.jpg"
             },
             {
@@ -11795,146 +11811,136 @@
         ]
     },
     "Opel Vectra": {
-        "zdjęcia": [{
-                "opis": "Opel Vectra A przed liftingiem",
+        "Opel Vectra I (1988 - 1995)": [{
+                "opis": "Opel Vectra I (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Opel_Vectra_A_GLS_ein_neues_Auto_1990.jpg/250px-Opel_Vectra_A_GLS_ein_neues_Auto_1990.jpg"
             },
             {
-                "opis": "Vectra A",
+                "opis": "Vectra I (A)",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Opel_Vectra_A_GLS_ein_neues_Auto_1990_R%C3%BCckseite.jpg/250px-Opel_Vectra_A_GLS_ein_neues_Auto_1990_R%C3%BCckseite.jpg"
             },
             {
-                "opis": "Opel Vectra A Sedan",
+                "opis": "Opel Vectra I (A) Sedan",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Opel_Vectra_A_GLS_ein_neues_Auto_1990_03.jpg/250px-Opel_Vectra_A_GLS_ein_neues_Auto_1990_03.jpg"
-            },
-            {
-                "opis": "Vectra 2.0i",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Opel_Vectra_rear_20080102.jpg/250px-Opel_Vectra_rear_20080102.jpg"
-            },
-            {
-                "opis": "Opel Vectra A 1.7 TD – tył pojazdu",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/1994_Opel_Vectra_1.7_TD_CDX_%2813014541265%29.jpg/250px-1994_Opel_Vectra_1.7_TD_CDX_%2813014541265%29.jpg"
-            },
-            {
-                "opis": "Opel Vectra A 1.7 TD",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Opel_Vectra_%2838846784865%29.jpg/250px-Opel_Vectra_%2838846784865%29.jpg"
-            },
-            {
-                "opis": "Opel Vectra A Turbo 4x4",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vectra_Turbo.jpg/250px-Vectra_Turbo.jpg"
-            },
-            {
-                "opis": "Opel Vectra B przed liftingiem",
+            }
+        ],
+        "Opel Vectra II (1995 - 2002)": [{
+                "opis": "Opel Vectra II (B) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Opel_Vectra_front_20071112.jpg/250px-Opel_Vectra_front_20071112.jpg"
             },
             {
-                "opis": "Opel Vectra B – tył",
+                "opis": "Opel Vectra II (B) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Opel_Vectra_rear_20071112.jpg/250px-Opel_Vectra_rear_20071112.jpg"
             },
             {
-                "opis": "Opel Vectra B Liftback",
+                "opis": "Opel Vectra II (B) Liftback",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Opel_Vectra_rear_20080222.jpg/250px-Opel_Vectra_rear_20080222.jpg"
             },
             {
-                "opis": "Opel Vectra B Kombi",
+                "opis": "Opel Vectra II (B) Kombi",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Opel_Vectra_Kombi_rear_20080108.jpg/250px-Opel_Vectra_Kombi_rear_20080108.jpg"
             },
             {
-                "opis": "Opel Vectra B po liftingu",
+                "opis": "Opel Vectra II (B) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Opel_Vectra_front_20080118.jpg/250px-Opel_Vectra_front_20080118.jpg"
-            },
-            {
-                "opis": "Opel Vectra C przed lifitngiem",
+            }
+        ],
+        "Opel Vectra III (2002 - 2008)": [{
+                "opis": "Opel Vectra III (C) przed lifitngiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Opel_Vectra_front_20080302.jpg/250px-Opel_Vectra_front_20080302.jpg"
             },
             {
-                "opis": "Opel Vectra C – tył",
+                "opis": "Opel Vectra III (C) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Opel_Vectra_rear_20080302.jpg/250px-Opel_Vectra_rear_20080302.jpg"
             },
             {
-                "opis": "Opel Vectra C Liftback",
+                "opis": "Opel Vectra III (C) Liftback",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Opel_Vectra_C_GTS_rear_20081127.jpg/250px-Opel_Vectra_C_GTS_rear_20081127.jpg"
             },
             {
-                "opis": "Opel Vectra C Kombi",
+                "opis": "Opel Vectra III (C) Kombi",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Opel_Vectra_Caravan_Facelift_rear.JPG/250px-Opel_Vectra_Caravan_Facelift_rear.JPG"
             },
             {
-                "opis": "Opel Vectra C po liftingu",
+                "opis": "Opel Vectra III (C) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Opel_Vectra_front_20080116.jpg/250px-Opel_Vectra_front_20080116.jpg"
             }
         ]
     },
     "Opel Vivaro": {
-        "zdjęcia": [{
-                "opis": "Opel Vivaro A Life przed liftingiem",
+        "Opel Vivaro I (2001 - 2014)": [{
+                "opis": "Opel Vivaro I (A) Life przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Opel_Vivaro_front_20070926.jpg/250px-Opel_Vivaro_front_20070926.jpg"
             },
             {
-                "opis": "Opel Vivaro A – tył",
+                "opis": "Opel Vivaro I (A) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Opel_Vivaro_rear_20070926.jpg/250px-Opel_Vivaro_rear_20070926.jpg"
             },
             {
-                "opis": "Opel Vivaro A po liftingu w wersji dostawczej",
+                "opis": "Opel Vivaro I (A) po liftingu w wersji dostawczej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Opel_Vivaro_20090905_front.JPG/250px-Opel_Vivaro_20090905_front.JPG"
             },
             {
-                "opis": "Opel Vivaro A – tył po liftingu wersji dostawczej",
+                "opis": "Opel Vivaro I (A) – tył po liftingu wersji dostawczej",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Opel_Vivaro_20090905_rear.JPG/250px-Opel_Vivaro_20090905_rear.JPG"
-            },
-            {
-                "opis": "Opel Vivaro B Life",
+            }
+        ],
+        "Opel Vivaro II (2014 - 2019)": [{
+                "opis": "Opel Vivaro II (B) Life",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Opel_Vivaro_Combi_1.6_BiTurbo_CDTI_ecoFLEX_%28B%29_%E2%80%93_Frontansicht%2C_7._Oktober_2015%2C_D%C3%BCsseldorf.jpg/250px-Opel_Vivaro_Combi_1.6_BiTurbo_CDTI_ecoFLEX_%28B%29_%E2%80%93_Frontansicht%2C_7._Oktober_2015%2C_D%C3%BCsseldorf.jpg"
             },
             {
-                "opis": "Opel Vivaro B Life – tył",
+                "opis": "Opel Vivaro II (B) Life – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Opel_Vivaro_Combi_1.6_BiTurbo_CDTI_ecoFLEX_%28B%29_%E2%80%93_Heckansicht%2C_7._Oktober_2015%2C_D%C3%BCsseldorf.jpg/250px-Opel_Vivaro_Combi_1.6_BiTurbo_CDTI_ecoFLEX_%28B%29_%E2%80%93_Heckansicht%2C_7._Oktober_2015%2C_D%C3%BCsseldorf.jpg"
-            },
-            {
-                "opis": "Opel Vivaro C przed liftingiem",
+            }
+        ],
+        "Opel Vivaro III (2019 - ...)": [{
+                "opis": "Opel Vivaro III (C) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Opel_Vivaro_C_IMG_2456.jpg/250px-Opel_Vivaro_C_IMG_2456.jpg"
             },
             {
-                "opis": "Opel Vivaro C – tył",
+                "opis": "Opel Vivaro III (C) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Opel_Vivaro_C_IMG_3455.jpg/250px-Opel_Vivaro_C_IMG_3455.jpg"
             },
             {
-                "opis": "Opel Vivaro C po liftingu",
+                "opis": "Opel Vivaro III (C) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Opel_Vivaro_C_%28Facelift%29_DSC_9329.jpg/250px-Opel_Vivaro_C_%28Facelift%29_DSC_9329.jpg"
             }
         ]
     },
     "Opel Zafira": {
-        "zdjęcia": [{
-                "opis": "Opel Zafira A przed liftingiem",
+        "Opel Zafira I (1999 - 2005)": [{
+                "opis": "Opel Zafira I (A) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Opel_Zafira_front_20071002.jpg/250px-Opel_Zafira_front_20071002.jpg"
             },
             {
-                "opis": "Opel Zafira A – tył",
+                "opis": "Opel Zafira I (A) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Opel_Zafira_rear_20071002.jpg/250px-Opel_Zafira_rear_20071002.jpg"
             },
             {
-                "opis": "Opel Zafira A po liftingu",
+                "opis": "Opel Zafira I (A) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Opel_Zafira.jpg/250px-Opel_Zafira.jpg"
-            },
-            {
-                "opis": "Opel Zafira II przed liftingiem",
+            }
+        ],
+        "Opel Zafira II (2005 - 2014)": [{
+                "opis": "Opel Zafira II (B) przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Opel_Zafira_B_20090713_front.JPG/250px-Opel_Zafira_B_20090713_front.JPG"
             },
             {
-                "opis": "Opel Zafira B – tył",
+                "opis": "Opel Zafira II (B) – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Opel_Zafira_B_20090713_rear.JPG/250px-Opel_Zafira_B_20090713_rear.JPG"
             },
             {
-                "opis": "Opel Zafira B po liftingu",
+                "opis": "Opel Zafira II (B) po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Opel_Zafira_B_Facelift_front_20090923.jpg/250px-Opel_Zafira_B_Facelift_front_20090923.jpg"
-            },
-            {
-                "opis": "Opel Zafira Tourer",
+            }
+        ],
+        "Opel Zafira III (2012 - 2019)": [{
+                "opis": "Opel Zafira III (C) Tourer",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Opel_Zafira_Tourer_2.0_CDTI_Innovation_%28C%29_%E2%80%93_Frontansicht%2C_23._Mai_2013%2C_Heiligenhaus.jpg/250px-Opel_Zafira_Tourer_2.0_CDTI_Innovation_%28C%29_%E2%80%93_Frontansicht%2C_23._Mai_2013%2C_Heiligenhaus.jpg"
             },
             {
-                "opis": "Opel Zafira Tourer – tył",
+                "opis": "Opel Zafira III (C) Tourer – tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Opel_Zafira_Tourer_2.0_CDTI_Innovation_%28C%29_%E2%80%93_Heckansicht%2C_23._Mai_2013%2C_Heiligenhaus.jpg/250px-Opel_Zafira_Tourer_2.0_CDTI_Innovation_%28C%29_%E2%80%93_Heckansicht%2C_23._Mai_2013%2C_Heiligenhaus.jpg"
             }
         ]
