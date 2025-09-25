@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "name": "Asus Vivobook 16",
+      "link": "https://estore.asus.com/pl/90nb1511.html",
+      "defaultPrice": 5999,
+      "currentPrice": 5799,
+      "image": "https://cdn.asus.com/vivobook16.jpg",
+      "storeLogo": "https://cdn.asus.com/logo.png"
+    },
+    {
+      "name": "Asus Flip 16",
+      "link": "https://www.euro.com.pl/laptopy-i-netbooki/asus-flip.html",
+      "defaultPrice": 5899,
+      "currentPrice": 5999,
+      "image": "https://cdn.euro.com.pl/asusflip16.jpg",
+      "storeLogo": "https://upload.wikimedia.org/wikipedia/commons/4/49/Euro_logo.png"
+    }
+  ],
+  "lastUpdated": "2025-09-25T14:00:00Z"
+}
