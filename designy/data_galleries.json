@@ -1,0 +1,12 @@
+[
+  {
+    "projectId": 0,
+    "designs": [
+      {
+        "designId": 0,
+        "categories": ["dzienbezzaslon", "dzienzaslony", "nocglowne", "nocmniejsze", "nockolorowe"],
+        "maxIndex": 9
+      }
+    ]
+  }
+]
