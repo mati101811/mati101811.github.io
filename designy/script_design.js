@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch("data_designs.json")
+    fetch("designy/data_designs.json")
         .then(response => response.json())
         .then(data => {
             design = data.projects[projectId].designs[designId];
@@ -288,3 +288,4 @@ function goToGallery() {
     window.location.href = `designy/gallery.html?project_id=${projectId}&design_id=${designId}`;
 
 }
+
