@@ -1,6 +1,6 @@
 function showDesign(index) {
     // go to design<index>/index.html
-    window.location.href = `designy/project.html?id=${index}`;
+    window.location.href = `designy/project.html?id=${index}`; 
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -36,4 +36,5 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(err => console.error("Błąd wczytywania danych:", err));
 
 });
+
 
