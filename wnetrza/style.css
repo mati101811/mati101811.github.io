@@ -1,0 +1,172 @@
+body {
+    background-color: #f4f4f4;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+/* HERO */
+#hero {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* pewność że nic nie wystaje */
+}
+
+#hero-project {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* pewność że nic nie wystaje */
+}
+
+#hero::before,
+#hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#hero::before {
+    left: 0;
+    background-image: url('images/hero_1.jpg');
+}
+
+#hero::after {
+    right: 0;
+    background-image: url('images/hero_2.jpg');
+}
+
+.hero-content {
+    padding: 24px 64px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.hero-content h1 {
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: large;
+}
+
+@media (max-width: 1100px) {
+
+    /* wyłącz pseudo-elementy (dwa obrazy znikają) */
+    #hero::before,
+    #hero::after {
+        display: none;
+    }
+
+    /* ustaw jeden obraz jako background sekcji */
+    #hero {
+        background-image: url('images/hero_1.jpg');
+        /* tu wstaw obraz dla telefonu */
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+#main-container {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+#projects-container, #styles-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.tile {
+    margin: auto;
+    transition: all 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:end;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    overflow: hidden;
+      border: 1px solid white;
+    border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    div{
+    background-color: #f8f8f8;
+        padding-bottom:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+}
+
+.tile:hover {
+    cursor: pointer;
+    border: 1px solid black;
+  transform: scale(1.03);
+}
+
+.tile img {
+    display: none;
+    width: 100%;             /* obraz wypełnia szerokość kafelka */
+  height: auto;            /* żeby zachować proporcje */
+
+  /* ale pozwól obrazowi rozciągnąć się w pionie tyle, ile zostanie miejsca: */
+    object-position: center;
+    object-fit: cover;
+    border-bottom: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tile-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    text-align: left;
+    width: 90%;
+}
+
+.tile-subtitle {
+    font-size: 15px;
+    width: 90%;
+    text-align: left;
+}
+
+.tile-style {
+    font-size: 15px;
+    width: 90%;
+    text-align: left;
+}

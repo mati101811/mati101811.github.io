@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        #gallery {
+            display: grid;
+            gap: 16px;
+
+            /* Automatyczna siatka bez media queries */
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+            padding: 10px;
+        }
+
+        @media screen {
+            #gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        .tile {
+            width: 100%;
+            object-fit: cover;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.85;
+            }
+        }
+
+        /* Modal */
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.85);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 1000;
+        }
+
+        #modal-content {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: calc(min(90%, 900px));
+        }
+
+        #modal img {
+            max-width: 90vw;
+            max-height: 80vh;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 50px;
+            color: white;
+            background: rgba(0, 0, 0, 0.4);
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        #prev {
+            left: 10px;
+        }
+
+        #next {
+            right: 10px;
+        }
+
+        #close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 30px;
+            background: rgba(255, 255, 255, 0.7);
+            border: none;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="gallery"></div>
+
+    <div id="modal">
+        <div id="modal-content">
+            <button id="close">&times;</button>
+            <button class="arrow" id="prev">&#10094;</button>
+            <img id="modal-img" src="" alt="Zdjęcie">
+            <button class="arrow" id="next">&#10095;</button>
+        </div>
+    </div>
+
+    <script>
+        let projectId;
+        let designId;
+        let photos = [];
+        let currentIndex = 0;
+
+        document.addEventListener("DOMContentLoaded", () => {
+            // Pobranie id z linku (projekt.html?project_id=1&design_id=0)
+            const params = new URLSearchParams(window.location.search);
+            projectId = params.get("project_id");
+            designId = params.get("design_id");
+
+            if (!projectId || !designId) {
+                console.error("Brak parametru w URL.");
+                return;
+            }
+
+            fetch("data_galleries.json")
+                .then(res => res.json())
+                .then(data => {
+                    // Znajdź projekt i design z JSON
+                    const project = data.find(p => p.projectId == projectId);
+                    if (!project) throw "Projekt nie znaleziony";
+
+                    const design = project.designs.find(d => d.designId == designId);
+                    if (!design) throw "Design nie znaleziony";
+
+                    // Generowanie tablicy zdjęć
+                    design.categories.forEach(category => {
+                        for (let i = 0; i <= design.maxIndex; i++) {
+                            photos.push({
+                                src: `design_images/project_${projectId}/design_${designId}/${category}_${i}.jpg`
+                            });
+                        }
+                    });
+
+                    renderGallery();
+                })
+                .catch(err => console.error("Błąd podczas ładowania JSON:", err));
+        });
+
+        // Funkcja generująca kafelki galerii
+        function renderGallery() {
+            const gallery = document.getElementById("gallery");
+            gallery.innerHTML = "";
+
+            photos.forEach((photo, index) => {
+                const img = document.createElement("img");
+                img.src = photo.src;
+                img.className = "tile";
+                //lazy loading
+                img.setAttribute("loading", "lazy");
+
+                img.addEventListener("click", () => openModal(index));
+                gallery.appendChild(img);
+            });
+        }
+
+        // Modal
+        const modal = document.getElementById("modal");
+        const modalImg = document.getElementById("modal-img");
+
+        function openModal(index) {
+            currentIndex = index;
+            modal.style.display = "flex";
+            updateModalImage();
+        }
+
+        function updateModalImage() {
+            modalImg.src = photos[currentIndex].src;
+        }
+
+        // Zamknięcie modalu
+        document.getElementById("close").addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+
+        // Nawigacja ze strzałkami i zapętlenie
+        document.getElementById("prev").addEventListener("click", () => {
+            currentIndex = (currentIndex - 1 + photos.length) % photos.length;
+            updateModalImage();
+        });
+        document.getElementById("next").addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % photos.length;
+            updateModalImage();
+        });
+
+        // Zamknięcie po kliknięciu poza zdjęcie
+        modal.addEventListener("click", e => {
+            if (e.target === modal) modal.style.display = "none";
+        });
+    </script>
+
+</body>
+
+</html>

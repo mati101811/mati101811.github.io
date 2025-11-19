@@ -1,0 +1,88 @@
+{
+    "projects": [
+        {
+            "designs": [
+                {
+                    "title": "Pokój z kuchnią",
+                    "image": "design_images/project_0design_0/z-hero.jpg",
+                    "subtitle": "Podział na sekcje,Zmiana układu",
+                    "options": [
+                        {
+                            "category": "light",
+                            "code-name": "dzienbezzaslon",
+                            "display-name": "Brak zasłon",
+                            "icon": "design_images/project_0/design_0/dzienbezzaslon_icon.jpg"
+                        },
+                        {
+                            "category": "light",
+                            "code-name": "dzienzaslony",
+                            "display-name": "Zasłony"
+                        },
+                        {
+                            "category": "dark",
+                            "code-name": "nocglowne",
+                            "display-name": "Światło główne"
+                        },
+                        {
+                            "category": "dark",
+                            "code-name": "nocmniejsze",
+                            "display-name": "Światła dodatkowe"
+                        },
+                        {
+                            "category": "dark",
+                            "code-name": "nockolorowe",
+                            "display-name": "Światła kolorowe"
+                        }
+                    ],
+                    "article-fragments": [
+                        {
+                            "image": -1,
+                            "order": 0,
+                            "text": "Niniejszy projekt tego niewielkiego mieszkania to jak przemiana z chaotycznej kawalerki w przestrzeń, która zaczyna przypominać pełnoprawne domowe wnętrze. Zamiast jednego pokoju, w którym wcześniej wszystko mieszało się ze wszystkim — meble przyklejone do ścian, stolik na środku i kuchnia, która była bardziej symbolicznym gestem niż realnym zaproszeniem do gotowania — pojawił się logiczny podział i porządek. Dziś wnętrze przypomina miniaturowe mieszkanie bez murów, ale z wyraźnym charakterem i przemyślaną logiką."
+                        },
+                        {
+                            "image": 2,
+                            "order": 0,
+                            "text": "Pierwsza strefa zaczyna się już po przekroczeniu progu mieszkania. Jest to kącik kuchenny, który dawniej wyglądał jak polowa baza wypadowa — z czajnikiem, małym zlewem i kuchenką upchniętymi w jednej linii — został zamieniony w kuchnię z jadalnią. Mikrofalówka, zamiast stać na komodzie, znalazła swoje miejsce na małym regale, a ten z kolei otworzył nowe możliwości: w górnych półkach pojawiło się miejsce na koszyki z suchymi produktami, a niżej ustawiono lekką ceramikę, kubki i miski. Nad zlewem zostałą zamontowana listwa LED, która oświetla roboczą przestrzeń, eliminując cienie i wizualnie powiększając tę małą bazę kulinarną. Zaraz obok, do kuchennego rytmu, dołącza nowa część jadalniana. Stolik z dwoma krzesłami został przesunięty z środka pokoju i stoi tuż przy regale, tworząc wygodne miejsce do spożywania posiłków, ale też do ich przyrządania. Na stole ustawiono prostą lampkę z możliwością zmiany temperatury barwowej — do obiadu ciepłej, do pracy chłodnej. Strefa jadalniana naturalnie domyka kuchenny kącik, a jednocześnie stanowi wygodną, praktyczną przerwę między wejściem a resztą mieszkania."
+                        },
+                        {
+                            "image": 3,
+                            "order": 0,
+                            "text": "Za jadalnią rozciąga się niewielkie domowe biuro, które mimo swoich rozmiarów zostało zaprojektowane tak, aby sprawiać wrażenie osobnej, wyciszonej strefy. Regał ustawiony przodem do biurka pełni tu rolę nie tylko miejsca na książki, dokumenty i wszystkie te drobiazgi, które zwykle gromadzą się wokół pracy, lecz także stanowi delikatną granicę między obowiązkami a odpoczynkiem. Odwrócony tyłem do stolika, działa jak subtelna ścianka działowa, pozwalając skupić się na zadaniach bez ciągłego wizualnego kontaktu z kuchnią czy jadalnią. Jego tył pomalowano na biało, aby całość zyskała spójność i nie wprowadzała przypadkowego chaosu — surowa dykta mogłaby psuć wrażenie uporządkowanej przestrzeni, zwłaszcza podczas posiłków. Samo biurko ustawiono na miękkim dywanie, który dodaje tej części mieszkania ciepła i sprawia, że przestrzeń pracy jest wyraźnie zaznaczona. Dywan tłumi dźwięki, ociepla optycznie całą sekcję i nadaje jej charakteru małego, wydzielonego gabinetu. Dzięki temu biuro nie tylko wygląda jak osobne pomieszczenie, ale też faktycznie zaczyna nim być w odbiorze — bardziej spokojne i sprzyjające skupieniu."
+                        },
+                        {
+                            "image": 5,
+                            "order": 0,
+                            "text": "Stojąca na środku pomieszczenia komoda niejako wyznacza korytarz prowadzący do biura. To kolejny element „udawanych” ścian — podział bez budowania czegokolwiek z cegieł, ale za to z wyczuciem przestrzeni. Wcześniej był to po prostu mebel pod mikrofalówkę, ale teraz pełni rolę domowego szkieletu podziału — tworzy namiastkę korytarza, subtelnie prowadząc domownika od jednej funkcji do drugiej. W udawaniu ściany pomaga stojący na komodzie telewizor. Dzięki temu całość jest wyższa i trudniej jest ją przegapić. Komodę - podobnie jak regał - pomalowano w całości na biało. Oby dwa meble nie są już ustawione tyłem do ściany więc należało wpasować je wizualnie do pozostałych mebli w mieszkaniu."
+                        },
+                        {
+                            "image": 9,
+                            "order": 1,
+                            "text": "Za komodą widać przestrzeń, którą można nazwać sypialnią. Łóżko, ustawione teraz przodem do komody, tworzy prawdziwą strefę sypialnianą. Takie ustawienie, w którym do łóżka można dostać się z obu stron, umożliwia swobodne poruszanie się i sprawia, że całość wygląda bardziej dojrzale — jak w pełnoprawnej sypialni, a nie w ciasno ustawionym pokoju studenckim. Powoduje też, że łóżko przestaje być „meblem przy ścianie”, a staje się centralnym punktem swojej części pokoju, co nadaje jej spokojny, harmonijny charakter. Dzięki temu łatwiej utrzymać porządek, wygodniej ścielić pościel, a samo korzystanie z przestrzeni staje się po prostu naturalne. To mały detal, który diametralnie zmienia odbiór całości i wprowadza do wnętrza więcej równowagi. Stojący na komodzie telewizor można łatwo oglądać leżąc wieczorem w łóżku. Za łóżkiem ustawiono drewnianą płytę obitą materiałem. Dzięki temu nie trzeba ingerować w ścianę ani wieszać na niej dekoracji, a sama płaszczyzna przestaje wyglądać na pustą. Obicie tworzy przytulne tło, które ociepla całą strefę sypialnianą i dodaje jej elegancji. </br></br> Obok łóżka stanęła szafa, tworząc układ przypominający mini-garderobę. Daje to wrażenie prywatności i pozwala oddzielić sen od codziennego zgiełku. W rogu obok okna, po przeciwnej stronie łóżka, pojawił się wąski, wysoki regał. To jeden z tych mebli, które robią więcej niż widać na pierwszy rzut oka — poprawia proporcje pokoju i dodaje symetrii. Teraz wzrok idzie w górę, a pokój nabiera lekkości. Regał przechowuje książki, świeczki, a nawet pudełko z kablami, które wcześniej nie miało swojego miejsca i błąkało się gdzieś po kątach. Wcześniej meble były niskie i rozproszone; teraz zyskują rytm i wizualną równowagę."
+                        },
+                        {
+                            "image": 7,
+                            "order": 0,
+                            "text": "Całość dopełniają rośliny oraz dywany rozmieszczone w kilku przemyślanych miejscach. Na półkach ustawiono niewielkie doniczki, które dodają lekkości i przełamują jednolitą linię mebli. Przy oknie stanęła większa roślina w solidnej donicy — jej obecność wprowadza do wnętrza naturalną miękkość i pomaga zrównoważyć prostotę pozostałego wyposażenia. Kolejna roślina, ustawiona na regale, ożywia tę część pokoju i sprawia, że przestrzeń, która kiedyś była czysto użytkowa, nabiera bardziej domowego charakteru.<br> <br> Istotną rolę pełnią również dywany. Ten pod biurkiem nie tylko wyznacza strefę pracy, ale też ociepla całą sekcję i poprawia akustykę, co w małym mieszkaniu ma spore znaczenie. Z kolei dywan przy łóżku eliminuje wrażenie chłodnej podłogi o poranku i sprawia, że sypialniana część wnętrza jest bardziej komfortowa i przyjazna. <br> <br> Nowym elementem wyposażenia jest duże stojące lustro ustawione w „korytarzu”, tuż przy oknie. Wprowadza do mieszkania wrażenie większej przestrzeni dzięki odbijaniu światła i pogłębianiu perspektywy. Jednocześnie jest to bardzo praktyczny dodatek — idealne miejsce, by skontrolować strój przed wyjściem. Lustro zamyka kompozycję tej części pomieszczenia i nadaje jej bardziej eleganckiego charakteru."
+                        },
+                        {
+                            "image": 1,
+                            "order": 1,
+                            "text": "Oświetlenie również przeszło pełną metamorfozę. Wcześniej całe mieszkanie opierało się wyłącznie na jednym, centralnym świetle sufitowym, które zalewało pokój równą, płaską jasnością i nie pozwalało tworzyć żadnego nastroju. Teraz każda strefa ma swoje własne źródło światła, dopasowane do funkcji i charakteru miejsca. <br> <br> W części kuchennej pojawiła się listwa LED zamontowana pod półką — niewielka, ale niezwykle praktyczna. Oświetla zlew i kuchenkę co sprawia, że nawet wieczorne przygotowywanie posiłków staje się wygodne. Światło jest chłodniejsze, bardziej techniczne, co ułatwia pracę, ale dzięki temu nie miesza się z ciepłymi tonami z pozostałej części mieszkania. <br>  <br> Strefa jadalniana zyskała lampkę stołową, która daje subtelne, skierowane światło. Przyjemnie oświetla talerze, tworząc bardziej kameralny klimat, niemal restauracyjny, kiedy inne światła są przygaszone. To duża zmiana względem wcześniejszego jasnego oświetlenia sufitowego, które wieczorem odbierało całości intymność. <br>  <br>  Największą różnicę robią jednak wysokie, stojące lampy ustawione w strategicznych punktach pokoju. Jedna z nich oświetla strefę biurową — delikatnie, równomiernie, tak aby nie męczyć oczu podczas pracy. "
+                        },
+                        {
+                            "text": "Druga stoi w sypialni. Jej ciepła, rozproszona poświata pozwala zrezygnować z ostrego światła sufitowego, dzięki czemu wieczory w mieszkaniu stają się znacznie spokojniejsze i bardziej nastrojowe. Dodatkowo lampa w takim miejscu może robić za lekkie światło umożliwiające wieczorne czytanie książki przed snem. <br> <br> Światło wprowadziło do mieszkania prawdziwą głębię. Zamiast jednego źródła rozświetlającego wszystko bez litości, teraz można operować warstwami: mocniejsze oświetlenie przy pracy, delikatniejsze przy odpoczynku, bardziej funkcjonalne w kuchni. W efekcie to nie mieszkanie dostosowuje się do lamp, ale lampy do codziennych czynności. To właśnie sprawia, że przestrzeń staje się bardziej domowa, a mniej przypadkowa. Nieprzypadkowym rozwiązaniem jest możliwość korzystania z oświetlenia w kolorze, co otworzyło zupełnie nowy sposób budowania nastroju. Wysokie stojące lampy poza zwykłym białym światłem mogą świecić w dowolnym kolorze, dzięki czemu wieczorne światło można dopasować nie tylko do aktywności, ale też do humoru. Delikatny niebieski uspokaja przy późnym oglądaniu filmów, ciepły różowy ociepla wnętrze w zimowe wieczory, a subtelna zieleń świetnie współgra z roślinami i podkreśla ich obecność. To nie jest efekt dyskotekowy — to raczej możliwość lekkiego „podmalowania” przestrzeni, nadania jej miękkiego, przyjemnego tonu bez ingerencji w wyposażenie. Kolorowe światło pozwala zmienić charakter mieszkania w kilka sekund i sprawić, że jedna przestrzeń może wyglądać każdego dnia trochę inaczej, bez przestawiania choćby jednego mebla.",
+                            "image": 7,
+                            "order": 1
+                        },
+                        {
+                            "image": 8,
+                            "order": 0,
+                            "text": "Pokój faktycznie stał się mniej przestrzenny w sensie dosłownym — wolnej podłogi ubyło, a wyraźnie wyznaczone przejścia są teraz węższe niż wcześniej. Jednak w tej zmianie kryje się ogromna wartość. Zamiast jednej dużej, niejednoznacznej przestrzeni pojawiły się konkretne strefy: kuchnia, jadalnia, biuro, część wypoczynkowa i sypialnia. Mimo że wszystko mieści się w jednym pomieszczeniu, całość nie przypomina już surowego pokoju studenckiego, ale małego, świadomie ułożonego mieszkania. <br> <br> To nadal ograniczona metrażem przestrzeń, lecz dużo bardziej domowa i funkcjonalna. Podział na sekcje uporządkował codzienność, a wprowadzone dodatki — rośliny, dywany, odpowiednie oświetlenie i meble pełniące role symbolicznych przegród — nadały jej spójność i charakter. Powstało wnętrze, w którym każda część ma swoje miejsce i cel, a wszystkie razem tworzą opowieść o życiu, wygodzie i dbałości o szczegóły."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
