@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Jeśli brak ciasteczka → ustawiamy domyślne "0000"
             if (!states) {
-                let designsCount = project.designs.length;
+                let designsCount = project.styles.length;
                 for (let i = 0; i < designsCount; i++) {
                     states += "0";
                 }
@@ -107,6 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 });
+
 
 
 
