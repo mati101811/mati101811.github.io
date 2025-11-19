@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var index = 0;
 
 
-    fetch("designy/data_projects.json")
+    fetch("data_projects.json")
         .then(response => response.json())
         .then(data => {
             // znajdź projekt o podanym ID
@@ -107,4 +107,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 });
+
 
