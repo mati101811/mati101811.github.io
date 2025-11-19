@@ -18,7 +18,7 @@ function showDesign(index) {
     setCookie(cookieName, states);
 
     // go to design<index>/index.html
-    window.location.href = `designy/design.html?project_id=${projectId}&design_id=${index}`;
+    window.location.href = `design.html?project_id=${projectId}&design_id=${index}`;
 }
 
 var projectId;
@@ -107,5 +107,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 });
+
 
 
