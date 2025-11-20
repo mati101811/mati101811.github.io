@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Galeria</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         body {
             margin: 0;
@@ -20,11 +21,12 @@
             padding: 10px;
         }
 
-        @media screen {
+        @media (max-width: 1100px) {
             #gallery {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+
         .tile {
             width: 100%;
             object-fit: cover;
@@ -37,62 +39,192 @@
             }
         }
 
-        /* Modal */
+        /* === MODAL — TŁO === */
         #modal {
-            display: none;
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.85);
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            /* pokazujesz JS-em: display:flex */
             justify-content: center;
             align-items: center;
-            flex-direction: column;
-            z-index: 1000;
+            z-index: 9999;
+
+            opacity: 0;
+            transition: opacity 0.25s ease;
         }
 
+        /* Po ustawieniu display:flex modal już istnieje, więc dajemy mu opacity:1 */
+        #modal[style*="flex"] {
+            opacity: 1;
+        }
+
+        /* === ZAWARTOŚĆ MODALU === */
         #modal-content {
             position: relative;
             display: flex;
+            justify-content: center;
             align-items: center;
-            width: calc(min(90%, 900px));
+
+            width: 100%;
+            max-width: 900px;
+            max-height: 90vh;
+
+            transform: scale(0.97);
+            transition: transform 0.2s ease;
         }
 
-        #modal img {
-            max-width: 90vw;
-            max-height: 80vh;
+        /* To samo podejście jak wyżej – po wyświetleniu od razu animacja */
+        #modal[style*="flex"] #modal-content {
+            transform: scale(1);
+        }
+
+        /* === ZDJĘCIE === */
+        #modal-img {
+            max-width: 100%;
+            max-height: 90vh;
+            border-radius: 8px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+            object-fit: contain;
+            display: block;
+            user-select: none;
+            -webkit-user-drag: none;
+        }
+
+        /* === PRZYCISK ZAMYKANIA === */
+        #close {
+            border: 2px solid hsl(0 0 5%);
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 28px;
+            background: hsl(0 0 5%);
+            font-weight: 600;
+            color: white;
+            height: fit-content;
+            overflow: hidden;
+            font-family: "Poppins", sans-serif;
+            width: fit-content;
+            cursor: pointer;
+            padding: 12px 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background 0.2s ease, transform 0.2s;
+
+            span {
+                position: relative;
+                z-index: 2;
+            }
+
+            &::before {
+                z-index: 1;
+                content: "";
+                position: absolute;
+                inset: 0;
+                left: 0;
+                top: -100%;
+                /* startuje całkowicie poza przyciskiem */
+                width: 100%;
+                height: 100%;
+                background: white;
+                /* kolor tła wsuwanego */
+                transition: top 0.3s ease;
+            }
+
+            &:hover {
+                color: hsl(0 0 5%);
+
+                &::before {
+                    top: 0;
+                }
+            }
+        }
+
+        /* === STRZAŁKI === */
+
+        #next::before,
+        #prev::before {
+            z-index: 1;
+            content: "";
+            position: absolute;
+            inset: 0;
+            top: 0;
+            /* startuje całkowicie poza przyciskiem */
+            width: 100%;
+            height: 100%;
+            background: white;
+            /* kolor tła wsuwanego */
+            transition: all 0.3s ease;
+        }
+
+        #prev::before {
+            left: 100%;
+        }
+
+        #next::before {
+            left: -100%;
+        }
+
+        #prev {
+            left: 10px;
+
+            
+            &:hover::before{
+                left:0;
+            }
+        }
+
+        #next {
+            right: 10px;
+
+            
+            &:hover::before{
+                left:0;
+            }
         }
 
         .arrow {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            font-size: 50px;
+            cursor: pointer;
+            border: 2px solid hsl(0 0 5%);
+            background-color: hsl(0 0 5%);
+            font-weight: 600;
             color: white;
-            background: rgba(0, 0, 0, 0.4);
-            border: none;
-            cursor: pointer;
-            padding: 10px;
+            overflow: hidden;
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            font-size: 28px;
+            padding: 42px 18px;
+            height: fit-content;
+            z-index: 10;
+            transition: background 0.2s, transform 0.2s;
+
+            span {
+                position: relative;
+                z-index: 2;
+            }
+
+
+
+            &:hover {
+                color: hsl(0 0 5%);
+            }
         }
 
-        #prev {
-            left: 10px;
-        }
 
-        #next {
-            right: 10px;
-        }
 
+
+
+        /* Priorytet z-index dla strzałek i X */
+        .arrow,
         #close {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 30px;
-            background: rgba(255, 255, 255, 0.7);
-            border: none;
-            cursor: pointer;
-            padding: 5px 10px;
+            z-index: 20;
         }
     </style>
 </head>
@@ -103,10 +235,10 @@
 
     <div id="modal">
         <div id="modal-content">
-            <button id="close">&times;</button>
-            <button class="arrow" id="prev">&#10094;</button>
+            <button id="close"><span>&times;</span></button>
+            <button class="arrow" id="prev"><span>&#10094;</span></button>
             <img id="modal-img" src="" alt="Zdjęcie">
-            <button class="arrow" id="next">&#10095;</button>
+            <button class="arrow" id="next"><span>&#10095;</span></button>
         </div>
     </div>
 
@@ -182,25 +314,95 @@
             modalImg.src = photos[currentIndex].src;
         }
 
+        document.querySelector("#modal-content").addEventListener("click", (e) => {
+            const rect = e.currentTarget.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+
+            if (x < rect.width / 2) {
+                // lewa połowa
+                currentIndex = (currentIndex - 1 + photos.length) % photos.length;
+            } else {
+                // prawa połowa
+                currentIndex = (currentIndex + 1) % photos.length;
+            }
+
+            updateModalImage();
+        });
+
         // Zamknięcie modalu
         document.getElementById("close").addEventListener("click", () => {
             modal.style.display = "none";
         });
 
         // Nawigacja ze strzałkami i zapętlenie
-        document.getElementById("prev").addEventListener("click", () => {
-            currentIndex = (currentIndex - 1 + photos.length) % photos.length;
-            updateModalImage();
-        });
-        document.getElementById("next").addEventListener("click", () => {
-            currentIndex = (currentIndex + 1) % photos.length;
-            updateModalImage();
-        });
+        // document.getElementById("prev").addEventListener("click", () => {
+        //     currentIndex = (currentIndex - 1 + photos.length) % photos.length;
+        //     updateModalImage();
+        // });
+        // document.getElementById("next").addEventListener("click", () => {
+        //     currentIndex = (currentIndex + 1) % photos.length;
+        //     updateModalImage();
+        // });
 
         // Zamknięcie po kliknięciu poza zdjęcie
         modal.addEventListener("click", e => {
             if (e.target === modal) modal.style.display = "none";
         });
+
+        // Obsługa swipe w modalu — poprawiona wersja
+        let startX = 0;
+        let endX = 0;
+        let touchStartTime = 0;
+
+        const imgElement = document.getElementById("modal-img");
+        const SWIPE_THRESHOLD = 50; // px
+        const MIN_SWIPE_TIME = 30; // ms - opcjonalnie, ignoruj bardzo krótkie dotknięcia
+
+        modal.addEventListener("touchstart", (e) => {
+            // pewność: używamy pierwszego toucha
+            const x = e.touches[0].clientX;
+            startX = x;
+            endX = x; // ważne — jeśli nie ma touchmove, delta będzie 0
+            touchStartTime = Date.now();
+        }, { passive: true });
+
+        modal.addEventListener("touchmove", (e) => {
+            endX = e.touches[0].clientX;
+        }, { passive: true });
+
+        modal.addEventListener("touchend", (e) => {
+            // bezpiecznie pobieramy końcową pozycję z changedTouches (gdy brak touchmove)
+            const changed = e.changedTouches && e.changedTouches[0];
+            if (changed) endX = changed.clientX;
+
+            const delta = endX - startX;
+            const elapsed = Date.now() - touchStartTime;
+
+            // Jeśli dotyk był ekstremalnie krótki i bez ruchu — zignoruj jako swipe
+            if (Math.abs(delta) >= SWIPE_THRESHOLD && elapsed > MIN_SWIPE_TIME) {
+                if (delta > 0) {
+                    // Swipe w prawo -> poprzednie zdjęcie
+                    currentIndex = (currentIndex - 1 + photos.length) % photos.length;
+                    updateModalImage();
+                } else {
+                    // Swipe w lewo -> następne zdjęcie
+                    currentIndex = (currentIndex + 1) % photos.length;
+                    updateModalImage();
+                }
+            }
+
+            // reset (opcjonalny)
+            startX = 0;
+            endX = 0;
+            touchStartTime = 0;
+        }, { passive: true });
+
+        modal.addEventListener("touchcancel", () => {
+            startX = 0;
+            endX = 0;
+            touchStartTime = 0;
+        });
+
     </script>
 
 </body>

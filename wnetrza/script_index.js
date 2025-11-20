@@ -41,5 +41,4 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         })
         .catch(err => console.error("Błąd wczytywania danych:", err));
-
 });

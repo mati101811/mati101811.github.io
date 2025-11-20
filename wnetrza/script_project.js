@@ -9,7 +9,8 @@ function setCookie(name, value) {
 
 
 function showDesign(index) {
-    
+
+    // go to design<index>/index.html
     window.location.href = `design.html?project_id=${projectId}&design_id=${index}`;
 }
 
@@ -84,7 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         })
         .catch(err => console.error("Błąd wczytywania danych:", err));
-
 
 
 });

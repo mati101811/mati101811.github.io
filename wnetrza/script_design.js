@@ -293,5 +293,4 @@ function setActiveModalVariant(code) {
 
 function goToGallery() {
     window.location.href = `gallery.html?project_id=${projectId}&design_id=${designId}`;
-
 }
