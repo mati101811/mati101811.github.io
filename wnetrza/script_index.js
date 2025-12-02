@@ -6,7 +6,7 @@ function showDesign(index) {
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("projects-container");
 
-    fetch("data_projects.json")
+    fetch("data/projects.json")
         .then(response => response.json())
         .then(data => {
             data.projects.forEach(project => {
@@ -14,11 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 tile.className = "tile";
                 tile.onclick = () => showDesign(project.id);
 
-                const img = document.createElement("img");
-                img.src = 'images/project_' + project.id + '_hero.jpg';
-                img.alt = project.title;
-
-                tile.style.backgroundImage = `url('images/project_${project.id}_hero.jpg')`;
+                tile.style.backgroundImage = `url('design_images/project_${project.id}/hero.jpg')`;
 
                 const text = document.createElement("div");
 
@@ -33,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 text.appendChild(title);
                 text.appendChild(subtitle);
 
-                tile.appendChild(img);
                 tile.appendChild(text);
 
                 container.appendChild(tile);

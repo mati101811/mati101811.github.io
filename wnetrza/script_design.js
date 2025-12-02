@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // setTheme();
 
     //only if media screen
-    setMenuLinksWidth();
 
     // Pobranie id z linku (projekt.html?id=1)
     const params = new URLSearchParams(window.location.search);
@@ -19,12 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch("data_designs.json")
+    fetch("data/project_" + projectId + "/design_" + designId + ".json")
         .then(response => response.json())
         .then(data => {
-            design = data.projects[projectId].designs[designId];
+            design = data;
             setHeroSection();
             setMenu();
+    setMenuLinksWidth();
             setOptionsChanges();
             showArticle();
         })
@@ -83,20 +83,43 @@ function setMenuLinksWidth() {
 }
 
 function setMenu() {
-    const links = document.querySelectorAll(".menu .link");
+    const options = design.options;
+    const menu = document.getElementById("menu");
 
-    links.forEach(link => {
-        link.addEventListener("click", e => {
-            e.preventDefault();
+    // Wyczyść menu jeśli coś już tam jest
+    menu.innerHTML = "";
 
-            // zdejmujemy active ze wszystkich
-            links.forEach(l => l.classList.remove("active"));
+    options.forEach((opt, index) => {
+        // Tworzymy <a>
+        const a = document.createElement("a");
+        a.className = "link";
+        if(index == 0) a.classList.add("active");
+        a.dataset.code = opt["code-name"];
+        a.dataset.theme = opt.category;
+        a.dataset.index = index;
 
-            // nadajemy active klikniętemu
-            link.classList.add("active");
-        });
+        // Ikona
+        const iconSpan = document.createElement("span");
+        iconSpan.className = "link-icon";
+
+        const img = document.createElement("img");
+        img.src = opt.icon;
+        iconSpan.appendChild(img);
+
+        // Tytuł
+        const titleSpan = document.createElement("span");
+        titleSpan.className = "link-title";
+        titleSpan.textContent = opt["display-name"];
+
+        // Składamy element
+        a.appendChild(iconSpan);
+        a.appendChild(titleSpan);
+
+        // Dodajemy do menu
+        menu.appendChild(a);
     });
 }
+
 
 function setHeroSection() {
     const title = document.getElementById("article-title");
@@ -118,7 +141,7 @@ function setHeroSection() {
         document.title = subtitles[0];
 
     // subtitle.textContent = design.subtitle;
-    hero.style.backgroundImage = `url('images/project_${projectId}_design_${designId}_hero.jpg')`;
+    hero.style.backgroundImage = `url('design_images/project_${projectId}/design_${designId}/z-hero_0.jpg')`;
 }
 
 function setOptionsChanges() {
@@ -128,13 +151,26 @@ function setOptionsChanges() {
 
 
     buttons.forEach(button => {
-        button.addEventListener('click', () => {
+        button.addEventListener('click', e => {
+
+            e.preventDefault();
             // Usuwamy active z pozostałych
             buttons.forEach(b => b.classList.remove('active'));
             let images = document.querySelectorAll('.article-img');
             // Nadajemy active klikniętemu
             button.classList.add('active');
 
+            const index = button.dataset.index;
+            const hero = document.getElementById("hero-img");
+            const url = `design_images/project_${projectId}/design_${designId}/z-hero_${index}.jpg`;
+
+            const img = new Image();
+            img.src = url;
+
+            // dopiero kiedy obraz się załaduje → zmieniamy tło
+            img.onload = () => {
+                hero.style.backgroundImage = `url('${url}')`;
+            };
             // Pobieramy wybrany styl (np. "modern", "natural"...)
             const chosenStyle = button.dataset.code;
             generatVariant = chosenStyle;

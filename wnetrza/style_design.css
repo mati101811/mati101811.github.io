@@ -97,6 +97,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
 }
 
 #main-content-container {
@@ -143,7 +144,7 @@ body {
 
 
 /* From Uiverse.io by Admin12121 */
-.menu {
+#menu {
     padding: 0px;
     background-color: var(--menu);
     position: sticky;
@@ -156,6 +157,8 @@ body {
 }
 
 .link {
+    cursor: pointer;
+    border: none;
     font-family: "Poppins", sans-serif;
     border-radius: 7px;
     display: inline-flex;
@@ -438,7 +441,7 @@ body {
         --max-link-width: 28px;
     }
 
-    .menu{
+    #menu{
         top: auto;    /* ważne: wyłączasz top */
         position:fixed;
         bottom: 0;
@@ -449,10 +452,13 @@ body {
     }
 
     .btn,
-    #scrollTopBtn,
-    #close-modal {
+    #scrollTopBtn{
         font-size: small;
         padding: 10px 20px;
+    }
+
+    #close-modal {
+        padding: 10px 20px;;
     }
 
     #scrollTopBtn {

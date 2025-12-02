@@ -1,0 +1,74 @@
+{
+    "title": "Pokój z kuchnią",
+    "image": "design_images/project_0/design_0/z-hero_0.jpg",
+    "subtitle": "Styl neowiktoriański,Drewno i ozdoby",
+    "options": [
+        {
+            "category": "light",
+            "code-name": "dzienbezswiatel",
+            "display-name": "Światło słoneczne",
+            "icon": "images/sun.png"
+        },
+        {
+            "category": "light",
+            "code-name": "dzienswieczki",
+            "display-name": "Świeczki",
+            "icon": "images/candlestick.png"
+        },
+        {
+            "category": "dark",
+            "code-name": "nocglowne",
+            "display-name": "Żyrandole",
+            "icon": "images/chandelier (1).png"
+        },
+        {
+            "category": "dark",
+            "code-name": "nocswieczki",
+            "display-name": "Świeczki nocą",
+            "icon": "images/candle (1).png"
+        },
+        {
+            "category": "dark",
+            "code-name": "nocprojektor",
+            "display-name": "Projektor",
+            "icon": "images/projector.png"
+        }
+    ],
+    "article-fragments": [
+        {
+            "image": -1,
+            "order": 0,
+            "text": "W tym projekcie jedynym realnym ograniczeniem był kształt pomieszczenia oraz narzucone przez architekturę rozmieszczenie okien i drzwi. Chociaż pokój, na podstawie którego powstała ta aranżacja, ma w rzeczywistości instalacje wodne i elektryczne w konkretnych miejscach, zdecydowano się zignorować ich układ i potraktować przestrzeń jak czystą kartę. Dzięki temu wnętrze zaprojektowano tak, jakby budowano je od zera. Wybór estetyki padł na połączenie klasycznego angielskiego salonu z nowoczesną funkcjonalnością — ciemne drewno, głębokie zielone akcenty, skóra, złote detale i odrobina teatralności tworzą atmosferę jednocześnie elegancką i praktyczną."
+        },
+        {
+            "image": 3,
+            "order": 0,
+            "text": "Przestrzeń wejściowa, mimo wyjątkowo skromnego metrażu, została potraktowana z pełną powagą funkcjonalną. W rogu przy drzwiach znajduje się siedzisko stylizowane na starą skórzaną kanapę; jego forma nawiązuje do dawnych klubowych mebli, a wnętrze pełni rolę schowka na buty, który utrzymuje porządek w tej ciasnej części mieszkania. Tuż nad nim zawieszono ciężki, kamienny wieszak — masywny i rzeźbiony, jakby zdjęty ze ściany przedwojennej kamienicy. Po przeciwnej stronie drzwi umieszczono duże lustro w szerokiej, złotej ramie. Odbija światło z wnętrza i wizualnie otwiera przedsionek, a jego górna część oświetlana jest przez parę złoconych lamp, które równoważą ciemną kolorystykę. Podłogę przedsionka przykrywa turkusowy dywan o gęstym włosiu, wyznaczający granicę tej strefy. Całość domyka ciąg półek biegnących nad drzwiami — to przedłużenie kuchennej zabudowy, stworzone po to, by wykorzystać każdy centymetr pustej przestrzeni pod sufitem."
+        },
+        {
+            "image": 6,
+            "order": 1,
+            "text": "Kuchnia jest najbardziej współczesną częścią całego projektu, choć jej wykończenie świadomie unika typowego minimalizmu. Ciemne drewniane fronty, przypominające meble z tradycyjnej jadalni, nadają jej masywności. W zabudowę wkomponowano piekarnik, płytę grzewczą oraz mikrofalówkę, zachowując ciągłą linię wizualną. Nad blatem zastosowano zielone, geometryczne płytki nawiązujące do historycznych kafli kuchennych, co dodaje wnętrzu miękkiego retro-szlifu. Zlew i płyta znajdują się na przeciwległych końcach roboczej powierzchni, zostawiając środek jako szeroki, nieprzerwany blat do pracy. Kuchnię od reszty pomieszczenia oddzielają dwie pionowe kolumny mebli — jedna przy wejściu, druga przy strefie dziennej. Dodatkowe szafki rozciągające się nad przedsionkiem dopełniają układ i tworzą jednolitą, wysoką zabudowę, która porządkuje wizualnie tę część mieszkania."
+        },
+        {
+            "image": 14,
+            "order": 0,
+            "text": "Strefa biurowa opiera się na jedynym oknie w pomieszczeniu i wykorzystuje je możliwie najpełniej. Biurko ustawiono tak, aby światło dzienne padało bezpośrednio na blat. Ten blat jest wydłużony, niemal jak w dawnej pracowni — zmieści, laptop, monitor, dokumenty i wszystkie narzędzia potrzebne do pracy. Na jego końcu stoi wysoki, dekoracyjny regał o rzeźbionej ramie, który nadaje tej części wnętrza klimat starej biblioteki. Ciężkie zielone zasłony pozwalają regulować ilość światła, a skórzane krzesło biurowe nadaje tej strefie spójność z resztą mieszkania. Pod biurkiem i w jego otoczeniu położono jasny dywan, który łagodzi kontrast wobec ciemnych mebli i wprowadza nieco miękkiej faktury."
+        },
+        {
+            "image": 11,
+            "order": 1,
+            "text": "Naprzeciwko okna mieści się strefa sypialniana. Jej centrum stanowi łóżko z drewnianą ramą wyposażoną w wysuwane szuflady pod materacem — to bardzo praktyczne miejsce na odzież sezonową, pościel czy inne rzadziej używane przedmioty. Ściany sypialni niemal toną w dekoracjach: złote ramki, motywy roślinne, pejzaże oraz drobne elementy sztukaterii tworzą wrażenie, jakby przestrzeń była fragmentem prywatnej galerii. Pośród tych elementów, na wąskiej półce, stoi projektor. To on pełni funkcję telewizora, więc cała strefa została dostosowana do oglądania filmów. Obraz jest rzutowany na zawieszoną po drugiej stronie miękką, białą zasłonę. Zasłona wygląda jak zwykła dekoracja okienna, ale dzięki odpowiedniej tkaninie działa jak ekran projekcyjny. Ten wybór łączy dwie funkcje: zachowuje charakter wnętrza i jednocześnie eliminuje potrzebę posiadania typowego, twardego ekranu."
+        },
+        {
+            "image": 15,
+            "order": 0,
+            "text": "Oświetlenie w tym projekcie jest kluczowe — pełni rolę zarówno praktyczną, jak i nastrojową. Złote kinkiety, udające dawne świeczniki, rzucają miękkie pobłyski na ciemnobrązowe ściany. Klasyczne żyrandole rozpraszają światło w pokoju, a ledowe źródła umieszczone w oprawach stylizowanych na epokowe tworzą iluzję historycznej formy przy współczesnej wygodzie. To światło nie tylko doświetla, ale też modeluje przestrzeń, wprowadzając do niej głębię i odrobinę teatralności."
+        },
+        {
+            "image": -1,
+            "order": 1,
+            "text": "Całość można opisać jako wnętrze ciemne, przytulne i nasycone detalami, ale zarazem rozplanowane z chłodną logiką. Każda strefa ma swoje miejsce i nie zabiera przestrzeni innym — zamiast dzielić, porządkuje. Kuchnia, biurko oraz część sypialniana współistnieją w jednym pokoju, bez ostrych granic, ale z wyraźnym poczuciem, że każde z tych miejsc zostało świadomie zdefiniowane. To projekt, w którym funkcja i klimat idą równo, a klasyczna estetyka płynnie wspiera współczesny sposób życia."
+        }
+    ]
+}

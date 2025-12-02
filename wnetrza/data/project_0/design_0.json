@@ -1,0 +1,94 @@
+{
+    "title": "Pokój z kuchnią",
+    "image": "design_images/project_0design_0/z-hero.jpg",
+    "subtitle": "Styl studencki,Podział na sekcje",
+    "options": [
+        {
+            "category": "light",
+            "code-name": "dzienbezzaslon",
+            "display-name": "Bez zasłon",
+            "icon": "images/window.png"
+        },
+        {
+            "category": "light",
+            "code-name": "dzienzaslony",
+            "display-name": "Zasłony",
+            "icon": "images/shades.png"
+        },
+        {
+            "category": "dark",
+            "code-name": "nocglowne",
+            "display-name": "Światło główne",
+            "icon": "images/main_light.png"
+        },
+        {
+            "category": "dark",
+            "code-name": "nocmniejsze",
+            "display-name": "Lampki",
+            "icon": "images/lamp.png"
+        },
+        {
+            "category": "dark",
+            "code-name": "nockolorowe",
+            "display-name": "Kolorowe",
+            "icon": "images/color-light.png"
+        }
+    ],
+    "article-fragments": [
+        {
+            "image": -1,
+            "order": 0,
+            "text": "Projekt tego mieszkania nie powstał od zera — w pomieszczeniu stały już konkretne meble, które trzeba było uwzględnić przy nowym układzie funkcjonalnym. Całość pierwotnie tworzyła jedną, nieuporządkowaną przestrzeń, a teraz została podzielona na strefy pełniące odrębne funkcje."
+        },
+        {
+            "image": 2,
+            "order": 0,
+            "text": "Pierwsza strefa zaczyna się już po przekroczeniu progu mieszkania. Jest to część kuchenna, która została rozszerzona o część jadalnianą. Mikrofalówka, zamiast stać na komodzie, znalazła swoje miejsce na małym regale, a ten z kolei otworzył nowe możliwości: w górnych półkach pojawiło się miejsce na koszyki z suchymi produktami, a niżej ustawiono lekką ceramikę, kubki i miski. Nad zlewem zostałą zamontowana listwa LED, która oświetla roboczą przestrzeń. Niejaką jadalnię tworzy stolik z dwoma krzesłami, który został przesunięty z środka pokoju i stoi tuż przy regale, tworząc wygodne miejsce do spożywania posiłków, ale też do ich przyrządania. Na stole ustawiono prostą lampkę z możliwością zmiany koloru. Strefa jadalniana naturalnie domyka kuchenny kącik, a jednocześnie stanowi wygodną, praktyczną przerwę między wejściem a resztą mieszkania."
+        },
+        {
+            "image": 3,
+            "order": 1,
+            "text": "Za jadalnią znajduje się domowe biuro. Biurko zostało ustawione na miękkim dywanie, dzięki czemu ta strefa jest wyraźnie odseparowana od reszty mieszkania. Regał, który wcześniej stał pod ścianą, został obrócony przodem do biurka i pełni teraz rolę otwartej przegrody. Przechowuje książki i dokumenty, a jego tył tworzy lekkie odcięcie między pracą a kuchnią i jadalnią. Regał, chociaż nie jest ścianą, działa jak funkcjonalna bariera ograniczająca widok na inne strefy podczas pracy. Dodatkowo, aby wpasować go w wygląd innych mebli jego tył został pomalowany na biało."
+        },
+        {
+            "image": 5,
+            "order": 0,
+            "text": "Stojąca na środku pomieszczenia komoda niejako wyznacza korytarz prowadzący do biura. Komoda, podobnie jak regał biurowy, została pomalowana na biało, ponieważ nie stoi już przy ścianie i musi komponować się z innymi meblami widocznymi z każdej strony. Telewizor ustawiony na komodzie podnosi optyczną wysokość przegrody i wzmacnia efekt podziału przestrzeni."
+        },
+        {
+            "image": -1,
+            "order": 1,
+            "text": "Za komodą znajduje się przestrzeń sypialniana. Łóżko, ustawione jest teraz przodem do komody. Takie ustawienie, w którym do łóżka można dostać się z obu stron, umożliwia swobodne poruszanie się i sprawia, że całość wygląda jak w pełnoprawnej sypialni. Powoduje też, że łóżko przestaje być „meblem przy ścianie”, a staje się centralnym punktem swojej części pokoju, co nadaje jej spokojny, harmonijny charakter. Stojący na komodzie telewizor można łatwo oglądać leżąc wieczorem w łóżku. Za łóżkiem ustawiono drewnianą płytę obitą materiałem. Dzięki temu nie trzeba ingerować w ścianę ani wieszać na niej dekoracji, a sama płaszczyzna przestaje wyglądać na pustą. Obicie tworzy przytulne tło, które ociepla całą strefę sypialnianą i dodaje jej elegancji."
+        },
+        {
+            "image": 7,
+            "order": 0,
+            "text": "Obok łóżka stoi szafa, która wcześniej zajmowała inne miejsce w pokoju. Teraz tworzy układ przypominający mini-garderobę i zwiększa poczucie prywatności w części sypialnianej. Po przeciwnej stronie łóżka, w rogu obok okna, ustawiono wąski wysoki regał. Poprawia on proporcje pokoju i dodaje symetrii. Kieruje wzrok w górę, przez co pokój nabiera lekkości. Regał służy do przechowywania książek, świeczek i innych akcesoriów domowych."
+        },
+        {
+            "image": -1,
+            "order": 1,
+            "text": "Rośliny ustawione w różnych miejscach pełnią funkcję wizualnego uzupełnienia przestrzeni. Małe doniczki stoją na półkach i regale, a duża roślina w ciężkiej donicy — przy oknie. Dzięki temu wnętrze zyskało elementy naturalne, które łagodzą twarde linie mebli i wprowadzają równowagę."
+        },
+        {
+            "text": "Istotną rolę pełnią również dywany. Ten pod biurkiem nie tylko wyznacza strefę pracy, ale też ociepla całą sekcję. Z kolei dywan przy łóżku eliminuje wrażenie chłodnej podłogi o poranku i sprawia, że sypialniana część wnętrza jest bardziej komfortowa i przyjazna.",
+            "image": -1,
+            "order": 0
+        },
+        {
+            "image": 8,
+            "order": 1,
+            "text": "Kolejnym nowym elementem jest stojące lustro ustawione przy oknie, na obrzeżu „korytarza”. Odbija światło i pogłębia perspektywę, optycznie powiększając wnętrze. Jest też praktyczne jako miejsce do sprawdzenia stroju."
+        },
+        {
+            "image":-1,
+            "order": 0,
+            "text": "Rozbudowano również oświetlenie w pomieszczeniu. Wcześniej była tylko jedna lampa sufitowa. Teraz każda strefa ma własne źródło światła. W kuchni działa listwa LED pod półką, która poprawia widoczność przy przygotowywaniu posiłków. W jadalni znajduje się lampka stołowa zapewniająca skupione, miękkie światło. Biuro oświetla lampka nad monitorem, która skierowana na blat biurka oświetla wszystkie znajdujące się na nim przedmioty. Wysokie stojące lampy poza zwykłym białym światłem mogą świecić w dowolnym kolorze, dzięki czemu wieczorne światło można dopasować nie tylko do aktywności, ale też do humoru."
+        },
+        {
+            "image":-1,
+            "order": 0,
+            "text": "Pomieszczenie, mimo że nadal jest jednym pokojem, funkcjonuje teraz jak małe mieszkanie z czytelnie zaplanowanymi sekcjami. Zastane meble zostały przestawione i wykorzystane tak, aby zwiększyć funkcjonalność całości. W rezultacie przestrzeń jest wygodna, uporządkowana i dopasowana do codziennych potrzeb."
+        }
+    ]
+}

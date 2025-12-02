@@ -1,0 +1,17 @@
+[
+  {
+    "projectId": 0,
+    "designs": [
+      {
+        "designId": 0,
+        "categories": ["dzienbezzaslon", "dzienzaslony", "nocglowne", "nocmniejsze", "nockolorowe"],
+        "maxIndex": 9
+      },
+      {
+        "designId": 1,
+        "categories": ["dzienbezswiatel", "dzienswieczki", "nocglowne", "nocswieczki", "nocprojektor"],
+        "maxIndex": 26
+      }
+    ]
+  }
+]

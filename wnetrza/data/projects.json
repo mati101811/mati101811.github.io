@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "title": "Pokój z kuchnią",
+            "description": "Nieduży pokój z kącikiem kuchennym",
+            "styles": [
+                {
+                    "id": 0,
+                    "title": "Styl studencki",
+                    "description": "Przestrzeń podzielona na mniejsze sekcje"
+                },
+                {
+                    "id": 1,
+                    "title": "Styl neowiktoriański",
+                    "description": "Duża ilość drewna i ornamentów"
+                }
+            ]
+        }
+    ]
+}

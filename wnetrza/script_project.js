@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var index = 0;
 
 
-    fetch("data_projects.json")
+    fetch("data/projects.json")
         .then(response => response.json())
         .then(data => {
             // znajdź projekt o podanym ID
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.title = project.title;
             subtitle.textContent = project.description;
             // hero:after display none
-            hero.style.backgroundImage = `url('images/project_${projectId}_hero.jpg')`;
+            hero.style.backgroundImage = `url('design_images/project_${projectId}/hero.jpg')`;
 
             // generowanie styli
             project.styles.forEach(style => {
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.log(style.id);
                 tile.onclick = () => showDesign(style.id);
 
-                var src = 'images/project_' + projectId + '_design_' + style.id + '_hero.jpg';
+                var src = 'design_images/project_' + projectId + '/design_' + style.id + '/z-hero_0.jpg';
 
                 tile.style.backgroundImage = `url('${src}')`;
 
