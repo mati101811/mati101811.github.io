@@ -38,6 +38,29 @@ body {
     margin: 20px auto;
 }
 
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px auto 30px;
+}
+
+.action-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.action-button:hover {
+    background-color: #3f9b44;
+    border-color: #3f9b44;
+}
+
 .item {
     padding: 10px;
     border-radius: 10px;
@@ -103,4 +126,35 @@ button {
 .gallery-item p {
     padding: 5px;
     margin: 0;
+}
+
+.win-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.win-modal.visible {
+    display: flex;
+}
+
+.win-modal-content {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: min(90vw, 360px);
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.win-modal-content h2 {
+    margin: 0 0 8px;
+}
+
+.win-modal-content p {
+    margin: 0 0 16px;
 }
