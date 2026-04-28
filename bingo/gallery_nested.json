@@ -6420,7 +6420,7 @@
         ]
     },
     "Hyundai Bayon": {
-        "zdjęcia": [{
+        "Hyundai Bayon (2021 - ...) ": [{
                 "opis": "Hyundai Bayon przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Hyundai_Bayon_1X7A0329.jpg/250px-Hyundai_Bayon_1X7A0329.jpg"
             },
@@ -6439,14 +6439,15 @@
         ]
     },
     "Hyundai Elantra": {
-        "zdjęcia": [{
+        "Hyundai Elantra I (1990 – 1995)": [{
                 "opis": "europejski Hyundai Lantra I po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hyundai_Lantra_front_20080228.jpg/250px-Hyundai_Lantra_front_20080228.jpg"
             },
             {
                 "opis": "europejski Hyundai Lantra I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Hyundai_Lantra_rear_20080228.jpg/250px-Hyundai_Lantra_rear_20080228.jpg"
-            },
+            }],
+        "Hyundai Elantra II (1995 – 2000)": [
             {
                 "opis": "europejski Hyundai Lantra II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/1998_Hyundai_Lantra_%28J2%29_SE_sedan_%282015-06-08%29_01.jpg/250px-1998_Hyundai_Lantra_%28J2%29_SE_sedan_%282015-06-08%29_01.jpg"
@@ -6458,7 +6459,8 @@
             {
                 "opis": "europejski Hyundai Lantra II Kombi",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/1996_Hyundai_Lantra_GLSi_Sportswagon_1.6_Rear.jpg/250px-1996_Hyundai_Lantra_GLSi_Sportswagon_1.6_Rear.jpg"
-            },
+            }],
+        "Hyundai Elantra III (2000 – 2006)": [
             {
                 "opis": "Hyundai Elantra III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hyundai_Elantra_front_20080527.jpg/250px-Hyundai_Elantra_front_20080527.jpg"
@@ -6482,7 +6484,8 @@
             {
                 "opis": "Hyundai Elantra III Liftback - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/2002_Hyundai_Elantra_TDi_CDX_2.0_Rear.jpg/250px-2002_Hyundai_Elantra_TDi_CDX_2.0_Rear.jpg"
-            },
+            }],
+        "Hyundai Elantra IV (2006 – 2010)": [
             {
                 "opis": "Hyundai Elantra IV",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Hyundai_Elantra_%28fourth_generation%29_%28front%29%2C_Serdang.jpg/250px-Hyundai_Elantra_%28fourth_generation%29_%28front%29%2C_Serdang.jpg"
@@ -6498,7 +6501,8 @@
             {
                 "opis": "Hyundai Elantra Touring - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2010_Hyundai_Elantra_Touring_GLS_rear_--_08-12-2010.jpg/250px-2010_Hyundai_Elantra_Touring_GLS_rear_--_08-12-2010.jpg"
-            },
+            }],
+        "Hyundai Elantra V (2010 – 2015)": [
             {
                 "opis": "Hyundai Elantra V przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/20100804_hyundai_avante_1.jpg/250px-20100804_hyundai_avante_1.jpg"
@@ -6526,7 +6530,8 @@
             {
                 "opis": "Hyundai Elantra GT II po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2017_Hyundai_Elantra_GT%2C_Front_Left%2C_09-20-2020.jpg/250px-2017_Hyundai_Elantra_GT%2C_Front_Left%2C_09-20-2020.jpg"
-            },
+            }],
+        "Hyundai Elantra VI (2015 – 2020)": [
             {
                 "opis": "Hyundai Elantra VI przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2017_Hyundai_Elantra_%28AD%29_Elite_sedan_%282017-12-09%29_01.jpg/250px-2017_Hyundai_Elantra_%28AD%29_Elite_sedan_%282017-12-09%29_01.jpg"
@@ -6562,7 +6567,8 @@
             {
                 "opis": "Hyundai Elantra GT III SE",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hyundai_Elantra_GT_2017_Hatchback_Front.jpg/250px-Hyundai_Elantra_GT_2017_Hatchback_Front.jpg"
-            },
+            }],
+        "Hyundai Elantra VII (2020 – ...)": [
             {
                 "opis": "Hyundai Elantra VII przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Hyundai_Avante_CN7_white_%281%29_%28cropped%29.jpg/250px-Hyundai_Avante_CN7_white_%281%29_%28cropped%29.jpg"
@@ -6590,7 +6596,7 @@
         ]
     },
     "Hyundai i10": {
-        "zdjęcia": [{
+        "Hyundai i10 I (2007 – 2013)": [{
                 "opis": "Hyundai i10 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Hyundai_i10_front_20100328.jpg/250px-Hyundai_i10_front_20100328.jpg"
             },
@@ -6605,7 +6611,8 @@
             {
                 "opis": "Hyundai i10 I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hyundai_i10_1.1_UEFA_EURO_2012_Edition_%28Facelift%29_%E2%80%93_Heckansicht%2C_17._November_2012%2C_Heiligenhaus.jpg/250px-Hyundai_i10_1.1_UEFA_EURO_2012_Edition_%28Facelift%29_%E2%80%93_Heckansicht%2C_17._November_2012%2C_Heiligenhaus.jpg"
-            },
+            }],
+        "Hyundai i10 II (2013 – 2019)": [
             {
                 "opis": "Hyundai i10 II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Hyundai_i10_1.2_Style_%28II%29_%E2%80%93_Frontansicht%2C_26._Dezember_2013%2C_D%C3%BCsseldorf.jpg/250px-Hyundai_i10_1.2_Style_%28II%29_%E2%80%93_Frontansicht%2C_26._Dezember_2013%2C_D%C3%BCsseldorf.jpg"
@@ -6629,7 +6636,8 @@
             {
                 "opis": "Hyundai Grand i10 I - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Silver_Hyundai_Grand_i10%2C_rear_view.jpg/250px-Silver_Hyundai_Grand_i10%2C_rear_view.jpg"
-            },
+            }],
+        "Hyundai i10 III (2019 – 2026)": [
             {
                 "opis": "Hyundai i10 III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Hyundai_i10_%28LA%29_IMG_2622.jpg/250px-Hyundai_i10_%28LA%29_IMG_2622.jpg"
@@ -6665,7 +6673,7 @@
         ]
     },
     "Hyundai i20": {
-        "zdjęcia": [{
+        "Hyundai i20 I (2008 – 2014)": [{
                 "opis": "Hyundai i20 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hyundai_i20_1.2_Comfort_front_20100617.jpg/250px-Hyundai_i20_1.2_Comfort_front_20100617.jpg"
             },
@@ -6684,7 +6692,8 @@
             {
                 "opis": "Hyundai i20 I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2014_Hyundai_i20_%28PB_MY14%29_Active_5-door_hatchback_%282018-08-31%29_02.jpg/250px-2014_Hyundai_i20_%28PB_MY14%29_Active_5-door_hatchback_%282018-08-31%29_02.jpg"
-            },
+            }],
+        "Hyundai i20 II (2014 – 2020)": [
             {
                 "opis": "Hyundai i20 II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2015_Hyundai_i20_SE_Automatic_1.4_Front.jpg/250px-2015_Hyundai_i20_SE_Automatic_1.4_Front.jpg"
@@ -6712,7 +6721,8 @@
             {
                 "opis": "Hyundai i20 II - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Hyundai_i20_FL_Monrepos_2018_IMG_0112.jpg/250px-Hyundai_i20_FL_Monrepos_2018_IMG_0112.jpg"
-            },
+            }],
+        "Hyundai i20 III (2020 – ...)": [
             {
                 "opis": "Hyundai i20 III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hyundai_i20_%28BC3%29_IMG_4109.jpg/250px-Hyundai_i20_%28BC3%29_IMG_4109.jpg"
@@ -6736,7 +6746,7 @@
         ]
     },
     "Hyundai i30": {
-        "zdjęcia": [{
+        "Hyundai i30 I (2007 – 2012)": [{
                 "opis": "Hyundai i30 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Hyundai_i30_front_20070928.jpg/250px-Hyundai_i30_front_20070928.jpg"
             },
@@ -6759,7 +6769,8 @@
             {
                 "opis": "Hyundai i30 I - tył po drugim liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hyundai_i30_%28Facelift%29_%E2%80%93_Heckansicht%2C_14._Juni_2011%2C_Mettmann.jpg/250px-Hyundai_i30_%28Facelift%29_%E2%80%93_Heckansicht%2C_14._Juni_2011%2C_Mettmann.jpg"
-            },
+            }],
+        "Hyundai i30 II (2011 – 2017)": [
             {
                 "opis": "Hyundai i30 II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2013_Hyundai_i30_%28GD_MY13%29_Premium_5-door_hatchback_%282015-07-03%29_01.jpg/250px-2013_Hyundai_i30_%28GD_MY13%29_Premium_5-door_hatchback_%282015-07-03%29_01.jpg"
@@ -6783,7 +6794,8 @@
             {
                 "opis": "Hyundai i30 II po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/2017_Hyundai_i30_%28GD3_Series_II_MY17%29_Active_5-door_hatchback_%282018-10-01%29.jpg/250px-2017_Hyundai_i30_%28GD3_Series_II_MY17%29_Active_5-door_hatchback_%282018-10-01%29.jpg"
-            },
+            }],
+        "Hyundai i30 III (2016 - ...)": [
             {
                 "opis": "Hyundai i30 III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2018_Hyundai_i30_SE_Nav_T-GDi_1.3_Front.jpg/250px-2018_Hyundai_i30_SE_Nav_T-GDi_1.3_Front.jpg"
@@ -6815,7 +6827,7 @@
         ]
     },
     "Hyundai i40": {
-        "zdjęcia": [{
+        "Hyundai i40 (2011 – 2019)": [{
                 "opis": "Hyundai i40 przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/2012_Hyundai_i40_%28VF2%29_Premium_2.0_sedan_%282015-11-11%29_01.jpg/250px-2012_Hyundai_i40_%28VF2%29_Premium_2.0_sedan_%282015-11-11%29_01.jpg"
             },
@@ -6838,7 +6850,7 @@
         ]
     },
     "Hyundai ix20": {
-        "zdjęcia": [{
+        "Hyundai ix20 (2010 – 2019)": [{
                 "opis": "Hyundai ix20 przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hyundai_ix20_Classic_%E2%80%93_Frontansicht%2C_26._Juni_2011%2C_D%C3%BCsseldorf.jpg/250px-Hyundai_ix20_Classic_%E2%80%93_Frontansicht%2C_26._Juni_2011%2C_D%C3%BCsseldorf.jpg"
             },
@@ -6853,7 +6865,7 @@
         ]
     },
     "Hyundai ix35": {
-        "zdjęcia": [{
+        "Hyundai ix35 I (2009 – 2015)": [{
                 "opis": "Hyundai ix35 I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Hyundai_ix35_2.0_4WD_Premium_%E2%80%93_Frontansicht_%281%29%2C_29._Mai_2011%2C_Heiligenhaus.jpg/250px-Hyundai_ix35_2.0_4WD_Premium_%E2%80%93_Frontansicht_%281%29%2C_29._Mai_2011%2C_Heiligenhaus.jpg"
             },
@@ -6868,7 +6880,8 @@
             {
                 "opis": "Hyundai ix35 I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Hyundai_ix35_FIFA_World_Cup_Edition_%28Facelift%29_%E2%80%93_Heckansicht%2C_5._April_2014%2C_D%C3%BCsseldorf.jpg/250px-Hyundai_ix35_FIFA_World_Cup_Edition_%28Facelift%29_%E2%80%93_Heckansicht%2C_5._April_2014%2C_D%C3%BCsseldorf.jpg"
-            },
+            }],
+        "Hyundai ix35 II (2017 – 2023)": [
             {
                 "opis": "Hyundai ix35 II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/HYUNDAI_iX35_%28NU%29_China_%2810%29_%28cropped%29.jpg/250px-HYUNDAI_iX35_%28NU%29_China_%2810%29_%28cropped%29.jpg"
@@ -6888,7 +6901,7 @@
         ]
     },
     "Hyundai Kona": {
-        "zdjęcia": [{
+        "Hyundai Kona I (2017 – 2023)": [{
                 "opis": "Hyundai Kona I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2019_Hyundai_Kona_Premium_SE_GDi_Hybrid_1.6_Front.jpg/250px-2019_Hyundai_Kona_Premium_SE_GDi_Hybrid_1.6_Front.jpg"
             },
@@ -6927,7 +6940,8 @@
             {
                 "opis": "Hyundai Kona Electric I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Hyundai_Kona_Electric_FL_IMG_3915.jpg/250px-Hyundai_Kona_Electric_FL_IMG_3915.jpg"
-            },
+            }],
+        "Hyundai Kona II (2022 - ...)": [
             {
                 "opis": "Hyundai Kona II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/0_Hyundai_Kona_%28SX2%29_2.jpg/250px-0_Hyundai_Kona_%28SX2%29_2.jpg"
@@ -6955,7 +6969,7 @@
         ]
     },
     "Hyundai Santa Fe": {
-        "zdjęcia": [{
+        "Hyundai Santa Fe I (2000 – 2006)": [{
                 "opis": "Hyundai Santa Fe I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2001_Hyundai_Santa_Fe_TD_2.0_Front.jpg/250px-2001_Hyundai_Santa_Fe_TD_2.0_Front.jpg"
             },
@@ -6970,7 +6984,8 @@
             {
                 "opis": "Hyundai Santa Fe I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Hyundai_Santa_Fe_rear_20090227.jpg/250px-Hyundai_Santa_Fe_rear_20090227.jpg"
-            },
+            }],
+        "Hyundai Santa Fe II (2006 – 2012)": [
             {
                 "opis": "Hyundai Santa Fe II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/2009_Hyundai_Santa_Fe_%28CM_MY09%29_SLX_CRDi_wagon_%282015-07-03%29_01.jpg/250px-2009_Hyundai_Santa_Fe_%28CM_MY09%29_SLX_CRDi_wagon_%282015-07-03%29_01.jpg"
@@ -6986,7 +7001,8 @@
             {
                 "opis": "Hyundai Santa Fe II - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hyundai_Sante_Fe_II_Facelift_rear_20101030.jpg/250px-Hyundai_Sante_Fe_II_Facelift_rear_20101030.jpg"
-            },
+            }],
+        "Hyundai Santa Fe III (2012 – 2018)": [
             {
                 "opis": "Hyundai Santa Fe III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Hyundai_Santa_Fe_2.2_CRDi_4WD_Premium_%28III%29_%E2%80%93_Frontansicht%2C_31._Dezember_2012%2C_D%C3%BCsseldorf.jpg/250px-Hyundai_Santa_Fe_2.2_CRDi_4WD_Premium_%28III%29_%E2%80%93_Frontansicht%2C_31._Dezember_2012%2C_D%C3%BCsseldorf.jpg"
@@ -7018,7 +7034,8 @@
             {
                 "opis": "Hyundai Grand Santa Fe - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2018_Hyundai_Santa_Fe_rear_6.15.18.jpg/250px-2018_Hyundai_Santa_Fe_rear_6.15.18.jpg"
-            },
+            }],
+        "Hyundai Santa Fe IV (2018 – 2024)": [
             {
                 "opis": "Hyundai Santa Fe IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/2019_Hyundai_Santa_Fe_HTRAC_Front.jpg/250px-2019_Hyundai_Santa_Fe_HTRAC_Front.jpg"
@@ -7034,7 +7051,8 @@
             {
                 "opis": "Hyundai Santa Fe IV - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hyundai_Santa_Fe_%28TM%29_PHEV_FL_IMG_0031.jpg/250px-Hyundai_Santa_Fe_%28TM%29_PHEV_FL_IMG_0031.jpg"
-            },
+            }],
+        "Hyundai Santa Fe V (2023 – ...)": [
             {
                 "opis": "Hyundai Santa Fe V",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2023_Hyundai_Santa_Fe_%28MX5%29_1.jpg/250px-2023_Hyundai_Santa_Fe_%28MX5%29_1.jpg"
@@ -7054,14 +7072,15 @@
         ]
     },
     "Hyundai Tucson": {
-        "zdjęcia": [{
+        "Hyundai Tucson I (2004 – 2009)": [{
                 "opis": "Hyundai Tucson I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Hyundai_Tucson_2.0_CRDi_%28JM%29_%E2%80%93_Frontansicht%2C_14._M%C3%A4rz_2011%2C_W%C3%BClfrath.jpg/250px-Hyundai_Tucson_2.0_CRDi_%28JM%29_%E2%80%93_Frontansicht%2C_14._M%C3%A4rz_2011%2C_W%C3%BClfrath.jpg"
             },
             {
                 "opis": "Hyundai Tucson I - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Hyundai_Tucson_2.0_CRDi_%28JM%29_%E2%80%93_Heckansicht%2C_14._M%C3%A4rz_2011%2C_W%C3%BClfrath.jpg/250px-Hyundai_Tucson_2.0_CRDi_%28JM%29_%E2%80%93_Heckansicht%2C_14._M%C3%A4rz_2011%2C_W%C3%BClfrath.jpg"
-            },
+            }],
+        "Hyundai Tucson II (2009 – 2015)": [
             {
                 "opis": "Hyundai Tucson II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/2010_Hyundai_Tucson_GLS_1_--_01-06-2010.jpg/250px-2010_Hyundai_Tucson_GLS_1_--_01-06-2010.jpg"
@@ -7073,7 +7092,8 @@
             {
                 "opis": "Hyundai Tucson II po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hyundai_Tucson_les_G%C3%A9antes_de_St-Jean.jpg/250px-Hyundai_Tucson_les_G%C3%A9antes_de_St-Jean.jpg"
-            },
+            }],
+        "Hyundai Tucson III (2015 – 2020)": [
             {
                 "opis": "Hyundai Tucson III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hyundai_Tucson_2.0_CRDi_4WD_Premium_%28III%29_%E2%80%93_Frontansicht%2C_5._September_2015%2C_D%C3%BCsseldorf.jpg/250px-Hyundai_Tucson_2.0_CRDi_4WD_Premium_%28III%29_%E2%80%93_Frontansicht%2C_5._September_2015%2C_D%C3%BCsseldorf.jpg"
@@ -7093,7 +7113,8 @@
             {
                 "opis": "Hyundai Tucson III N-Line",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Hyundai_Tucson_N-Line_Monrepos_2019_IMG_1926.jpg/250px-Hyundai_Tucson_N-Line_Monrepos_2019_IMG_1926.jpg"
-            },
+            }],
+        "Hyundai Tucson IV (2020 – ...)": [
             {
                 "opis": "Hyundai Tucson IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Hyundai_Tucson_%28NX4%29_IMG_3676.jpg/250px-Hyundai_Tucson_%28NX4%29_IMG_3676.jpg"
@@ -7121,7 +7142,7 @@
         ]
     },
     "Isuzu D-Max": {
-        "zdjęcia": [{
+        "Isuzu D-Max I (2002 − 2011)": [{
                 "opis": "Isuzu D-Max I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Isuzu_D-Max_%28first_generation%29_%28front%29%2C_Serdang.jpg/250px-Isuzu_D-Max_%28first_generation%29_%28front%29%2C_Serdang.jpg"
             },
@@ -7132,7 +7153,8 @@
             {
                 "opis": "Isuzu D-Max I po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Isuzu_D-MAX.JPG/250px-Isuzu_D-MAX.JPG"
-            },
+            }],
+        "Isuzu D-Max II (2011 − ...)": [
             {
                 "opis": "Isuzu D-Max II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2012_Isuzu_D-Max_%28MY12%29_SX_4x4_4-door_utility_%282012-10-26%29_01.jpg/250px-2012_Isuzu_D-Max_%28MY12%29_SX_4x4_4-door_utility_%282012-10-26%29_01.jpg"
@@ -7152,7 +7174,8 @@
             {
                 "opis": "Isuzu D-Max po drugim liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Isuzu_D-Max_Genf_2018.jpg/250px-Isuzu_D-Max_Genf_2018.jpg"
-            },
+            }],
+        "Isuzu D-Max III (2020 − ...)": [
             {
                 "opis": "Isuzu D-Max III",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Isuzu_D-Max_III_IMG001_%282%29.jpg/250px-Isuzu_D-Max_III_IMG001_%282%29.jpg"
@@ -7175,7 +7198,7 @@
         ]
     },
     "Jaguar E-Pace": {
-        "zdjęcia": [{
+        "Jaguar E-Pace (2017 – 2024)": [{
                 "opis": "Jaguar E-Pace",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Jaguar_E-Pace_D180_AWD_S_%E2%80%93_Frontansicht%2C_24._Juni_2018_D%C3%BCsseldorf.jpg/250px-Jaguar_E-Pace_D180_AWD_S_%E2%80%93_Frontansicht%2C_24._Juni_2018_D%C3%BCsseldorf.jpg"
             },
@@ -7186,7 +7209,7 @@
         ]
     },
     "Jaguar F-Pace": {
-        "zdjęcia": [{
+        "Jaguar F-Pace (2016 – 2025)": [{
                 "opis": "Jaguar F-Type przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jaguar_F-Type_Coup%C3%A9_%E2%80%93_Frontansicht%2C_7._November_2015%2C_Neuss.jpg/250px-Jaguar_F-Type_Coup%C3%A9_%E2%80%93_Frontansicht%2C_7._November_2015%2C_Neuss.jpg"
             },
@@ -7209,7 +7232,7 @@
         ]
     },
     "Jaguar XE": {
-        "zdjęcia": [{
+        "Jaguar XE (2015 – 2024)": [{
                 "opis": "Jaguar XE przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/2017_Jaguar_XE_%28X760_MY17%29_20d_Prestige_sedan_%282018-10-01%29_01.jpg/250px-2017_Jaguar_XE_%28X760_MY17%29_20d_Prestige_sedan_%282018-10-01%29_01.jpg"
             },
@@ -7224,7 +7247,7 @@
         ]
     },
     "Jaguar XF": {
-        "zdjęcia": [{
+        "Jaguar XF I (2007 – 2015)": [{
                 "opis": "Jaguar XF I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2010_Jaguar_XF_Premium_Luxury_V6_Automatic_3.0_Front.jpg/250px-2010_Jaguar_XF_Premium_Luxury_V6_Automatic_3.0_Front.jpg"
             },
@@ -7243,7 +7266,8 @@
             {
                 "opis": "Jaguar XF I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/2013_Jaguar_XF_%28X250_MY13%29_Luxury_2.2_sedan_%282015-08-07%29_02.jpg/250px-2013_Jaguar_XF_%28X250_MY13%29_Luxury_2.2_sedan_%282015-08-07%29_02.jpg"
-            },
+            }],
+        "Jaguar XF II (2015 – 2024)": [
             {
                 "opis": "Jaguar XF II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2018_Jaguar_XF_V6_S_Diesel_Automatic_3.0_Front.jpg/250px-2018_Jaguar_XF_V6_S_Diesel_Automatic_3.0_Front.jpg"
@@ -7267,14 +7291,15 @@
         ]
     },
     "Jaguar XJ": {
-        "zdjęcia": [{
+        "Jaguar XJ I (1968 – 1973)": [{
                 "opis": "Jaguar XJ I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/1973_Jaguar_XJ6_%28Series_I%29_4.2_SWB_sedan_%282015-08-02%29_01.jpg/250px-1973_Jaguar_XJ6_%28Series_I%29_4.2_SWB_sedan_%282015-08-02%29_01.jpg"
             },
             {
                 "opis": "Jaguar XJ I - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/1973_Jaguar_XJ6_%28Series_I%29_4.2_SWB_sedan_%282015-08-02%29_02.jpg/250px-1973_Jaguar_XJ6_%28Series_I%29_4.2_SWB_sedan_%282015-08-02%29_02.jpg"
-            },
+            }],
+        "Jaguar XJ II (1973 – 1979)": [
             {
                 "opis": "Jaguar XJ II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/1974_Jaguar_XJ6_L_Series_II_%2822095264662%29.jpg/250px-1974_Jaguar_XJ6_L_Series_II_%2822095264662%29.jpg"
@@ -7286,7 +7311,8 @@
             {
                 "opis": "Jaguar XJ Coupe",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Jaguar_XJ_Series_II_Coup%C3%A9_5%2C3_V12.JPG/250px-Jaguar_XJ_Series_II_Coup%C3%A9_5%2C3_V12.JPG"
-            },
+            }],
+        "Jaguar XJ III (1979 – 1992)": [
             {
                 "opis": "Jaguar XJ III",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jaguar_XJ_-_prz%C3%B3d_-_Muzeum_Motoryzacji_Topacz.jpg/250px-Jaguar_XJ_-_prz%C3%B3d_-_Muzeum_Motoryzacji_Topacz.jpg"
@@ -7294,7 +7320,8 @@
             {
                 "opis": "Jaguar XJ III - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Jaguar_Sovereign_-_ty%C5%82_-_Muzeum_Motoryzacji_Topacz.jpg/250px-Jaguar_Sovereign_-_ty%C5%82_-_Muzeum_Motoryzacji_Topacz.jpg"
-            },
+            }],
+        "Jaguar XJ IV (1986 – 1994)": [
             {
                 "opis": "Jaguar XJ IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/1992_Jaguar_Sovereign_4.0_Front.jpg/250px-1992_Jaguar_Sovereign_4.0_Front.jpg"
@@ -7306,7 +7333,8 @@
             {
                 "opis": "Jaguar XJ IV po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Jaguar_Sovereign_%281988%29_exhibited_at_Schaffen-Diest_Fly-drive_2014.JPG/250px-Jaguar_Sovereign_%281988%29_exhibited_at_Schaffen-Diest_Fly-drive_2014.JPG"
-            },
+            }],
+        "Jaguar XJ V (1994 – 1997)": [
             {
                 "opis": "Jaguar XJ V",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/1996_Jaguar_XJ6_3.2_Front.jpg/250px-1996_Jaguar_XJ6_3.2_Front.jpg"
@@ -7314,7 +7342,8 @@
             {
                 "opis": "Jaguar XJ V - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/1996_Jaguar_XJ6_3.2_Rear.jpg/250px-1996_Jaguar_XJ6_3.2_Rear.jpg"
-            },
+            }],
+        "Jaguar XJ VI (1997 – 2002)": [
             {
                 "opis": "Jaguar XJ VI",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Jaguar_X308_front_20080325.jpg/250px-Jaguar_X308_front_20080325.jpg"
@@ -7322,7 +7351,8 @@
             {
                 "opis": "Jaguar XJ VI - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Jaguar_X308_rear_20080325.jpg/250px-Jaguar_X308_rear_20080325.jpg"
-            },
+            }],
+        "Jaguar XJ VII (2002 – 2009)": [
             {
                 "opis": "Jaguar XJ VII przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2006_Jaguar_XJ_Sovereign_TDVi_Automatic_2.8_Front.jpg/250px-2006_Jaguar_XJ_Sovereign_TDVi_Automatic_2.8_Front.jpg"
@@ -7334,7 +7364,8 @@
             {
                 "opis": "Jaguar XJ VII po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Jaguar_XJ_2.7_D_%28X350%2C_Facelift%29_%E2%80%93_Frontansicht%2C_17._April_2011%2C_D%C3%BCsseldorf.jpg/250px-Jaguar_XJ_2.7_D_%28X350%2C_Facelift%29_%E2%80%93_Frontansicht%2C_17._April_2011%2C_D%C3%BCsseldorf.jpg"
-            },
+            }],
+        "Jaguar XJ VIII (2009 – 2019)": [
             {
                 "opis": "Jaguar XJ VIII przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jaguar_XJ_3.0_Kompressor_AWD_Premium_Luxury_%28X351%29_%E2%80%93_Frontansicht%2C_17._Mai_2013%2C_M%C3%BCnster.jpg/250px-Jaguar_XJ_3.0_Kompressor_AWD_Premium_Luxury_%28X351%29_%E2%80%93_Frontansicht%2C_17._Mai_2013%2C_M%C3%BCnster.jpg"
@@ -7350,7 +7381,7 @@
         ]
     },
     "Jeep Avenger": {
-        "zdjęcia": [{
+        "Jeeo Avenger (2023 - ...)": [{
                 "opis": "Jeep Avenger BEV",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jeep_Avenger_IMG_7815.jpg/250px-Jeep_Avenger_IMG_7815.jpg"
             },
@@ -7365,7 +7396,7 @@
         ]
     },
     "Jeep Cherokee": {
-        "zdjęcia": [{
+        "Jeeo Cherokee I (1974 – 1983)": [{
                 "opis": "Jeep Cherokee I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/1975_Jeep_Cherokee_in_beige%2C_front_right.jpg/250px-1975_Jeep_Cherokee_in_beige%2C_front_right.jpg"
             },
@@ -7376,7 +7407,8 @@
             {
                 "opis": "Jeep Cherokee I Chief",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Jeep_Cherokee_SJ_Chief_S_f.jpg/250px-Jeep_Cherokee_SJ_Chief_S_f.jpg"
-            },
+            }],
+        "Jeeo Cherokee II (1983 – 2001)": [
             {
                 "opis": "Jeep Cherokee II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Jeep_Cherokee_4.0_Litre_Limited_%28XJ%2C_Facelift%29_%E2%80%93_Frontansicht%2C_29._Oktober_2011%2C_D%C3%BCsseldorf.jpg/250px-Jeep_Cherokee_4.0_Litre_Limited_%28XJ%2C_Facelift%29_%E2%80%93_Frontansicht%2C_29._Oktober_2011%2C_D%C3%BCsseldorf.jpg"
@@ -7396,7 +7428,8 @@
             {
                 "opis": "Jeep Cherokee II - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/1997_Jeep_Cherokee_Sport_2.5_Rear.jpg/250px-1997_Jeep_Cherokee_Sport_2.5_Rear.jpg"
-            },
+            }],
+        "Jeeo Cherokee III (2001 – 2007)": [
             {
                 "opis": "Jeep Cherokee III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2004_Jeep_Cherokee_CRD_Sport_2.5_Front.jpg/250px-2004_Jeep_Cherokee_CRD_Sport_2.5_Front.jpg"
@@ -7412,7 +7445,8 @@
             {
                 "opis": "Jeep Cherokee III - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Jeep_Cherokee_2.8_CRD_rear.jpg/250px-Jeep_Cherokee_2.8_CRD_rear.jpg"
-            },
+            }],
+        "Jeeo Cherokee IV (2007 – 2012)": [
             {
                 "opis": "Jeep Cherokee IV",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2008_Jeep_Liberty_KK_white-f.jpg/250px-2008_Jeep_Liberty_KK_white-f.jpg"
@@ -7424,7 +7458,8 @@
             {
                 "opis": "Jeep Cherokee IV Renegade",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jeep_Liberty_Renegade_--_08-12-2010.jpg/250px-Jeep_Liberty_Renegade_--_08-12-2010.jpg"
-            },
+            }],
+        "Jeeo Cherokee V (2013 – 2023)": [
             {
                 "opis": "Jeep Cherokee V przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Jeep_Cherokee_2.0_MulitJet_4WD_Limited_%28KL%29_%E2%80%93_Frontansicht%2C_30._August_2014%2C_D%C3%BCsseldorf.jpg/250px-Jeep_Cherokee_2.0_MulitJet_4WD_Limited_%28KL%29_%E2%80%93_Frontansicht%2C_30._August_2014%2C_D%C3%BCsseldorf.jpg"
@@ -7448,7 +7483,7 @@
         ]
     },
     "Jeep Compass": {
-        "zdjęcia": [{
+        "Jeep Compas I (2006 – 2016)": [{
                 "opis": "Jeep Compass I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2008_Jeep_Compass_%28MK_MY08%29_Limited_2.4_wagon_%282015-11-11%29_01.jpg/250px-2008_Jeep_Compass_%28MK_MY08%29_Limited_2.4_wagon_%282015-11-11%29_01.jpg"
             },
@@ -7471,7 +7506,8 @@
             {
                 "opis": "Jeep Compass I - tył po drugim liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2015_Jeep_Compass_%28MK_MY16%29_Limited_wagon_%282015-12-07%29_02.jpg/250px-2015_Jeep_Compass_%28MK_MY16%29_Limited_wagon_%282015-12-07%29_02.jpg"
-            },
+            }],
+        "Jeep Compass II (2016 – 2026)": [
             {
                 "opis": "Jeep Compass II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg/250px-2019_Jeep_Compass_Limited_2.4L%2C_front_7.6.19.jpg"
@@ -7495,7 +7531,7 @@
         ]
     },
     "Jeep Grand Cherokee": {
-        "zdjęcia": [{
+        "Jeep Grand Cherokee I (1992 – 1998)": [{
                 "opis": "Jeep Grand Cherokee I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Jeep_Grand_Cherokee_ZJ_front_20090121.jpg/250px-Jeep_Grand_Cherokee_ZJ_front_20090121.jpg"
             },
@@ -7510,7 +7546,8 @@
             {
                 "opis": "Jeep Grand Cherokee I - tył po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Jeep_Grand_Cherokee_%28rear%29.JPG/250px-Jeep_Grand_Cherokee_%28rear%29.JPG"
-            },
+            }],
+        "Jeep Grand Cherokee II (1998 – 2005)": [
             {
                 "opis": "Jeep Grand Cherokee II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jeep_Grand_Cherokee_WJ_01_China_2016-04-06.jpg/250px-Jeep_Grand_Cherokee_WJ_01_China_2016-04-06.jpg"
@@ -7522,7 +7559,8 @@
             {
                 "opis": "Jeep Grand Cherokee II po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Jeep_Cherokee_WJ.jpg/250px-Jeep_Cherokee_WJ.jpg"
-            },
+            }],
+        "Jeep Grand Cherokee III (2004 – 2010)": [
             {
                 "opis": "Jeep Grand Cherokee III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/2006_Jeep_Grand_Cherokee_CRD_Limited_Automatic_3.0_Front.jpg/250px-2006_Jeep_Grand_Cherokee_CRD_Limited_Automatic_3.0_Front.jpg"
@@ -7538,7 +7576,8 @@
             {
                 "opis": "Jeep Grand Cherokee III SRT8",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Jeep_Grand_Cherokee_SRT8.jpg/250px-Jeep_Grand_Cherokee_SRT8.jpg"
-            },
+            }],
+        "Jeep Grand Cherokee IV (2010 – 2021)": [
             {
                 "opis": "Jeep Grand Cherokee IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Jeep_Grand_Cherokee_3.0_CRD_Overland_%28WK%29_%E2%80%93_Frontansicht%2C_31._M%C3%A4rz_2012%2C_D%C3%BCsseldorf.jpg/250px-Jeep_Grand_Cherokee_3.0_CRD_Overland_%28WK%29_%E2%80%93_Frontansicht%2C_31._M%C3%A4rz_2012%2C_D%C3%BCsseldorf.jpg"
@@ -7566,7 +7605,8 @@
             {
                 "opis": "Jeep Grand Cherokee IV SRT8",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2015_Jeep_Grand_Cherokee_%28WK2_MY15%29_SRT_wagon_%2823490804895%29.jpg/250px-2015_Jeep_Grand_Cherokee_%28WK2_MY15%29_SRT_wagon_%2823490804895%29.jpg"
-            },
+            }],
+        "Jeep Grand Cherokee V (2021 - ...)": [
             {
                 "opis": "Jeep Grand Cherokee V",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Front_Left%2C_01-16-2022.jpg/250px-2022_Jeep_Grand_Cherokee_Summit_Reserve_4x4_in_Bright_White%2C_Front_Left%2C_01-16-2022.jpg"
@@ -7590,7 +7630,7 @@
         ]
     },
     "Jeep Renegade": {
-        "zdjęcia": [{
+        "Jeep Renegade (2014 – 2025)": [{
                 "opis": "Jeep Renegade Longitude przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jeep_Renegade_1.6_MultiJet_2WD_Longitude_%E2%80%93_Frontansicht%2C_9._November_2014%2C_D%C3%BCsseldorf.jpg/250px-Jeep_Renegade_1.6_MultiJet_2WD_Longitude_%E2%80%93_Frontansicht%2C_9._November_2014%2C_D%C3%BCsseldorf.jpg"
             },
@@ -7613,7 +7653,7 @@
         ]
     },
     "Jeep Wrangler": {
-        "zdjęcia": [{
+        "Jeep Wrangler I (1986 – 1995)": [{
                 "opis": "Jeep Wrangler I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/1992_Jeep_YJ.JPG/250px-1992_Jeep_YJ.JPG"
             },
@@ -7626,17 +7666,19 @@
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jeep_Wrangler_%2840964447312%29.jpg/250px-Jeep_Wrangler_%2840964447312%29.jpg"
             },
             {
+                "opis": "Jeep Wrangler I Cabriolet",
+                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jeep_TJ_Sahara_Convertible_4.0L.JPG/250px-Jeep_TJ_Sahara_Convertible_4.0L.JPG"
+            }],
+        "Jeep Wrangler II (1996 – 2006)": [
+            {
                 "opis": "Jeep Wrangler II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/1996_Jeep_Wrangler_%28TJ%29_Renegade_hardtop_%2825122857263%29.jpg/250px-1996_Jeep_Wrangler_%28TJ%29_Renegade_hardtop_%2825122857263%29.jpg"
             },
             {
                 "opis": "Jeep Wrangler II - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1996_Jeep_Wrangler_%28TJ%29_Renegade_hardtop_%2825628492242%29.jpg/250px-1996_Jeep_Wrangler_%28TJ%29_Renegade_hardtop_%2825628492242%29.jpg"
-            },
-            {
-                "opis": "Jeep Wrangler I Cabriolet",
-                "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jeep_TJ_Sahara_Convertible_4.0L.JPG/250px-Jeep_TJ_Sahara_Convertible_4.0L.JPG"
-            },
+            }],
+        "Jeep Wrangler III (2006 – 2018)": [
             {
                 "opis": "Jeep Wrangler III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2007-Jeep-Wrangler-X.jpg/250px-2007-Jeep-Wrangler-X.jpg"
@@ -7652,7 +7694,8 @@
             {
                 "opis": "Jeep Wrangler III po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2015_Jeep_Wrangler_X_CRD_Automatic_2.8_Front.jpg/250px-2015_Jeep_Wrangler_X_CRD_Automatic_2.8_Front.jpg"
-            },
+            }],
+        "Jeep Wrangler IV (2017 - ...)": [
             {
                 "opis": "Jeep Wrangler IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2018_Jeep_Wrangler_Unlimited_Sport_4-door_front_6.10.18.jpg/250px-2018_Jeep_Wrangler_Unlimited_Sport_4-door_front_6.10.18.jpg"
@@ -8799,7 +8842,7 @@
         ]
     },
     "Lexus CT": {
-        "zdjęcia": [{
+        "Lexus CT (2010 - 2022)": [{
                 "opis": "Lexus CT",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Lexus_CT_200h_Filderstadt_1Y7A4909.jpg/250px-Lexus_CT_200h_Filderstadt_1Y7A4909.jpg"
             },
@@ -8822,14 +8865,15 @@
         ]
     },
     "Lexus ES": {
-        "zdjęcia": [{
+        "Lexus ES I (1989 - 1991)": [{
                 "opis": "Lexus ES I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lexus_ES_250_VZV21.jpg/250px-Lexus_ES_250_VZV21.jpg"
             },
             {
                 "opis": "Tył ES I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Lexus-ES250-2.jpg/250px-Lexus-ES250-2.jpg"
-            },
+            }],
+        "Lexus ES II (1991 - 1996)": [
             {
                 "opis": "Lexus ES II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/1994-1996_Lexus_ES_300_%28VCV10R%29_sedan_%282011-06-15%29_01.jpg/250px-1994-1996_Lexus_ES_300_%28VCV10R%29_sedan_%282011-06-15%29_01.jpg"
@@ -8837,7 +8881,8 @@
             {
                 "opis": "Tył ES II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1992-1994_Lexus_ES_300_%28VCV10R%29_sedan_%282010-06-17%29_02.jpg/250px-1992-1994_Lexus_ES_300_%28VCV10R%29_sedan_%282010-06-17%29_02.jpg"
-            },
+            }],
+        "Lexus ES III (1996 - 2001)": [
             {
                 "opis": "Lexus ES III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/1996-1999_Lexus_ES_300_%28MCV20R%29_LXS_sedan_%282011-10-25%29_01.jpg/250px-1996-1999_Lexus_ES_300_%28MCV20R%29_LXS_sedan_%282011-10-25%29_01.jpg"
@@ -8849,7 +8894,8 @@
             {
                 "opis": "Tył ES III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1996-1999_Lexus_ES_300_%28MCV20R%29_LXS_sedan_%282011-10-25%29_02.jpg/250px-1996-1999_Lexus_ES_300_%28MCV20R%29_LXS_sedan_%282011-10-25%29_02.jpg"
-            },
+            }],
+        "Lexus ES IV (2001 - 2006)": [
             {
                 "opis": "Lexus ES IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Lexus_ES300_--_09-12-2009.jpg/250px-Lexus_ES300_--_09-12-2009.jpg"
@@ -8861,7 +8907,8 @@
             {
                 "opis": "Tył ES IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2003_Lexus_ES_300_%28MCV30R%29_sedan_%282011-01-05%29.jpg/250px-2003_Lexus_ES_300_%28MCV30R%29_sedan_%282011-01-05%29.jpg"
-            },
+            }],
+        "Lexus ES V (2006 - 2013)": [
             {
                 "opis": "Lexus ES V przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2007_Lexus_ES350_--_NHTSA.jpg/250px-2007_Lexus_ES350_--_NHTSA.jpg"
@@ -8873,7 +8920,8 @@
             {
                 "opis": "Tył ES V",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/2010_Lexus_ES_350_Tungsten_Pearl.jpg/250px-2010_Lexus_ES_350_Tungsten_Pearl.jpg"
-            },
+            }],
+        "Lexus ES VI (2012 - 2018)": [
             {
                 "opis": "Lexus ES VI po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Lexus_ES_XV60_facelift_China_2016-04-16.jpg/250px-Lexus_ES_XV60_facelift_China_2016-04-16.jpg"
@@ -8885,7 +8933,8 @@
             {
                 "opis": "Lexus ES VI przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/2013_Lexus_ES_300h_%28AVV60R%29_Sports_Luxury_sedan_%282015-12-07%29_02.jpg/250px-2013_Lexus_ES_300h_%28AVV60R%29_Sports_Luxury_sedan_%282015-12-07%29_02.jpg"
-            },
+            }],
+        "Lexus ES VII (2018 - 2025)": [
             {
                 "opis": "Lexus ES VII",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lexus_ES_Hybrid_Filderstadt_1Y7A4893.jpg/250px-Lexus_ES_Hybrid_Filderstadt_1Y7A4893.jpg"
@@ -8897,7 +8946,7 @@
         ]
     },
     "Lexus IS": {
-        "zdjęcia": [{
+        "Lexus IS I (1998 - 2005)": [{
                 "opis": "Lexus IS 300",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Lexus_IS300.jpg/250px-Lexus_IS300.jpg"
             },
@@ -8908,7 +8957,8 @@
             {
                 "opis": "Lexus IS 300 kombi",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Lexus-IS300-SportCross.jpg/250px-Lexus-IS300-SportCross.jpg"
-            },
+            }],
+        "Lexus IS II (2005 - 2013)": [
             {
                 "opis": "Lexus IS 250",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Lexus_IS250_front.JPG/250px-Lexus_IS250_front.JPG"
@@ -8924,7 +8974,8 @@
             {
                 "opis": "Lexus IS F",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lexus_IS-F_in_Niagara-on-the-Lake.jpg/250px-Lexus_IS-F_in_Niagara-on-the-Lake.jpg"
-            },
+            }],
+        "Lexus IS III (2013 - ...)": [
             {
                 "opis": "Przód IS III",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Lexus_IS_300h_F_Sport_%28III%29_%E2%80%93_Frontansicht%2C_18._August_2013%2C_D%C3%BCsseldorf.jpg/250px-Lexus_IS_300h_F_Sport_%28III%29_%E2%80%93_Frontansicht%2C_18._August_2013%2C_D%C3%BCsseldorf.jpg"
@@ -8948,14 +8999,15 @@
         ]
     },
     "Lexus LS": {
-        "zdjęcia": [{
+        "Lexus LS I (1989 – 1994)": [{
                 "opis": "Lexus LS I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Lexus_LS_400_UCF10_I.jpg/250px-Lexus_LS_400_UCF10_I.jpg"
             },
             {
                 "opis": "Lexus LS I - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/1990-1992_Lexus_LS_400_%28UCF10R%29_sedan_02.jpg/250px-1990-1992_Lexus_LS_400_%28UCF10R%29_sedan_02.jpg"
-            },
+            }],
+        "Lexus LS II (1994 – 2000)": [
             {
                 "opis": "Lexus LS drugiej generacji",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lexus_LS400_--_09-26-2009.jpg/250px-Lexus_LS400_--_09-26-2009.jpg"
@@ -8967,7 +9019,8 @@
             {
                 "opis": "Lexus LS I po liftingu - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/1995_Lexus_LS_400_%28UCF20R%29_sedan_%282015-08-02%29_02.jpg/250px-1995_Lexus_LS_400_%28UCF20R%29_sedan_%282015-08-02%29_02.jpg"
-            },
+            }],
+        "Lexus LS III (2000 – 2006)": [
             {
                 "opis": "Lexus LS III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Lexus_LS_430_Black_Onyx.jpg/250px-Lexus_LS_430_Black_Onyx.jpg"
@@ -8979,7 +9032,8 @@
             {
                 "opis": "Lexus LS III - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Lexus_LS430_re1.jpg/250px-Lexus_LS430_re1.jpg"
-            },
+            }],
+        "Lexus LS IV (2006 – 2017)": [
             {
                 "opis": "Lexus LS IV przed pierwszym liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Lexus_LS_600h_%28IV%29_%E2%80%93_Frontansicht%2C_15._Mai_2011%2C_Wuppertal.jpg/250px-Lexus_LS_600h_%28IV%29_%E2%80%93_Frontansicht%2C_15._Mai_2011%2C_Wuppertal.jpg"
@@ -8999,7 +9053,8 @@
             {
                 "opis": "Lexus LS IV po drugim liftingu - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/2012_LEXUS_LS600h_Japan_02.JPG/250px-2012_LEXUS_LS600h_Japan_02.JPG"
-            },
+            }],
+        "Lexus LS V (2017 - ...)": [
             {
                 "opis": "Lexus LS V - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lexus_LS_at_IAA_2017_back_IMG_0154.jpg/250px-Lexus_LS_at_IAA_2017_back_IMG_0154.jpg"
@@ -9007,14 +9062,15 @@
         ]
     },
     "Lexus NX": {
-        "zdjęcia": [{
+        "Lexus NX I (2014 – 2021)": [{
                 "opis": "Lexus NX I przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/2019_Lexus_NX_300h_Takumi_CVT_2.5.jpg/250px-2019_Lexus_NX_300h_Takumi_CVT_2.5.jpg"
             },
             {
                 "opis": "2014 Lexus NX 300h - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/LEXUS_NX300h_Japan_2014_Rear.JPG/250px-LEXUS_NX300h_Japan_2014_Rear.JPG"
-            },
+            }],
+        "Lexus NX II (2021 - ...)": [
             {
                 "opis": "Lexus NX 450h+ II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Lexus_NX_450h%2B_%28AAZH26%29_IMG_6339.jpg/250px-Lexus_NX_450h%2B_%28AAZH26%29_IMG_6339.jpg"
@@ -9030,7 +9086,7 @@
         ]
     },
     "Lexus RX": {
-        "zdjęcia": [{
+        "Lexus RX I (1998 − 2003)": [{
                 "opis": "Lexus RX I po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Lexus_RX300_front.JPG/250px-Lexus_RX300_front.JPG"
             },
@@ -9041,7 +9097,8 @@
             {
                 "opis": "Tył RX I po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lexus_RX300_rear.JPG/250px-Lexus_RX300_rear.JPG"
-            },
+            }],
+        "Lexus RX II (2003 − 2008)": [
             {
                 "opis": "Lexus RX II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Lexus_RX300_front_20071002.jpg/250px-Lexus_RX300_front_20071002.jpg"
@@ -9049,7 +9106,8 @@
             {
                 "opis": "Lexus RX II - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Lexus_RX300_%C5%9Awinouj%C5%9Bcie.JPG/250px-Lexus_RX300_%C5%9Awinouj%C5%9Bcie.JPG"
-            },
+            }],
+        "Lexus RX III (2008 – 2015)": [
             {
                 "opis": "Lexus RX III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2010-2011_Lexus_RX_350_%28GGL15R_MY11%29_Sports_Luxury_wagon_%282011-04-22%29.jpg/250px-2010-2011_Lexus_RX_350_%28GGL15R_MY11%29_Sports_Luxury_wagon_%282011-04-22%29.jpg"
@@ -9065,7 +9123,8 @@
             {
                 "opis": "2021 Lexus RX 450h",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Lexus_RX_450h_FL_IMG_4273.jpg/250px-Lexus_RX_450h_FL_IMG_4273.jpg"
-            },
+            }],
+            "Lexus RX IV (2015 – 2022)":[
             {
                 "opis": "Tył RX IV przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Lexus_RX_450h_F_Sport_%28IV%29_%E2%80%93_Heckansicht%2C_14._Februar_2016%2C_D%C3%BCsseldorf.jpg/250px-Lexus_RX_450h_F_Sport_%28IV%29_%E2%80%93_Heckansicht%2C_14._Februar_2016%2C_D%C3%BCsseldorf.jpg"
@@ -9073,7 +9132,8 @@
             {
                 "opis": "Lexus RX L",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Geneva_International_Motor_Show_2018%2C_Le_Grand-Saconnex_%281X7A1799%29.jpg/250px-Geneva_International_Motor_Show_2018%2C_Le_Grand-Saconnex_%281X7A1799%29.jpg"
-            },
+            }],
+            "Lexus RX V (2022 - ...)":[
             {
                 "opis": "Lexus RX V",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/2022_Lexus_RX_450h%2B_AWD_%28Japan%29_front_view.jpg/250px-2022_Lexus_RX_450h%2B_AWD_%28Japan%29_front_view.jpg"
@@ -9085,7 +9145,7 @@
         ]
     },
     "Lexus UX": {
-        "zdjęcia": [{
+        "Lexus UX (2018 - ...)": [{
                 "opis": "Lexus UX 250h F Sport",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Lexus_UX_250h_F_Sport_%E2%80%93_f_01052019.jpg/250px-Lexus_UX_250h_F_Sport_%E2%80%93_f_01052019.jpg"
             },
@@ -10621,7 +10681,7 @@
         ]
     },
     "Mini Clubman": {
-        "zdjęcia": [{
+        "Mini Clubman I (2007 - 2014)": [{
                 "opis": "Mini Clubman I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mini_Clubman_front_20080228.jpg/250px-Mini_Clubman_front_20080228.jpg"
             },
@@ -10632,7 +10692,8 @@
             {
                 "opis": "Mini Clubman I Cooper S",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/MINI_Cooper_S_Clubman_01.JPG/250px-MINI_Cooper_S_Clubman_01.JPG"
-            },
+            }],
+        "Mini Clubman II (2015 - 2024)": [
             {
                 "opis": "Mini Clubman II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mini_Cooper_D_Clubman_%28F54%29_%E2%80%93_Frontansicht%2C_6._M%C3%A4rz_2016%2C_D%C3%BCsseldorf.jpg/250px-Mini_Cooper_D_Clubman_%28F54%29_%E2%80%93_Frontansicht%2C_6._M%C3%A4rz_2016%2C_D%C3%BCsseldorf.jpg"
@@ -10648,14 +10709,16 @@
         ]
     },
     "Mini Cooper": {
-        "zdjęcia": [{
+        "Mini Cooper I (2001 – 2006)": [{
                 "opis": "Mini Cooper I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mini_Cooper_R56_front_20081130.jpg/250px-Mini_Cooper_R56_front_20081130.jpg"
-            },
+            }],
+        "Mini Cooper II (2006 – 2013)": [
             {
                 "opis": "Mini Cooper II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2007-2010_Mini_Hatch_%28R56%29_Cooper_S_hatchback_%282010-07-13%29_01.jpg/250px-2007-2010_Mini_Hatch_%28R56%29_Cooper_S_hatchback_%282010-07-13%29_01.jpg"
-            },
+            }],
+        "Mini Cooper III (2013 – 2024)": [
             {
                 "opis": "Mini Cooper III 5D",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/BMW_Mini_F55_rr.jpg/250px-BMW_Mini_F55_rr.jpg"
@@ -10671,7 +10734,7 @@
         ]
     },
     "Mini Countryman": {
-        "zdjęcia": [{
+        "Mini Countryman I (2010 - 2017)": [{
                 "opis": "Mini Countryman I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mini_Cooper_D_Countryman_%28R60%29_%E2%80%93_Frontansicht%2C_11._Februar_2013%2C_D%C3%BCsseldorf.jpg/250px-Mini_Cooper_D_Countryman_%28R60%29_%E2%80%93_Frontansicht%2C_11._Februar_2013%2C_D%C3%BCsseldorf.jpg"
             },
@@ -10682,7 +10745,8 @@
             {
                 "opis": "Mini Countryman I Cooper S",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mini_Cooper_S_Countryman_All4.JPG/250px-Mini_Cooper_S_Countryman_All4.JPG"
-            },
+            }],
+        "Mini Countryman II (2017 - 2023)": [
             {
                 "opis": "Mini Countryman II przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/2018_Mini_Countryman_Cooper_Automatic_1.5_Front.jpg/250px-2018_Mini_Countryman_Cooper_Automatic_1.5_Front.jpg"
@@ -10698,7 +10762,8 @@
             {
                 "opis": "Mini Countryman II po liftingu",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mini_Countryman_%28F60%29_FL_IMG_4974.jpg/250px-Mini_Countryman_%28F60%29_FL_IMG_4974.jpg"
-            },
+            }],
+        "Mini Countryman III (2023 - ...)": [
             {
                 "opis": "Mini Countryman III",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Mini_Countryman_%28U25%29_SE_IAA_2023_1X7A0735.jpg/250px-Mini_Countryman_%28U25%29_SE_IAA_2023_1X7A0735.jpg"
@@ -10710,14 +10775,15 @@
         ]
     },
     "Mini ONE": {
-        "zdjęcia": [{
+        "Mini ONE I (2001 - 2006)": [{
                 "opis": "Mini One I",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mini_One_%28R50%29_%E2%80%93_Frontansicht%2C_12._Juni_2011%2C_D%C3%BCsseldorf.jpg/250px-Mini_One_%28R50%29_%E2%80%93_Frontansicht%2C_12._Juni_2011%2C_D%C3%BCsseldorf.jpg"
             },
             {
                 "opis": "Mini One I - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mini_One_%28R50%29_%E2%80%93_Heckansicht%2C_12._Juni_2011%2C_D%C3%BCsseldorf.jpg/250px-Mini_One_%28R50%29_%E2%80%93_Heckansicht%2C_12._Juni_2011%2C_D%C3%BCsseldorf.jpg"
-            },
+            }],
+        "Mini ONE II (2006 - 2013)": [
             {
                 "opis": "Mini One II",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2012_Mini_Hatch_First_1.6_Front.jpg/250px-2012_Mini_Hatch_First_1.6_Front.jpg"
@@ -10725,7 +10791,8 @@
             {
                 "opis": "Mini One - tył",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2012_Mini_Hatch_First_1.6_Rear.jpg/250px-2012_Mini_Hatch_First_1.6_Rear.jpg"
-            },
+            }],
+        "Mini ONE III (2013 - 2024)": [
             {
                 "opis": "Mini One III przed liftingiem",
                 "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mini_Hatch_F56_01_China_2015-04-10.jpg/250px-Mini_Hatch_F56_01_China_2015-04-10.jpg"
