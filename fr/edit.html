@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Edytor słówek francuskich</title>
+
+    <link rel="stylesheet" href="edit_style.css">
+
+</head>
+<body>
+
+<header>
+
+    <h2>📖 Edytor słówek</h2>
+
+    <div class="buttons">
+
+        <label class="button">
+            📂 Wczytaj CSV
+            <input
+                    type="file"
+                    id="fileInput"
+                    accept=".csv"
+                    hidden>
+        </label>
+
+        <button id="exportButton">
+            💾 Eksport CSV
+        </button>
+
+    </div>
+
+    <div id="stats">
+        Liczba słów: 0
+    </div>
+
+</header>
+
+
+<main>
+
+    <table id="table">
+
+        <thead>
+
+        <tr>
+            <th>Polski</th>
+            <th>Rodzajnik</th>
+            <th>Francuski</th>
+            <th></th>
+        </tr>
+
+        </thead>
+
+        <tbody id="tableBody">
+
+        <!-- tutaj będą rekordy -->
+
+        </tbody>
+
+        <tfoot>
+
+        <tr id="newRow">
+
+            <td>
+                <input
+                        id="newPolish"
+                        placeholder="Polskie słowo"
+                        autocomplete="off">
+            </td>
+
+            <td>
+                <input
+                        id="newArticle"
+                        placeholder="Rodzajnik"
+                        autocomplete="off">
+            </td>
+
+            <td>
+                <input
+                        id="newFrench"
+                        placeholder="Francuskie słowo"
+                        autocomplete="off">
+            </td>
+
+            <td>
+
+                <button id="addButton">
+                    ➕
+                </button>
+
+            </td>
+
+        </tr>
+
+        </tfoot>
+
+    </table>
+
+</main>
+
+
+<div id="duplicateBox" class="hidden">
+
+    <h3>⚠ Wykryto duplikat</h3>
+
+    <div id="duplicateContent">
+
+    </div>
+
+    <button id="closeDuplicate">
+        Zamknij
+    </button>
+
+</div>
+
+<script src="edit_script.js"></script>
+
+</body>
+</html>

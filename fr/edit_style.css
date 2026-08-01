@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    color: #222;
+
+}
+
+header {
+
+    background: white;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+h2 {
+
+    margin: 0 0 15px;
+
+}
+
+.buttons {
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.button,
+button {
+
+    border: none;
+    background: #2d89ef;
+    color: white;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+button:hover,
+.button:hover {
+
+    background: #1768c5;
+
+}
+
+.button {
+
+    display: inline-flex;
+    align-items: center;
+}
+
+#stats {
+
+    margin-top: 12px;
+    font-weight: bold;
+
+}
+
+main {
+
+    padding: 12px;
+
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+
+}
+
+th {
+
+    background: #ececec;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+
+}
+
+td {
+
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+
+}
+
+input {
+
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+
+    border: 1px solid #bbb;
+    border-radius: 6px;
+
+}
+
+tfoot {
+
+    background: #fafafa;
+
+}
+
+tfoot td {
+
+    border-top: 2px solid #bbb;
+
+}
+
+.deleteButton {
+
+    background: #d63b3b;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+
+    font-size: 18px;
+
+}
+
+.deleteButton:hover {
+
+    background: #b11e1e;
+
+}
+
+#addButton {
+
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    font-size: 22px;
+
+}
+
+.duplicate {
+
+    background: #ffcc80 !important;
+
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+#duplicateBox {
+
+    position: fixed;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: min(92vw, 650px);
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 30px rgba(0,0,0,.3);
+
+    padding: 20px;
+
+    z-index: 999;
+
+}
+
+#duplicateContent {
+
+    margin: 18px 0;
+    max-height: 300px;
+    overflow-y: auto;
+
+}
+
+#duplicateContent table {
+
+    width: 100%;
+
+}
+
+#duplicateContent td,
+#duplicateContent th {
+
+    padding: 8px;
+
+}
+
+.warning {
+
+    color: #d35400;
+    font-weight: bold;
+
+}
+
+/* ---------- TELEFON ---------- */
+
+@media (max-width:700px) {
+
+    body {
+
+        font-size: 15px;
+
+    }
+
+    table,
+    thead,
+    tbody,
+    tfoot,
+    tr,
+    td,
+    th {
+
+        display: block;
+
+    }
+
+    thead {
+
+        display: none;
+
+    }
+
+    tbody tr,
+    tfoot tr {
+
+        background: white;
+
+        margin-bottom: 14px;
+
+        border-radius: 10px;
+
+        box-shadow: 0 2px 5px rgba(0,0,0,.12);
+
+        padding: 10px;
+
+    }
+
+    tbody td,
+    tfoot td {
+
+        border: none;
+        padding: 5px 0;
+
+    }
+
+    tbody td::before {
+
+        display: block;
+        font-weight: bold;
+        color: #666;
+        margin-bottom: 3px;
+
+    }
+
+    tbody td:nth-child(1)::before {
+
+        content: "Polski";
+
+    }
+
+    tbody td:nth-child(2)::before {
+
+        content: "Rodzajnik";
+
+    }
+
+    tbody td:nth-child(3)::before {
+
+        content: "Francuski";
+
+    }
+
+    tbody td:nth-child(4)::before {
+
+        content: "";
+
+    }
+
+    .deleteButton {
+
+        width: 100%;
+        height: 44px;
+        margin-top: 8px;
+
+    }
+
+    #addButton {
+
+        width: 100%;
+        height: 44px;
+        margin-top: 8px;
+
+    }
+
+}
