@@ -172,7 +172,7 @@ function backspace() {
 
 const rows = [
 
-    "1234567890",
+    "àâçèêéîôùû'",
 
     "qwertyuiop",
 
@@ -180,7 +180,6 @@ const rows = [
 
     "zxcvbnm",
 
-    "àâçèêéîôùû'"
 
 ];
 
