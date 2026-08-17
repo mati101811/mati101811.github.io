@@ -12,6 +12,7 @@ body {
 
 }
 
+
 #topBar {
 
     display: flex;
@@ -168,4 +169,9 @@ body {
 
     background: #bbbbbb;
 
+}
+
+#next
+{
+    font-size:medium;
 }

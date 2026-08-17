@@ -24,6 +24,8 @@ hint.onclick = () => {
     hintMode %= 4;
 
     hint.innerText = hintNames[hintMode];
+    typedDiv.innerText="";
+    typed="";
 
     if (current)
         showWord();
@@ -46,6 +48,23 @@ document.getElementById("csvFile").onchange = e => {
 
     reader.readAsText(file);
 
+};
+
+
+document.getElementById("full-screen").onclick = ()=>{
+    try{
+        if( !document.fullscreenElement)
+        {
+            document.documentElement.requestFullscreen();
+        }
+        else
+        {
+            document.exitFullscreen();
+        }
+    }catch (error)
+    {
+        console.error("Nie można włączyć trybu pełnego ekranu:", error);
+    }
 };
 
 function parseCSV(text) {
@@ -90,10 +109,6 @@ function nextWord() {
 
 function getExpected() {
 
-    if (hintMode == 1 || hintMode == 3)
-
-        return current.fr;
-
     return (current.art ? current.art + " " : "") + current.fr;
 
 }
@@ -102,13 +117,19 @@ function showWord() {
 
     let txt = current.pl;
 
+    if((hintMode==1 || hintMode == 3) && current.art)
+    {
+        typed=current.art+" ";
+        drawTyped();
+    }
+
     if (hintMode >= 2) {
 
         const chars = [];
 
         for (let c of current.fr) {
 
-            if ("abcdefghijklmnopqrstuvwxyz".includes(c.toLowerCase())) continue;
+            if ("abcdefghijklmnopqrstuvwxyz ".includes(c.toLowerCase())) continue;
 
             chars.push(c);
 
@@ -173,14 +194,9 @@ function backspace() {
 const rows = [
 
     "àâçèêéîôùû'",
-
     "qwertyuiop",
-
     "asdfghjkl",
-
-    "zxcvbnm",
-
-
+    "zxcvbnm"
 ];
 
 const keyboard = document.getElementById("keyboard");
@@ -209,6 +225,8 @@ for (let r of rows) {
 
 }
 
+
+
 const last = document.createElement("div");
 
 last.className = "row";
@@ -222,3 +240,6 @@ keyboard.appendChild(last);
 
 document.getElementById("space").onclick = () => press(" ");
 document.getElementById("back").onclick = backspace;
+
+document.getElementById("next").onclick = nextWord;
+
